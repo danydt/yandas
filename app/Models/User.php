@@ -11,6 +11,9 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
 
+/**
+ * @property string $user_type
+ */
 class User extends Authenticatable
 {
     use HasApiTokens, HasFactory, Notifiable;
@@ -63,5 +66,10 @@ class User extends Authenticatable
     public function payments(): HasManyThrough
     {
         return $this->hasManyThrough(Payment::class, Order::class);
+    }
+
+    public function getUserTypeNameAttribute(): string
+    {
+        return $this->user_type == 'admin' ? 'administrateur': 'client';
     }
 }

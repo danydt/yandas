@@ -19,7 +19,7 @@ class CreatePaymentsTable extends Migration
             $table->foreignIdFor(Order::class)->constrained()->cascadeOnDelete();
             $table->float('paid_amount');
             $table->date('payment_date');
-            $table->string('reference_code');
+            $table->string('reference_code')->unique();
             $table->timestamps();
         });
     }
