@@ -42,6 +42,7 @@
                                     <th scope="col">#</th>
                                     <th scope="col">Code</th>
                                     <th scope="col">Client</th>
+                                    <th scope="col">Articles</th>
                                     <th scope="col">Date commande</th>
                                     <th scope="col" style="width: 10%;" class="text-right">Actions</th>
                                 </tr>
@@ -52,6 +53,7 @@
                                         <td>{{ $loop->iteration }}</td>
                                         <td>{{ $order->code }}</td>
                                         <td>{{ $order->client_name }}</td>
+                                        <td>{{ $order->detail_count }}</td>
                                         <td>{{ \Carbon\Carbon::parse($order->created_at)->locale('fr_FR')->isoFormat('LL') }}</td>
                                         <td class="text-right">
                                             <a href="{{ route('orders.show', $order->code) }}">

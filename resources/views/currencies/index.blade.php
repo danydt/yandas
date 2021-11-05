@@ -63,7 +63,7 @@
                                 @forelse ($currencies as $item)
                                     <tr>
                                         <td>{{ $loop->iteration }}</td>
-                                        <td>{{ $item->code }}</td>
+                                        <td>{{ strtoupper($item->code) }}</td>
                                         <td>{{ $item->name }}</td>
                                         <td><a href="{{ route('currencies.show', $item->code) }}">
                                                 <span class="fas fa-eye fa-fw"></span>

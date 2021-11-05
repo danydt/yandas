@@ -4,6 +4,7 @@ namespace Database\Seeders;
 
 use App\Models\City;
 use App\Models\Territory;
+use App\Models\User;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
@@ -15,7 +16,7 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        \App\Models\User::factory(1)->create();
-        //City::factory()->has(Territory::factory()->count(5))->create();
+        User::factory(1)->create();
+        City::factory()->has(Territory::factory()->count(5))->create();
     }
 }

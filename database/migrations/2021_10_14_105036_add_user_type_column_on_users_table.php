@@ -14,7 +14,7 @@ class AddUserTypeColumnOnUsersTable extends Migration
     public function up()
     {
         Schema::table('users', function (Blueprint $table) {
-            $table->enum('user_type', ['admin', 'customer']);
+            $table->enum('user_type', ['admin', 'customer'])->default('customer');
             $table->boolean('enabled')->default(true);
         });
     }

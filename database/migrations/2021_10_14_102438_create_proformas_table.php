@@ -21,6 +21,7 @@ class CreateProformasTable extends Migration
             $table->foreignIdFor(Currency::class)->constrained();
             $table->float('amount_to_pay');
             $table->string('attachment');
+            $table->string('payment_modality', 10);
             $table->boolean('enabled')->default(true);
             $table->timestamps();
         });

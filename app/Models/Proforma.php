@@ -12,6 +12,7 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
  * @property false|mixed|string $attachment
  * @property int $order_id
  * @property string $code
+ * @property int $payment_modality
  */
 class Proforma extends Model
 {

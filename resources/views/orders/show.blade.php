@@ -43,8 +43,8 @@
 
                                 <div class="list-group-item">
                                     <p class="mb-1">
-                                        Montant à payer : <strong>
-                                            {{ number_format($order->proforma_amount, 2, ',',' ') }}
+                                        Payement : <strong>
+                                            0 EUR / {{ number_format($order->proforma_amount, 2, ',',' ') }}
                                             {{ strtoupper($order->proforma_currency) }}
                                         </strong>
                                     </p>
@@ -67,6 +67,7 @@
                                             <a class="dropdown-item" href="#" data-toggle="modal" data-target="#staticBackdrop"><span class="fa fa-file-contract"></span> Etablir une proforma</a>
                                             <a class="dropdown-item" href="{{ route('proformas.download', $order->code) }}"><span class="fa fa-download"></span> Télécharger la pro forma</a>
                                             <a class="dropdown-item" href="#"><span class="fa fa-pen-square"></span> Changement statut de paiement</a>
+                                            <a class="dropdown-item" href="#"><span class="fa fa-credit-card"></span> Payer</a>
                                         </div>
                                     </div>
                                 </div>
@@ -142,6 +143,12 @@
                                 <label for="attachment">Annexe pro forma*</label>
                                 <input required type="file" name="attachment" accept="application/pdf" id="attachment" class="form-control"/>
                                 <input type="hidden" name="order" value="{{ $order->id }}">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="modality">Pourcentage du premier paiement*</label>
+                                <input required type="number" step="any" placeholder="modalités de paiement" name="modality" id="modality" class="form-control"/>
                             </div>
                         </div>
                         <div class="form-group text-md-end">

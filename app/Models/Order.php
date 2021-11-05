@@ -50,4 +50,9 @@ class Order extends Model
     {
         return $this->proformas()->orderByDesc('id')->first()->currency()->value('code');
     }
+
+    public function getDetailCountAttribute(): int
+    {
+        return $this->details()->count();
+    }
 }

@@ -16,6 +16,7 @@ class ProformaController extends Controller
         $amount = floatval($request->input('amount'));
         $order = intval($request->input('order'));
         $currency = intval($request->input('currency'));
+        $modality = intval($request->input('modality'));
         $attachment = $request->file('attachment')->store('storage/proformas');
 
         $proforma = new Proforma;
@@ -24,6 +25,7 @@ class ProformaController extends Controller
         $proforma->currency_id = $currency;
         $proforma->attachment = $attachment;
         $proforma->order_id = $order;
+        $proforma->payment_modality = $modality;
         $proforma->code = Str::random();
 
         try {

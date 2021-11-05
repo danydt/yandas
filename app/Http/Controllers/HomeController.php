@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -19,10 +20,15 @@ class HomeController extends Controller
     /**
      * Show the application dashboard.
      *
-     * @return \Illuminate\Contracts\Support\Renderable
+     * @return Renderable
      */
-    public function index()
+    public function index(): Renderable
     {
+        // save user preferences
+        session()->put('sidebar', auth()->user()->role->default_sidebar);
+        session()->put('dashboard', auth()->user()->role->default_dashboard);
+        session()->put('navigation', auth()->user()->role->default_navigation_bar);
+
         return view('home');
     }
 }
