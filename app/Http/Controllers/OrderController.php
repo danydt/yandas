@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Currency;
 use App\Models\Order;
 use App\Models\OrderDetail;
 use Exception;
@@ -85,5 +86,11 @@ class OrderController extends Controller
 
         return redirect()->route('orders.show', compact('order'));
 
+    }
+
+    public function show(Order $order): Factory|View|Application
+    {
+        $currencies = Currency::all();
+        return view('orders.show', compact('order', 'currencies'));
     }
 }

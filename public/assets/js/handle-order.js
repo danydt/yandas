@@ -20,12 +20,30 @@ function addToCart() {
         let table_body = $('.table-stripped tbody');
 
         // create a new row
-        let row = '<tr><td>' + product_name + '</td>';
+        let row = '<tr>';
+        row += '<tr><td>' + product_name + '</td>';
         row += '<td>' + product_url + '</td>';
         row += '<td>' + product_quantity + '</td>';
-        row += '<td>' + product_description + '</td></tr>';
+        row += '<td>' + product_description + '</td>';
+        row += '<td><a href="#" onclick="return removeItemToHtmlTable(this);"><span class="fa fa-times"></span></a></td>';
+
+        // add hidden html input to the row
+        row += '<input type="hidden" name="articles[]" value="' + product_name + '">';
+        row += '<input type="hidden" name="urls[]" value="' + product_url + '">';
+        row += '<input type="hidden" name="quantities[]" value="' + product_quantity + '">';
+        row += '<input type="hidden" name="descriptions[]" value="' + product_description + '">';
+
+        row += '</tr>';
 
         table_body.append(row);
+
+        document.getElementById('formNoSubmit').reset();
+    }
+
+    function removeItemToHtmlTable(e) {
+
+        //$(e).closest('tr').remove();
+        return false;
     }
 
 }

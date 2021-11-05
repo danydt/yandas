@@ -11,6 +11,11 @@ class Order extends Model
 {
     use HasFactory;
 
+    public function getRouteKeyName(): string
+    {
+        return 'code';
+    }
+
     public function proformas(): HasMany
     {
         return $this->hasMany(Proforma::class);
@@ -29,5 +34,20 @@ class Order extends Model
     public function payments(): HasMany
     {
         return $this->hasMany(Payment::class);
+    }
+
+    public function getClientNameAttribute()
+    {
+        return $this->user()->value('name');
+    }
+
+    public function getProformaAmountAttribute()
+    {
+        return $this->proformas()->where('enabled', 'true')->value('amount_to_pay');
+    }
+
+    public function getProformaCurrencyAttribute()
+    {
+        return $this->proformas()->orderByDesc('id')->first()->currency()->value('code');
     }
 }

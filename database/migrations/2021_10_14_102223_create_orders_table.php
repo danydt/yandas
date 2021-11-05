@@ -19,7 +19,7 @@ class CreateOrdersTable extends Migration
             $table->foreignIdFor(User::class)->constrained()->cascadeOnDelete();
             $table->string('code', 16)->unique();
             $table->enum('payment_status', ['unpaid', 'paid', 'partial'])->default('unpaid');
-            $table->enum('delivery_status', ['undelivered', 'ongoing', 'undelivered'])->default('undelivered');
+            $table->enum('delivery_status', ['undelivered', 'ongoing', 'delivered'])->default('undelivered');
             $table->boolean('enabled')->default(false);
             $table->timestamps();
         });
