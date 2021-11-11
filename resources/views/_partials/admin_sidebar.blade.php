@@ -18,6 +18,7 @@
                 </p>
             </a>
         </li>
+        @if(auth()->user()->user_type == "admin")
         <li class="nav-item">
             <a href="#" class="nav-link">
                 <i class="nav-icon fas fa-copy"></i>
@@ -52,44 +53,28 @@
                 </li>
             </ul>
         </li>
-        <li class="nav-header">Configuration</li>
-        <li class="nav-item">
-            <a href="{{ route('users.index') }}" class="nav-link">
-                <i class="fas fa-users nav-icon"></i>
-                <p>Utilisateus</p>
-            </a>
-        </li>
-        <li class="nav-item has-treeview">
-            <a href="#" class="nav-link">
-                <i class="nav-icon fas fa-user-lock"></i>
-                <p>
-                    Privilèges et Rôles
-                    <i class="right fas fa-angle-left"></i>
-                </p>
-            </a>
-            <ul class="nav nav-treeview">
-                    <li class="nav-item">
-                        <a href="{{route('privileges.index')}}" class="nav-link">
-                            <i class="fas fa-lock nav-icon"></i>
-                            <p>Privilèges</p>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="{{ route('roles.index') }}" class="nav-link">
-                            <i class="fas fa-cog nav-icon"></i>
-                            <p>Rôles</p>
-                        </a>
-                    </li>
-            </ul>
-        </li>
-        <li class="nav-item">
-            <a href="{{ route('reporting.index') }}" class="nav-link">
-                <i class="nav-icon fas fa-chart-bar"></i>
-                <p>
-                    Rapports
-                </p>
-            </a>
-        </li>
+            <li class="nav-header">Configuration</li>
+            <li class="nav-item">
+                <a href="{{ route('clients.index') }}" class="nav-link">
+                    <i class="fas fa-users nav-icon"></i>
+                    <p>Clients</p>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="{{ route('users.index') }}" class="nav-link">
+                    <i class="fas fa-users nav-icon"></i>
+                    <p>Utilisateus</p>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="{{ route('reporting.index') }}" class="nav-link">
+                    <i class="nav-icon fas fa-chart-bar"></i>
+                    <p>
+                        Rapports
+                    </p>
+                </a>
+            </li>
+        @endif
         <li><hr></li>
         <li class="nav-item">
             <a href="{{ route('logout') }}" class="nav-link"

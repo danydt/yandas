@@ -3,7 +3,7 @@
       <!-- small box -->
       <div class="small-box bg-info">
         <div class="inner">
-          <h3>150</h3>
+          <h3>{{ $active_commands }}</h3>
 
           <p>Commandes</p>
         </div>
@@ -18,7 +18,7 @@
       <!-- small box -->
       <div class="small-box bg-success">
         <div class="inner">
-          <h3>53</h3>
+          <h3>{{ $delivered_commands }}</h3>
 
           <p>Livraisons Effectuées</p>
         </div>

@@ -4,10 +4,13 @@ namespace App\Http\Controllers;
 
 use App\Models\Proforma;
 use Exception;
+use http\Env\Response;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Log;
+use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
+use Symfony\Component\HttpFoundation\BinaryFileResponse;
 
 class ProformaController extends Controller
 {
@@ -17,7 +20,7 @@ class ProformaController extends Controller
         $order = intval($request->input('order'));
         $currency = intval($request->input('currency'));
         $modality = intval($request->input('modality'));
-        $attachment = $request->file('attachment')->store('storage/proformas');
+        $attachment = $request->file('attachment')->store('public/proformas');
 
         $proforma = new Proforma;
 
@@ -45,8 +48,10 @@ class ProformaController extends Controller
         return back()->with('message', 'Proforma enregistrée');
     }
 
-    public function download(Proforma $proforma)
+    public function download(Proforma $proforma): BinaryFileResponse
     {
+        $file = str_replace('public', 'storage', $proforma->attachment);
 
+        return response()->download($file);
     }
 }

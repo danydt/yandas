@@ -13,7 +13,7 @@
                 <div class="col-sm-6">
                     <ol class="breadcrumb float-sm-right">
                         <li class="breadcrumb-item"><a href="{{ route('home') }}">Tableau de bord</a></li>
-                        <li class="breadcrumb-item active">Entités</li>
+                        <li class="breadcrumb-item active">Commandes</li>
                     </ol>
                 </div><!-- /.col -->
             </div><!-- /.row -->
@@ -31,10 +31,12 @@
                         <!-- /.card-header -->
                         <div class="card-body">
 
-                            <p>
-                                <a href="{{ route('orders.create') }}" class="btn btn-primary">
-                                    <i class="fa fa-cart-plus"></i> Nouvelle commande</a>
-                            </p>
+                            @if(auth()->user()->user_type == "customer")
+                                <p>
+                                    <a href="{{ route('orders.create') }}" class="btn btn-primary">
+                                        <i class="fa fa-cart-plus"></i> Nouvelle commande</a>
+                                </p>
+                            @endif
 
                             <table class="table table-hover table-sm">
                                 <thead>
@@ -44,6 +46,7 @@
                                     <th scope="col">Client</th>
                                     <th scope="col">Articles</th>
                                     <th scope="col">Date commande</th>
+                                    <th scope="col">Statut</th>
                                     <th scope="col" style="width: 10%;" class="text-right">Actions</th>
                                 </tr>
                                 </thead>
@@ -55,6 +58,7 @@
                                         <td>{{ $order->client_name }}</td>
                                         <td>{{ $order->detail_count }}</td>
                                         <td>{{ \Carbon\Carbon::parse($order->created_at)->locale('fr_FR')->isoFormat('LL') }}</td>
+                                        <td>{{ $order->enabled ? 'Active' : "Annulée" }}</td>
                                         <td class="text-right">
                                             <a href="{{ route('orders.show', $order->code) }}">
                                                 <span class="fa fa-bars"></span>
@@ -63,7 +67,7 @@
                                     </tr>
                                 @empty
                                     <tr>
-                                        <td colspan="5"><em>Aucune commande !</em></td>
+                                        <td colspan="7"><em>Aucune commande !</em></td>
                                     </tr>
                                 @endforelse
                                 </tbody>

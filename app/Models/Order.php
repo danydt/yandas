@@ -7,6 +7,10 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 
+/**
+ * @property bool $enabled
+ * @property string $code
+ */
 class Order extends Model
 {
     use HasFactory;
@@ -36,6 +40,11 @@ class Order extends Model
         return $this->hasMany(Payment::class);
     }
 
+    public function followings(): HasMany
+    {
+        return $this->hasMany(Following::class);
+    }
+
     public function getClientNameAttribute()
     {
         return $this->user()->value('name');
@@ -51,8 +60,50 @@ class Order extends Model
         return $this->proformas()->orderByDesc('id')->first()->currency()->value('code');
     }
 
+    public function getProformaCodeAttribute()
+    {
+        return $this->proformas()->orderByDesc('id')->first()?->value('code');
+    }
+
     public function getDetailCountAttribute(): int
     {
         return $this->details()->count();
+    }
+
+    public function getPaidAmountAttribute()
+    {
+        return $this->payments()->sum('paid_amount');
+    }
+
+    public function scopeAvailableOrdersCount($query)
+    {
+        return $query->where([
+            'enabled' => 'true',
+            'completed' => 'false'
+        ])->count();
+    }
+
+    public function scopeMyAvailableOrdersCount($query, $user_id)
+    {
+        return $query->where([
+            'enabled' => 'true',
+            'completed' => 'false',
+            'user_id' => $user_id
+        ])->count();
+    }
+
+    public function scopeDeliveredOrdersCount($query)
+    {
+        return $query->where([
+            'delivered' => 'true'
+        ])->count();
+    }
+
+    public function scopeMyDeliveredOrdersCount($query, $user_id)
+    {
+        return $query->where([
+            'delivered' => 'true',
+            'user_id' => $user_id
+        ])->count();
     }
 }

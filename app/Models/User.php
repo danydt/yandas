@@ -14,6 +14,11 @@ use Laravel\Sanctum\HasApiTokens;
 
 /**
  * @property string $user_type
+ * @property string $code
+ * @property string $name
+ * @property string $email
+ * @property string $password
+ * @method static getUsersByType(string $string)
  */
 class User extends Authenticatable
 {
@@ -28,6 +33,7 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'user_type',
     ];
 
     /**
@@ -48,6 +54,11 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    public function getRouteKeyName(): string
+    {
+        return 'code';
+    }
 
     public function role(): BelongsTo
     {
@@ -77,5 +88,10 @@ class User extends Authenticatable
     public function getUserTypeNameAttribute(): string
     {
         return $this->user_type == 'admin' ? 'administrateur': 'client';
+    }
+
+    public function scopeGetUsersByType($query, $user_type = "admin")
+    {
+        return $query->where('user_type', $user_type)->paginate();
     }
 }

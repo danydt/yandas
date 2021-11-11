@@ -31,7 +31,7 @@ class OrderController extends Controller
         } else {
 
             // get all
-            $orders = Order::query()->paginate();
+            $orders = Order::query()->where("enabled", 'true')->paginate();
         }
 
         return view('orders.index', compact('orders'));
@@ -47,6 +47,7 @@ class OrderController extends Controller
         $order = new Order;
 
         $order->code = Str::random();
+        $order->enabled = true;
 
         try {
 
@@ -92,5 +93,14 @@ class OrderController extends Controller
     {
         $currencies = Currency::all();
         return view('orders.show', compact('order', 'currencies'));
+    }
+
+    public function cancel(Order $order): RedirectResponse
+    {
+        $order->enabled = !$order->enabled;
+
+        $order->save();
+
+        return back()->with('message', 'Vous venez d\'annuler votre commande !');
     }
 }

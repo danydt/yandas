@@ -18,6 +18,11 @@ class Proforma extends Model
 {
     use HasFactory;
 
+    public function getRouteKeyName(): string
+    {
+        return 'code';
+    }
+
     public function order(): BelongsTo
     {
         return $this->belongsTo(Order::class);
