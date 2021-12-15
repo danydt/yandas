@@ -63,7 +63,7 @@ class Order extends Model
 
     public function getProformaCurrencyAttribute()
     {
-        return $this->proformas()->orderByDesc('id')->first()->currency()->value('code');
+        return $this->proformas()->orderByDesc('id')->first()?->currency()?->value('code');
     }
 
     public function getProformaCodeAttribute()
@@ -78,7 +78,7 @@ class Order extends Model
 
     public function getPaidAmountAttribute()
     {
-        return $this->payments()->sum('paid_amount');
+        return $this->payments()->where('paid', 'true')->sum('paid_amount');
     }
 
     public function scopeAvailableOrdersCount($query)

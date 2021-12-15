@@ -54,7 +54,7 @@ class OrderController extends Controller
         $order = new Order;
 
         // get order items count
-        $last_order_code = Order::latest()->first()?->value('code');
+        $last_order_code = Order::query()->orderByDesc('id')->first()?->value('code');
 
         $code = $this->transactionCodeGenerator($last_order_code, 6);
 
@@ -91,7 +91,7 @@ class OrderController extends Controller
             DB::commit();
 
             // send mail only if order has been saved
-            Mail::to([env('MAIL_USERNAME'), auth()->user()->email])->queue(new OrderRegisteredMail($order->code));
+            //Mail::to([env('MAIL_USERNAME'), auth()->user()->email])->queue(new OrderRegisteredMail($order->code));
 
         } catch (Exception $exception) {
 
@@ -117,6 +117,11 @@ class OrderController extends Controller
         } else {
 
             $amount_to_pay = $order->proforma_amount - $order->paid_amount;
+        }
+
+        if (is_null($amount_to_pay)) {
+
+            $amount_to_pay = 0;
         }
 
         return view('orders.show', compact('order', 'currencies'))->with([

@@ -12,7 +12,7 @@ class PaymentController extends Controller
     public function store(Request $request)
     {
         $payment_method = intval($request->input('payment_method'));
-        $order_id = intval($request->input('order'));
+        $order_id = intval($request->input('item_order'));
         $phone_number = intval($request->input('phone_number'));
         $amount = floatval($request->input('payment_amount'));
         $currency = trim(strval($request->input('currency')));
@@ -28,7 +28,7 @@ class PaymentController extends Controller
                 'currency' => $currency,
                 'language' => 'FR',
                 'operation' => 'c2b',
-                'callback_url' => 'http://payshipping.yandas243.com/api/callback',
+                'callback_url' => 'http://payshipping.yandas243.com/api/callback/' . $reference,
                 'output' => 1
             ]);
 
@@ -49,22 +49,50 @@ class PaymentController extends Controller
 
                 $payment->save();
 
-                return "OK";
+                $return_value = "OK";
 
             } else {
 
-                return "KO";
+                $return_value = "KO";
             }
 
 
         } else {
 
-            return "KO";
+            $return_value = "KO";
         }
+
+        return $return_value;
     }
 
     public function callback(string $reference)
     {
+        $payment = Payment::query()->where('reference_code', $reference);
 
+        if ($payment->exists()) {
+
+            $payment = $payment->first();
+
+            $raw_post = file_get_contents( 'php://input' );
+            $decoded  = json_decode( $raw_post );
+
+            $payment->paid = ($decoded->message == "failed") ? 'false': 'true';
+
+            $payment->save();
+
+            // update order information
+
+            if ($payment->paid == "paid") {
+
+                if ($payment->order->paid_amount < $payment->order->proforma_amount) {
+
+                    $payment->order->update(['payment_status' => 'partial']);
+
+                } else {
+
+                    $payment->order->update(['payment_status' => 'paid']);
+                }
+            }
+        }
     }
 }
