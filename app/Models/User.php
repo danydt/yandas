@@ -19,6 +19,7 @@ use Laravel\Sanctum\HasApiTokens;
  * @property string $email
  * @property string $password
  * @method static getUsersByType(string $string)
+ * @method static getUsersCountByType(string $string)
  */
 class User extends Authenticatable
 {
@@ -57,7 +58,7 @@ class User extends Authenticatable
 
     public function getRouteKeyName(): string
     {
-        return 'code';
+        return 'email';
     }
 
     public function role(): BelongsTo
@@ -93,5 +94,10 @@ class User extends Authenticatable
     public function scopeGetUsersByType($query, $user_type = "admin")
     {
         return $query->where('user_type', $user_type)->paginate();
+    }
+
+    public function scopeGetUsersCountByType($query, $user_type = "admin")
+    {
+        return $query->where('user_type', $user_type)->count();
     }
 }

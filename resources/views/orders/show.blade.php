@@ -11,8 +11,8 @@
                 <div class="col-sm-6">
                     <ol class="breadcrumb float-sm-right">
                         <li class="breadcrumb-item"><a href="{{ route('home') }}">Tableau de bord</a></li>
-                        <li class="breadcrumb-item"><a href="{{ route('orders.index') }}">Commande</a></li>
-                        <li class="breadcrumb-item active"><strong>{{ $order->code }}</strong></li>
+                        <li class="breadcrumb-item"><a href="{{ route('orders.index') }}">Commandes</a></li>
+                        <li class="breadcrumb-item active"><strong>{{ $order->external_code }}</strong></li>
                     </ol>
                 </div><!-- /.col -->
             </div><!-- /.row -->
@@ -32,7 +32,7 @@
                             <div class="list-group">
                                 <div class="list-group-item list-group-item-action">
                                     <div class="d-flex w-100 justify-content-between">
-                                        <h5 class="mb-1">Commande n° {{$order->id}}</h5>
+                                        <h5 class="mb-1">Commande n° {{$order->external_code}}</h5>
                                         <small>date de
                                             création {{\Carbon\Carbon::parse($order->created_at)->locale('fr_FR')->isoFormat('LL')}}</small>
                                     </div>
@@ -49,7 +49,8 @@
                                     <div class="list-group-item">
                                         <p class="mb-1">
                                             Payement : <strong>
-                                                {{ number_format($order->paid_amount, 2, ',',' ') }} EUR
+                                                {{ number_format($order->paid_amount, 2, ',',' ') }}
+                                                {{ strtoupper($order->proforma_currency) }}
                                                 / {{ number_format($order->proforma_amount, 2, ',',' ') }}
                                                 {{ strtoupper($order->proforma_currency) }}
                                             </strong>
@@ -91,8 +92,10 @@
                                                         <a class="dropdown-item"
                                                            href="{{ route('proformas.download', $order->proforma_code) }}"><span
                                                                 class="fa fa-download"></span> Télécharger la pro forma</a>
-                                                        <a class="dropdown-item" href="#"><span
+                                                            @if($order->paid_amount < $order->proforma_amount)
+                                                        <a class="dropdown-item" href="#" data-toggle="modal" data-target="#staticBackdrop1"><span
                                                                 class="fa fa-credit-card"></span> Payer</a>
+                                                            @endif
                                                     @endif
                                                 @endif
                                                 @if(auth()->user()->user_type == "admin" && $order->enabled)
@@ -165,6 +168,12 @@
                                         <div class="tab-pane fade" id="profile" role="tabpanel"
                                              aria-labelledby="profile-tab">
                                             <br>
+                                            @if($order->paid_amount < $order->proforma_amount)
+                                                <p>
+                                                    <button class="btn btn-default" data-toggle="modal" data-target="#staticBackdrop1"><span class="fa fa-credit-card"></span> Nouveau paiement</button>
+                                                </p>
+                                            @endif
+
                                             <div class="table-responsive">
                                                 <table class="table table-stripped">
                                                     <thead>
@@ -286,5 +295,96 @@
             </div>
         </div>
     </div>
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop1" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Payez maintenant</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Remplissez le formulaire suivant pour procéder au paiement :</p>
 
+                    <form id="form1" action="{{ route('payments.store') }}" method="post">
+                        @csrf
+                        <div class="form-row">
+                        <div class="form-group col-md-5">
+                            <label for="exampleFormControlInput1">Montant à payer</label>
+                            <input required autocomplete="off" min="{{ ($order->paid_amount == 0) ? $amount_to_pay : 1 }}" max="{{ $amount_to_pay }}" type="number" name="payment_amount" class="form-control" id="exampleFormControlInput1" placeholder="montant à payer">
+                            <small id="passwordHelpBlock" class="form-text text-muted">
+                                Vous devez payer {{number_format($amount_to_pay, 0, ',',' ') . ' ' . strtoupper($order->proforma_currency)}} ou à peu près ce montant.
+                            </small>
+                        </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="exampleFormControlSelect1">Moyen de paiement</label>
+                                <select required name="payment_method" class="form-control" id="exampleFormControlSelect1">
+                                    <option value="">Choisissez</option>
+                                    <option value="1">M-PESA</option>
+                                    <option value="2">Airtel Money</option>
+                                    <option value="3">Orange Money</option>
+                                    <option value="4">Afrimoney</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput2">Numéro de téléphone</label>
+                            <input required autocomplete="off" type="number" class="form-control" name="phone_number" id="exampleFormControlInput2" placeholder="numéro de téléphone">
+                            <input type="hidden" name="currency" value="{{ strtoupper($order->proforma_currency) }}">
+                        </div>
+
+                        <div class="form-group">
+                            <p class="alert alert-secondary d-none"><span class="fa fa-spinner fa-spin"></span> Traitement en cours...</p>
+
+                            <div class="alert alert-warning alert-dismissible fade show d-none" role="alert">
+                                <strong>Attention !</strong> Une erreur s'est produite lors de votre paiement.
+                                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+
+                            <div class="alert alert-success alert-dismissible fade show d-none" role="alert">
+                                <strong>Vous y êtes !</strong> Veuillez confirmer le paiement avec votre opérateur mobile.
+                                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                        </div>
+                        <button type="submit" class="d-none" id="submit"></button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Annuler</button>
+                    <button type="button" class="btn btn-primary" onclick="$('#submit').click()">Payer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+@endsection
+
+@section('js')
+    <script>
+        $('#form1').submit(function () {
+
+            $('.alert-secondary').removeClass('d-none');
+            $('button.btn-primary').attr('disabled', 'disabled');
+
+            $.post(this.action, $(this).serialize())
+
+            return false;
+        });
+
+        $('#staticBackdrop1').on('hidden.bs.modal', function (event) {
+            document.getElementById('form1').reset();
+            $('.alert-secondary').addClass('d-none');
+            $('.alert-success').addClass('d-none');
+            $('.alert-warning').addClass('d-none');
+            $('button.btn-primary').removeAttr('disabled');
+        })
+    </script>
 @endsection

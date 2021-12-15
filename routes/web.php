@@ -11,6 +11,7 @@ use App\Http\Controllers\CurrencyController;
 use App\Http\Controllers\DictionaryController;
 use App\Http\Controllers\EntityController;
 use App\Http\Controllers\ExpectationController;
+use App\Http\Controllers\FollowingController;
 use App\Http\Controllers\InvestmentController;
 use App\Http\Controllers\OrderController;
 use App\Http\Controllers\PaymentController;
@@ -43,18 +44,12 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 Route::middleware('auth')->group(function() {
 
-    Route::post('/expectations/save', [OrderController::class, 'save'])->name('expectations.save');
-    Route::get('/expectations/{expectation}/toggle', [OrderController::class, 'toggle'])->name('expectations.toggle');
-    Route::post('/expectations/{expectation}/decision', [OrderController::class, 'decision'])->name('expectations.decision');
-    Route::get('/approvals/{expectation}/history', [OrderController::class, 'history'])->name('approvals.history');
-    Route::get('/dictionaries/search', [OrderController::class, 'search'])->name('dictionaries.search');
+    Route::get('/orders/search', [OrderController::class, 'search'])->name('orders.search');
     Route::get('/users/search', [OrderController::class, 'search'])->name('users.search');
     Route::get('/users/search2', [OrderController::class, 'search2'])->name('users.search2');
     Route::match(['get', 'post'], '/reporting/accounts', [OrderController::class, 'accounts'])->name('reporting.accounts');
     Route::match(['get', 'post'], '/reporting/revenues', [OrderController::class, 'revenues'])->name('reporting.revenues');
     Route::match(['get', 'post'], '/reporting/investments', [OrderController::class, 'investments'])->name('reporting.investments');
-
-    Route::post('/entities/{entity}/add-child', [OrderController::class, 'child'])->name('entities.add-child');
 
     Route::get('/payments/configs', [PaymentController::class, 'configs'])->name('payments.configs');
     Route::patch('/orders/{order}/cancel', [OrderController::class, 'cancel'])->name('orders.cancel');
@@ -72,5 +67,6 @@ Route::middleware('auth')->group(function() {
         'reporting' => OrderController::class,
         'currencies' => CurrencyController::class,
         'investments' => OrderController::class,
+        'followings' => FollowingController::class,
     ]);
 });

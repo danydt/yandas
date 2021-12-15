@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Order;
+use App\Models\User;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Http\Request;
 
@@ -30,10 +31,13 @@ class HomeController extends Controller
         session()->put('dashboard', auth()->user()->role?->default_dashboard);
         session()->put('navigation', auth()->user()->role?->default_navigation_bar);
 
+        $clients = 0;
+
         if (auth()->user()->user_type == "admin") {
 
             $active_commands = Order::availableOrdersCount();
             $delivered_commands = Order::deliveredOrdersCount();
+            $clients = User::getUsersCountByType('customer');
 
         } else {
 
@@ -44,6 +48,7 @@ class HomeController extends Controller
         return view('home')->with([
             'active_commands' => $active_commands,
             'delivered_commands' => $delivered_commands,
+            'clients' => $clients,
         ]);
     }
 }

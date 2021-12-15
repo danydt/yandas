@@ -6,12 +6,12 @@
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-6">
-                    <h1 class="m-0">Utilisateurs</h1>
+                    <h1 class="m-0">Clients</h1>
                 </div><!-- /.col -->
                 <div class="col-sm-6">
                     <ol class="breadcrumb float-sm-right">
                         <li class="breadcrumb-item"><a href="{{ route('home') }}">Tableau de bord</a></li>
-                        <li class="breadcrumb-item active">Utilisateurs</li>
+                        <li class="breadcrumb-item active">Clients</li>
                     </ol>
                 </div><!-- /.col -->
             </div><!-- /.row -->
@@ -27,7 +27,7 @@
                 <div class="col-12">
                     <div class="card">
                         <div class="card-header">
-                            <h3 class="card-title"><a href="{{ route('users.create') }}" class="btn btn-secondary">Ajouter un utilisateur</a></h3>
+                            <h3 class="card-title">Il y au total {{ sizeof($clients) }} clients.</h3>
 
                             <div class="card-tools">
                                 <div class="input-group input-group-sm" style="width: 150px;">
@@ -47,7 +47,7 @@
                             <p>&nbsp;</p>
 
                             <div class="col float-right">
-                                {!! $users->links() !!}
+                                {!! $clients->links() !!}
                             </div>
 
                             <table class="table table-sm table-hover text-nowrap">
@@ -60,18 +60,18 @@
                                 </tr>
                                 </thead>
                                 <tbody>
-                                @forelse ($users as $item)
+                                @forelse ($clients as $item)
                                     <tr>
                                         <td>{{ $loop->iteration }}</td>
                                         <td>{{ $item->name }}</td>
                                         <td>{{ $item->email }}</td>
-                                        <td><a href="{{ route('users.show', $item->code) }}">
+                                        <td><a href="{{ route('clients.show', $item->email) }}">
                                                 <span class="fas fa-eye fa-fw"></span>
                                             </a></td>
                                     </tr>
                                 @empty
                                     <tr>
-                                        <td colspan="4"><em>Aucun compte utilisateur</em></td>
+                                        <td colspan="4"><em>Aucun compte client</em></td>
                                     </tr>
                                 @endforelse
                                 </tbody>

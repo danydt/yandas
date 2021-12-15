@@ -91,10 +91,10 @@
     </div>
     <!-- /.content-wrapper -->
     <footer class="main-footer">
-        <strong>Copyright &copy; 2021 <a href="https://cskn.cd">YANDAS</a>.</strong>
+        <strong>Copyright &copy; 2021 <a href="https://www.yandas243.com">YANDA'S</a>.</strong>
         Tous droits réservés.
         <div class="float-right d-none d-sm-inline-block">
-            <b>Version</b> 1.0.0
+            <b>Version</b> {{ env('app_version') }}
         </div>
     </footer>
 

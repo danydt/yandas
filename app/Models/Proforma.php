@@ -13,6 +13,8 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
  * @property int $order_id
  * @property string $code
  * @property int $payment_modality
+ * @property string $order_code
+ * @property Order $order
  */
 class Proforma extends Model
 {
@@ -31,5 +33,10 @@ class Proforma extends Model
     public function currency(): BelongsTo
     {
         return $this->belongsTo(Currency::class);
+    }
+
+    public function getOrderCodeAttribute()
+    {
+        return $this->order()->value('code');
     }
 }

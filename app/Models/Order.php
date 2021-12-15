@@ -10,6 +10,12 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
 /**
  * @property bool $enabled
  * @property string $code
+ * @property string $client_name
+ * @property mixed|string $external_code
+ * @property mixed|string $internal_code
+ * @property mixed $paid_amount
+ * @property mixed $proforma_amount
+ * @method static searchOrders(string $term, int|string|null $user_id)
  */
 class Order extends Model
 {
@@ -17,7 +23,7 @@ class Order extends Model
 
     public function getRouteKeyName(): string
     {
-        return 'code';
+        return 'internal_code';
     }
 
     public function proformas(): HasMany
@@ -105,5 +111,19 @@ class Order extends Model
             'delivered' => 'true',
             'user_id' => $user_id
         ])->count();
+    }
+
+    /**
+     * Return orders tha match the search criteria
+     * @param $query
+     * @param $term
+     * @param $user_id
+     * @return mixed
+     */
+    public function scopeSearchOrders($query, $term, $user_id): mixed
+    {
+        return $query->where('external_code', 'ilike', '%' . $term . '%')->when($user_id, function ($query) use ($user_id) {
+            return $query->where('user_id', $user_id);
+        })->get();
     }
 }

@@ -2,13 +2,13 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\ProformaEditedMail;
 use App\Models\Proforma;
 use Exception;
-use http\Env\Response;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Log;
-use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Str;
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
 
@@ -37,6 +37,9 @@ class ProformaController extends Controller
             Proforma::query()->where('order_id', $order)->update(['enabled' => 'false']);
 
             $proforma->save();
+
+            // send email
+            Mail::to($proforma->order->user->email)->queue(new ProformaEditedMail($proforma->order_code, $proforma->order->client_name));
 
         } catch (Exception $exception) {
 
