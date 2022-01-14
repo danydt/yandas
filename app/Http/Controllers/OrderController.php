@@ -54,7 +54,7 @@ class OrderController extends Controller
         $order = new Order;
 
         // get order items count
-        $last_order_code = Order::query()->orderByDesc('id')->first()?->value('code');
+        $last_order_code = Order::query()->orderByDesc('id')->limit(1)?->value('code');
 
         $code = $this->transactionCodeGenerator($last_order_code, 6);
 

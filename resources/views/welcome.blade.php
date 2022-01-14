@@ -72,7 +72,7 @@
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="{{ asset('assets/images/banner/pay_shipping.png') }}" class="d-block w-100" alt="...">
+                    <img src="{{ asset('assets/images/banner/pay-delivery.jpg') }}" class="d-block w-100" alt="...">
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
