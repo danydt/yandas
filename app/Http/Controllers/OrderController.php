@@ -91,7 +91,7 @@ class OrderController extends Controller
             DB::commit();
 
             // send mail only if order has been saved
-            //Mail::to([env('MAIL_USERNAME'), auth()->user()->email])->queue(new OrderRegisteredMail($order->code));
+            Mail::to([env('MAIL_USERNAME'), auth()->user()->email])->queue(new OrderRegisteredMail($order->code));
 
         } catch (Exception $exception) {
 

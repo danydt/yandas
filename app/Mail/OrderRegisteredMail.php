@@ -11,16 +11,14 @@ class OrderRegisteredMail extends Mailable
 {
     use Queueable, SerializesModels;
 
-    public string $order_code;
-
     /**
      * Create a new message instance.
      *
      * @return void
      */
-    public function __construct(string $order_code)
+    public function __construct(public string $order_code)
     {
-        $this->order_code = $order_code;
+
     }
 
     /**

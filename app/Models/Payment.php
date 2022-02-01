@@ -11,6 +11,8 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
  * @property float|mixed $paid_amount
  * @property int|mixed $order_id
  * @property mixed|string $reference_code
+ * @property mixed|string $external_code
+ * @property mixed|string $currency_code
  */
 class Payment extends Model
 {

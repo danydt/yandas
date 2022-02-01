@@ -349,23 +349,10 @@
                                     </small>
                                 </div>
                             </div>
-                            <div class="form-row">
-                                <div class="form-group col-md-6">
-                                    <label for="exampleFormControlSelect1">Moyen de paiement</label>
-                                    <select required name="payment_method" class="form-control"
-                                            id="exampleFormControlSelect1">
-                                        <option value="">Choisissez</option>
-                                        <option value="1">M-PESA</option>
-                                        <option value="2">Airtel Money</option>
-                                        <option value="3">Orange Money</option>
-                                        <option value="4">Afrimoney</option>
-                                    </select>
-                                </div>
-                            </div>
                             <div class="form-group">
                                 <label for="exampleFormControlInput2">Numéro de téléphone</label>
                                 <input required autocomplete="off" type="number" class="form-control"
-                                       name="phone_number"
+                                       name="phone_number" maxlength="10"
                                        id="exampleFormControlInput2" placeholder="numéro de téléphone">
                                 <input type="hidden" name="currency"
                                        value="{{ strtoupper($order->proforma_currency) }}">
