@@ -13,12 +13,14 @@ use App\Http\Controllers\EntityController;
 use App\Http\Controllers\ExpectationController;
 use App\Http\Controllers\FollowingController;
 use App\Http\Controllers\InvestmentController;
+use App\Http\Controllers\MeasurementController;
 use App\Http\Controllers\OrderController;
 use App\Http\Controllers\PaymentController;
 use App\Http\Controllers\PrivilegeController;
 use App\Http\Controllers\ProformaController;
 use App\Http\Controllers\ReportingController;
 use App\Http\Controllers\RoleController;
+use App\Http\Controllers\ShippingAddressController;
 use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
@@ -54,6 +56,8 @@ Route::middleware('auth')->group(function() {
     Route::get('/payments/configs', [PaymentController::class, 'configs'])->name('payments.configs');
     Route::patch('/orders/{order}/cancel', [OrderController::class, 'cancel'])->name('orders.cancel');
     Route::get('/proformas/{proforma}/download', [ProformaController::class, 'download'])->name('proformas.download');
+    Route::match(['get', 'post'], '/measurements/simulate', [MeasurementController::class, 'simulate'])->name('measurements.simulate');
+    Route::get('/shipments/address', [ShippingAddressController::class, 'address'])->name('shipments.address');
 
     Route::resources([
         'orders' => OrderController::class,
@@ -68,5 +72,7 @@ Route::middleware('auth')->group(function() {
         'currencies' => CurrencyController::class,
         'investments' => OrderController::class,
         'followings' => FollowingController::class,
+        'measurements' => MeasurementController::class,
+        'shipments' => ShippingAddressController::class,
     ]);
 });

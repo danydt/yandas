@@ -102,7 +102,7 @@ class PaymentController extends Controller
 
             // update order information
 
-            if ($payment->paid == "paid") {
+            if ($payment->paid == "true") {
 
                 if ($payment->order->paid_amount < $payment->order->proforma_amount) {
 
