@@ -1,5 +1,10 @@
 <?php
 
+use App\Http\Controllers\API\AuthController;
+use App\Http\Controllers\API\CommonActionController;
+use App\Http\Controllers\API\LoginController;
+use App\Http\Controllers\API\OrderController;
+use App\Http\Controllers\API\RegisterController;
 use App\Http\Controllers\PaymentController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
@@ -15,11 +20,17 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::post('login', [\App\Http\Controllers\API\LoginController::class, 'login']);
-Route::post('register', [\App\Http\Controllers\API\RegisterController::class, 'register']);
+Route::post('login', [AuthController::class, 'login']);
+Route::post('register', [AuthController::class, 'register']);
 
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
 Route::post('/callback/{reference}', [PaymentController::class, 'callback']);
+
+Route::middleware('auth:api')->group(function () {
+    Route::get('/my-address', [CommonActionController::class, 'myAddress']);
+    Route::post('/create-order', [OrderController::class, 'store']);
+    Route::get('/my-orders', [OrderController::class, 'index']);
+});

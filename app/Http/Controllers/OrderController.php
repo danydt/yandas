@@ -7,6 +7,7 @@ use App\Mail\OrderRegisteredMail;
 use App\Models\Order;
 use App\Models\Currency;
 use App\Models\OrderDetail;
+use App\Services\OrderService;
 use Exception;
 use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Contracts\View\Factory;
@@ -51,58 +52,16 @@ class OrderController extends Controller
 
     public function store(Request $request): RedirectResponse
     {
-        $order = new Order;
 
-        // get order items count
-        $last_order_code = Order::query()->orderByDesc('id')->limit(1)?->value('code');
+        if ($order = (new OrderService($request))->create()) {
 
-        $code = $this->transactionCodeGenerator($last_order_code, 6);
+            return redirect()->route('orders.show', compact('order'));
 
-        $order->code = $code;
-        $order->enabled = true;
-        $order->internal_code = Str::random();
-        $order->external_code = sprintf("%s.%s", date('Y.m'), $code);
-
-        try {
-
-            DB::beginTransaction();
-
-            // persist (save) order
-            auth()->user()->orders()->save($order);
-
-            // prepare saving order details
-            $articles = $request->input('articles');
-            $urls = $request->input('urls');
-            $quantities = $request->input('quantities');
-            $descriptions = $request->input('descriptions');
-
-            foreach ($articles as $index => $article) {
-
-                $detail = new OrderDetail;
-
-                $detail->product_name = trim(strval($article));
-                $detail->product_url = trim(strval($urls[$index]));
-                $detail->quantity = intval($quantities[$index]);
-                $detail->description = trim(strval($descriptions[$index]));
-
-                $order->details()->save($detail);
-            }
-
-            DB::commit();
-
-            // send mail only if order has been saved
-            Mail::to([env('MAIL_USERNAME'), auth()->user()->email])->queue(new OrderRegisteredMail($order->code));
-
-        } catch (Exception $exception) {
-
-            Log::debug("Insertion error: " . $exception->__toString());
-
-            DB::rollBack();
+        } else {
 
             return back()->withInput()->with('message', 'Une erreur est survenue lors de votre commande. Veuillez recommencer.');
-        }
 
-        return redirect()->route('orders.show', compact('order'));
+        }
 
     }
 
