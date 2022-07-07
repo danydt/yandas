@@ -24,4 +24,24 @@ class CommonActionController extends BaseController
 
         return $this->sendResponse($data, "OK");
     }
+ 
+    public function SetAddress() : JsonResponse {
+        $country = trim(strval($request->input('country')));
+        $line1 = trim(strval($request->input('line1')));
+        $line2 = trim(strval($request->input('line2')));
+        $phone = trim(strval($request->input('phone')));
+        $postal = trim(strval($request->input('postal')));
+
+        $shipment = new ShippingAddress;
+
+        $shipment->country_name = $country;
+        $shipment->address_l1 = $line1;
+        $shipment->address_l2 = $line2;
+        $shipment->phone_number = $phone;
+        $shipment->postal_code = $postal;
+
+        ShippingAddress::query()->truncate();
+
+        $shipment->save();
+    }
 }
