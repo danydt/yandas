@@ -73,18 +73,25 @@ class AuthController extends BaseController
         ]);
 
         if ($validator->fails()) {
-
             return $this->sendError('Validation Error.', $validator->errors());
         }
 
-        $input = $request->all();
-        $input['password'] = bcrypt($input['password']);
-        $input['user_type'] = 'customer';
+        $data = $request->all();
 
-        $user = User::create($input);
+        $user = auth()->user();
+
+        User::where('id', $user->id)->update(['name' => $data['name'], 'email' => $data['email']]);
+
+        $profile = Profile::updateOrCreate([
+            'user_id' => $user->id,
+            'genre' => $data['gender'],
+            'phone_number'=> $data['phone'],
+            'birthday' => $data['birthday'],
+        ]);
 
         $success['token'] = $user->createToken(config('app.name'))->accessToken;
-        $success['name'] = $user->name;
+        $success['user'] = $user;
+        $success['profile'] = $profile;
 
         return $this->sendResponse($success, 'Profil mise à jour avec succès!');
     }
