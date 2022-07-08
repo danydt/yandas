@@ -2,9 +2,7 @@
 
 use App\Http\Controllers\API\AuthController;
 use App\Http\Controllers\API\CommonActionController;
-use App\Http\Controllers\API\LoginController;
 use App\Http\Controllers\API\OrderController;
-use App\Http\Controllers\API\RegisterController;
 use App\Http\Controllers\PaymentController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;

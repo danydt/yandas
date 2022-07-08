@@ -8,10 +8,11 @@ use App\Models\Profile;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Validator;
+use Illuminate\Http\JsonResponse;
 
 class AuthController extends BaseController
 {
-    public function login(Request $request): \Illuminate\Http\JsonResponse
+    public function login(Request $request):JsonResponse
     {
         $validator = Validator::make($request->all(), [
             'email' => 'required|email',
@@ -62,37 +63,42 @@ class AuthController extends BaseController
         return $this->sendResponse($success, 'Registration successfully!');
     }
 
-    public function updateAuth(Request $request)
+    public function updateAuth(Request $request): JsonResponse
     {
-        $validator = Validator::make($request->all(), [
-            'phone' => 'required',
-            'email' => 'required|email|unique:users',
-            'birthday' => 'required',
-            'name' => 'required',
-            'gender' => 'required',
-        ]);
+        if ($request->getContentType() == 'json') {
 
-        if ($validator->fails()) {
-            return $this->sendError('Validation Error.', $validator->errors());
+            $validator = Validator::make($request->all(), [
+                'phone' => 'required',
+                'email' => 'required|email|unique:users',
+                'birthday' => 'required',
+                'name' => 'required',
+                'gender' => 'required',
+            ]);
+
+            if ($validator->fails()) {
+                return $this->sendError('Validation Error.', $validator->errors());
+            }
+
+            $data = $request->all();
+
+            $user = auth()->user();
+
+            User::where('id', $user->id)->update(['name' => $data['name'], 'email' => $data['email']]);
+
+            $profile = Profile::updateOrCreate([
+                'user_id' => $user->id,
+                'genre' => $data['gender'],
+                'phone_number'=> $data['phone'],
+                'birthday' => $data['birthday'],
+            ]);
+
+            $success['token'] = $user->createToken(config('app.name'))->accessToken;
+            $success['user'] = $user;
+            $success['profile'] = $profile;
+
+            return $this->sendResponse($success, 'Profil mise à jour avec succès!'); 
         }
 
-        $data = $request->all();
-
-        $user = auth()->user();
-
-        User::where('id', $user->id)->update(['name' => $data['name'], 'email' => $data['email']]);
-
-        $profile = Profile::updateOrCreate([
-            'user_id' => $user->id,
-            'genre' => $data['gender'],
-            'phone_number'=> $data['phone'],
-            'birthday' => $data['birthday'],
-        ]);
-
-        $success['token'] = $user->createToken(config('app.name'))->accessToken;
-        $success['user'] = $user;
-        $success['profile'] = $profile;
-
-        return $this->sendResponse($success, 'Profil mise à jour avec succès!');
+        return $this->sendError([], 'Invalid content type. Should be application/json');
     }
 }
