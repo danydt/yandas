@@ -38,7 +38,7 @@ class AuthController extends BaseController
         }
     }
 
-    public function register(Request $request)
+    public function register(Request $request):JsonResponse
     {
         $validator = Validator::make($request->all(), [
             'name' => 'required',
@@ -63,7 +63,7 @@ class AuthController extends BaseController
         return $this->sendResponse($success, 'Registration successfully!');
     }
 
-    public function updateAuth(Request $request): JsonResponse
+    public function updateAuth(Request $request):JsonResponse
     {
         if ($request->getContentType() == 'json') {
 
