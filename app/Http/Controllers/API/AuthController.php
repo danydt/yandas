@@ -67,7 +67,9 @@ class AuthController extends BaseController
         $validator = Validator::make($request->all(), [
             'phone' => 'required',
             'email' => 'required|email|unique:users',
-            'password' => 'required',
+            'birthday' => 'required',
+            'name' => 'required',
+            'gender' => 'required',
         ]);
 
         if ($validator->fails()) {
@@ -84,6 +86,6 @@ class AuthController extends BaseController
         $success['token'] = $user->createToken(config('app.name'))->accessToken;
         $success['name'] = $user->name;
 
-        return $this->sendResponse($success, 'Registration successfully!');
+        return $this->sendResponse($success, 'Profil mise à jour avec succès!');
     }
 }
