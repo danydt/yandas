@@ -64,8 +64,8 @@ class OrderController extends BaseController
 
                     DB::commit();
 
-                    // send mail only if order has been saved
-                    Mail::to([env('MAIL_USERNAME'), auth()->user()->email])->queue(new OrderRegisteredMail($order->code));
+                     // send mail only if order has been saved
+                    // Mail::to([env('MAIL_USERNAME'), auth()->user()->email])->queue(new OrderRegisteredMail($order->code));
 
                     return $this->sendResponse([
                         'code' => $order->internal_code

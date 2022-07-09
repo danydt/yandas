@@ -68,7 +68,7 @@ class AuthController extends BaseController
 
             $validator = Validator::make($request->all(), [
                 'phone' => 'required',
-                'email' => 'required|email|unique:users',
+                'email' => 'required|email',
                 'birthday' => 'required',
                 'name' => 'required',
                 'gender' => 'required',
@@ -84,12 +84,12 @@ class AuthController extends BaseController
 
             User::where('id', $user->id)->update(['name' => $data['name'], 'email' => $data['email']]);
 
-            // $profile = Profile::updateOrCreate([
-            //     'user_id' => $user->id,
-            //     'genre' => $data['gender'],
-            //     'phone_number'=> $data['phone'],
-            //     'birthday' => $data['birthday'],
-            // ]);
+            $profile = Profile::updateOrCreate([
+               	 'user_id' => $user->id,
+                 'genre' => $data['gender'],
+                 'phone_number'=> $data['phone'],
+                 'birthday' => $data['birthday'],
+            ]);
 
             $success['token'] = $user->createToken(config('app.name'))->accessToken;
             $success['user'] = $user;
