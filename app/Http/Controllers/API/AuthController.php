@@ -30,7 +30,7 @@ class AuthController extends BaseController
 
             $user = User::join('profiles', 'users.id', '=', 'profiles.user_id')
                         ->select('users.*', 'profiles.photo', 'profiles.genre', 'profiles.phone_number', 'profiles.birthday')
-                        ->where('profiles.user_id', $userAuth->id)
+                        ->where('users.id', $userAuth->id)
                         ->get();
 
             $success['token'] = $user->createToken(config('app.name'))->accessToken;
