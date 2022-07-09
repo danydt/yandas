@@ -86,20 +86,23 @@ class AuthController extends BaseController
 
             $data = $request->all();
 
-            $user = auth()->user();
+            $userAuth = auth()->user();
 
             User::where('id', $user->id)->update(['name' => $data['name'], 'email' => $data['email']]);
-
-            $profile = Profile::updateOrCreate([
+            Profile::updateOrCreate([
                 'user_id' => $user->id,
                 'genre' => $data['gender'],
                 'phone_number'=> $data['phone'],
                 'birthday' => $data['birthday'],
             ]);
 
-            $success['token'] = $user->createToken(config('app.name'))->accessToken;
+            $user = User::join('profiles', 'users.id', '=', 'profiles.user_id')
+                        ->select('users.*', 'profiles.photo', 'profiles.genre', 'profiles.phone_number', 'profiles.birthday')
+                        ->where('users.id', $userAuth->id)
+                        ->get();
+
+            $success['token'] = $userAuth->createToken(config('app.name'))->accessToken;
             $success['user'] = $user;
-            $success['profile'] = $profile;
 
             return $this->sendResponse($success, 'Profil mise à jour avec succès!');
     }
