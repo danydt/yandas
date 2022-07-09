@@ -65,7 +65,6 @@ class AuthController extends BaseController
 
     public function updateAuth(Request $request):JsonResponse
     {
-        if ($request->getContentType() == 'json') {
 
             $validator = Validator::make($request->all(), [
                 'phone' => 'required',
@@ -85,20 +84,17 @@ class AuthController extends BaseController
 
             User::where('id', $user->id)->update(['name' => $data['name'], 'email' => $data['email']]);
 
-            $profile = Profile::updateOrCreate([
-                'user_id' => $user->id,
-                'genre' => $data['gender'],
-                'phone_number'=> $data['phone'],
-                'birthday' => $data['birthday'],
-            ]);
+            // $profile = Profile::updateOrCreate([
+            //     'user_id' => $user->id,
+            //     'genre' => $data['gender'],
+            //     'phone_number'=> $data['phone'],
+            //     'birthday' => $data['birthday'],
+            // ]);
 
             $success['token'] = $user->createToken(config('app.name'))->accessToken;
             $success['user'] = $user;
             $success['profile'] = $profile;
 
-            return $this->sendResponse($success, 'Profil mise à jour avec succès!'); 
-        }
-
-        return $this->sendError([], 'Invalid content type. Should be application/json');
+            return $this->sendResponse($success, 'Profil mise à jour avec succès!');
     }
 }
