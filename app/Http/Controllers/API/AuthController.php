@@ -33,7 +33,7 @@ class AuthController extends BaseController
                         ->where('users.id', $userAuth->id)
                         ->get();
 
-            $success['token'] = $user->createToken(config('app.name'))->accessToken;
+            $success['token'] = $userAuth->createToken(config('app.name'))->accessToken;
             $success['user'] = $user;
 
             return $this->sendResponse($success, 'Login successfully!');
