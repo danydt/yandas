@@ -85,10 +85,17 @@ class AuthController extends BaseController
             User::where('id', $user->id)->update(['name' => $data['name'], 'email' => $data['email']]);
 
             $profile = Profile::updateOrCreate([
+<<<<<<< HEAD
                	 'user_id' => $user->id,
                  'genre' => $data['gender'],
                  'phone_number'=> $data['phone'],
                  'birthday' => $data['birthday'],
+=======
+                'user_id' => $user->id,
+                'genre' => $data['gender'],
+                'phone_number'=> $data['phone'],
+                'birthday' => $data['birthday'],
+>>>>>>> 171b48d4aeb1c25da382406b428a932ed5a14fc6
             ]);
 
             $success['token'] = $user->createToken(config('app.name'))->accessToken;

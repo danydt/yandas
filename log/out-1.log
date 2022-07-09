@@ -1,0 +1,2137 @@
+2022-07-05T13:18:17: Starting Laravel development server: http://127.0.0.1:8000
+2022-07-05T13:18:18: [Tue Jul  5 13:18:17 2022] PHP 8.0.20 Development Server (http://127.0.0.1:8000) started
+2022-07-05T13:19:48: Starting Laravel development server: http://127.0.0.1:8000
+2022-07-05T13:19:48: [Tue Jul  5 13:19:48 2022] PHP 8.0.20 Development Server (http://127.0.0.1:8000) started
+2022-07-05T13:23:50: Starting Laravel development server: http://127.0.0.1:8000
+2022-07-05T13:23:50: [Tue Jul  5 13:23:50 2022] PHP 8.0.20 Development Server (http://127.0.0.1:8000) started
+2022-07-05T13:24:28: Starting Laravel development server: http://127.0.0.1:8000
+2022-07-05T13:24:28: [Tue Jul  5 13:24:28 2022] PHP 8.0.20 Development Server (http://127.0.0.1:8000) started
+2022-07-05T13:27:47: Starting Laravel development server: http://127.0.0.1:8000
+2022-07-05T13:27:48: [Tue Jul  5 13:27:47 2022] PHP 8.0.20 Development Server (http://127.0.0.1:8000) started
+2022-07-05T13:27:48: [Tue Jul  5 13:27:48 2022] 127.0.0.1:52386 Accepted
+2022-07-05T13:27:48: [Tue Jul  5 13:27:48 2022] 127.0.0.1:52388 Accepted
+2022-07-05T13:27:48: [Tue Jul  5 13:27:48 2022] 127.0.0.1:52386 [200]: GET /plugins/jquery-ui/jquery-ui.min.js
+2022-07-05T13:27:48: [Tue Jul  5 13:27:48 2022] 127.0.0.1:52388 [200]: GET /plugins/jquery/jquery.min.js
+2022-07-05T13:27:48: [Tue Jul  5 13:27:48 2022] 127.0.0.1:52390 Accepted
+2022-07-05T13:27:48: [Tue Jul  5 13:27:48 2022] 127.0.0.1:52392 Accepted
+2022-07-05T13:27:48: [Tue Jul  5 13:27:48 2022] 127.0.0.1:52386 Closing
+2022-07-05T13:27:48: [Tue Jul  5 13:27:48 2022] 127.0.0.1:52388 Closing
+2022-07-05T13:27:48: [Tue Jul  5 13:27:48 2022] 127.0.0.1:52390 [200]: GET /plugins/bootstrap/js/bootstrap.bundle.min.js
+2022-07-05T13:27:48: [Tue Jul  5 13:27:48 2022] 127.0.0.1:52392 [200]: GET /plugins/summernote/summernote-bs4.min.css
+2022-07-05T13:27:48: [Tue Jul  5 13:27:48 2022] 127.0.0.1:52390 Closing
+2022-07-05T13:27:48: [Tue Jul  5 13:27:48 2022] 127.0.0.1:52392 Closing
+2022-07-05T13:27:48: [Tue Jul  5 13:27:48 2022] 127.0.0.1:52394 Accepted
+2022-07-05T13:27:48: [Tue Jul  5 13:27:48 2022] 127.0.0.1:52394 [200]: GET /dist/css/adminlte.min.css
+2022-07-05T13:27:48: [Tue Jul  5 13:27:48 2022] 127.0.0.1:52394 Closing
+2022-07-05T13:27:48: [Tue Jul  5 13:27:48 2022] 127.0.0.1:52396 Accepted
+2022-07-05T13:27:48: [Tue Jul  5 13:27:48 2022] 127.0.0.1:52396 [200]: GET /plugins/jqvmap/jqvmap.min.css
+2022-07-05T13:27:48: [Tue Jul  5 13:27:48 2022] 127.0.0.1:52396 Closing
+2022-07-05T13:27:48: [Tue Jul  5 13:27:48 2022] 127.0.0.1:52398 Accepted
+2022-07-05T13:27:48: [Tue Jul  5 13:27:48 2022] 127.0.0.1:52398 [200]: GET /plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js
+2022-07-05T13:27:48: [Tue Jul  5 13:27:48 2022] 127.0.0.1:52398 Closing
+2022-07-05T13:27:48: [Tue Jul  5 13:27:48 2022] 127.0.0.1:52400 Accepted
+2022-07-05T13:27:48: [Tue Jul  5 13:27:48 2022] 127.0.0.1:52400 [200]: GET /dist/js/adminlte.js
+2022-07-05T13:27:48: [Tue Jul  5 13:27:48 2022] 127.0.0.1:52400 Closing
+2022-07-05T13:27:49: [Tue Jul  5 13:27:49 2022] 127.0.0.1:52402 Accepted
+2022-07-05T13:27:49: [Tue Jul  5 13:27:49 2022] 127.0.0.1:52402 [200]: GET /plugins/overlayScrollbars/css/OverlayScrollbars.min.css
+2022-07-05T13:27:49: [Tue Jul  5 13:27:49 2022] 127.0.0.1:52402 Closing
+2022-07-05T13:27:49: [Tue Jul  5 13:27:49 2022] 127.0.0.1:52404 Accepted
+2022-07-05T13:27:49: [Tue Jul  5 13:27:49 2022] 127.0.0.1:52404 [200]: GET /plugins/daterangepicker/daterangepicker.css
+2022-07-05T13:27:49: [Tue Jul  5 13:27:49 2022] 127.0.0.1:52404 Closing
+2022-07-05T13:27:52: [Tue Jul  5 13:27:52 2022] 127.0.0.1:52406 Accepted
+2022-07-05T13:27:52: [Tue Jul  5 13:27:52 2022] 127.0.0.1:52406 [200]: GET /assets/images/logo/app-logo.png
+2022-07-05T13:27:52: [Tue Jul  5 13:27:52 2022] 127.0.0.1:52406 Closing
+2022-07-05T13:27:52: Starting Laravel development server: http://127.0.0.1:8000
+2022-07-05T13:27:53: [Tue Jul  5 13:27:52 2022] PHP 8.0.20 Development Server (http://127.0.0.1:8000) started
+2022-07-05T13:30:04: Starting Laravel development server: http://127.0.0.1:8000
+2022-07-05T13:30:04: [Tue Jul  5 13:30:04 2022] PHP 8.0.20 Development Server (http://127.0.0.1:8000) started
+2022-07-05T13:32:10: [Tue Jul  5 13:32:09 2022] 127.0.0.1:52408 Accepted
+2022-07-05T13:32:10: Starting Laravel development server: http://127.0.0.1:8000
+2022-07-05T13:32:11: [Tue Jul  5 13:32:10 2022] PHP 8.0.20 Development Server (http://127.0.0.1:8000) started
+2022-07-05T13:35:29: Starting Laravel development server: http://127.0.0.1:8000
+2022-07-05T13:35:29: [Tue Jul  5 13:35:29 2022] PHP 8.0.20 Development Server (http://127.0.0.1:8000) started
+2022-07-05T13:35:32: Starting Laravel development server: http://127.0.0.1:8000
+2022-07-05T13:35:33: [Tue Jul  5 13:35:32 2022] PHP 8.0.20 Development Server (http://127.0.0.1:8000) started
+2022-07-05T13:39:37: Starting Laravel development server: http://127.0.0.1:8000
+2022-07-05T13:39:37: [Tue Jul  5 13:39:37 2022] PHP 8.0.20 Development Server (http://127.0.0.1:8000) started
+2022-07-05T13:39:44: [Tue Jul  5 13:39:44 2022] 127.0.0.1:57240 Accepted
+2022-07-05T13:39:45: Starting Laravel development server: http://127.0.0.1:8000
+2022-07-05T13:39:45: [Tue Jul  5 13:39:45 2022] PHP 8.0.20 Development Server (http://127.0.0.1:8000) started
+2022-07-05T13:39:45: [Tue Jul  5 13:39:45 2022] 127.0.0.1:57242 Accepted
+2022-07-05T13:39:45: [Tue Jul  5 13:39:45 2022] 127.0.0.1:57242 Closing
+2022-07-05T13:39:46: [Tue Jul  5 13:39:45 2022] 127.0.0.1:57246 Accepted
+2022-07-05T13:39:46: [Tue Jul  5 13:39:45 2022] 127.0.0.1:57246 Closing
+2022-07-05T13:39:46: [Tue Jul  5 13:39:46 2022] 127.0.0.1:57250 Accepted
+2022-07-05T13:39:46: [Tue Jul  5 13:39:46 2022] 127.0.0.1:57250 [200]: GET /plugins/fontawesome-free/css/all.min.css
+2022-07-05T13:39:46: [Tue Jul  5 13:39:46 2022] 127.0.0.1:57250 Closing
+2022-07-05T13:39:46: [Tue Jul  5 13:39:46 2022] 127.0.0.1:57252 Accepted
+2022-07-05T13:39:46: [Tue Jul  5 13:39:46 2022] 127.0.0.1:57252 [200]: GET /plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css
+2022-07-05T13:39:46: [Tue Jul  5 13:39:46 2022] 127.0.0.1:57252 Closing
+2022-07-05T13:39:46: [Tue Jul  5 13:39:46 2022] 127.0.0.1:57254 Accepted
+2022-07-05T13:39:46: [Tue Jul  5 13:39:46 2022] 127.0.0.1:57254 [200]: GET /plugins/bootstrap/js/bootstrap.bundle.min.js
+2022-07-05T13:39:46: [Tue Jul  5 13:39:46 2022] 127.0.0.1:57254 Closing
+2022-07-05T13:39:46: [Tue Jul  5 13:39:46 2022] 127.0.0.1:57256 Accepted
+2022-07-05T13:39:46: [Tue Jul  5 13:39:46 2022] 127.0.0.1:57256 [200]: GET /dist/css/adminlte.min.css
+2022-07-05T13:39:46: [Tue Jul  5 13:39:46 2022] 127.0.0.1:57258 Accepted
+2022-07-05T13:39:46: [Tue Jul  5 13:39:46 2022] 127.0.0.1:57258 [200]: GET /plugins/icheck-bootstrap/icheck-bootstrap.min.css
+2022-07-05T13:39:46: [Tue Jul  5 13:39:46 2022] 127.0.0.1:57258 Closing
+2022-07-05T13:39:46: [Tue Jul  5 13:39:46 2022] 127.0.0.1:57256 Closing
+2022-07-05T13:39:46: [Tue Jul  5 13:39:46 2022] 127.0.0.1:57260 Accepted
+2022-07-05T13:39:46: [Tue Jul  5 13:39:46 2022] 127.0.0.1:57260 [200]: GET /plugins/jqvmap/jqvmap.min.css
+2022-07-05T13:39:46: [Tue Jul  5 13:39:46 2022] 127.0.0.1:57260 Closing
+2022-07-05T13:39:46: [Tue Jul  5 13:39:46 2022] 127.0.0.1:57262 Accepted
+2022-07-05T13:39:46: [Tue Jul  5 13:39:46 2022] 127.0.0.1:57262 [200]: GET /plugins/daterangepicker/daterangepicker.css
+2022-07-05T13:39:46: [Tue Jul  5 13:39:46 2022] 127.0.0.1:57264 Accepted
+2022-07-05T13:39:46: [Tue Jul  5 13:39:46 2022] 127.0.0.1:57262 Closing
+2022-07-05T13:39:46: [Tue Jul  5 13:39:46 2022] 127.0.0.1:57264 [200]: GET /plugins/overlayScrollbars/css/OverlayScrollbars.min.css
+2022-07-05T13:39:46: [Tue Jul  5 13:39:46 2022] 127.0.0.1:57264 Closing
+2022-07-05T13:39:46: [Tue Jul  5 13:39:46 2022] 127.0.0.1:57266 Accepted
+2022-07-05T13:39:46: [Tue Jul  5 13:39:46 2022] 127.0.0.1:57266 [200]: GET /plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js
+2022-07-05T13:39:46: [Tue Jul  5 13:39:46 2022] 127.0.0.1:57266 Closing
+2022-07-05T13:39:47: [Tue Jul  5 13:39:47 2022] 127.0.0.1:57268 Accepted
+2022-07-05T13:39:47: [Tue Jul  5 13:39:47 2022] 127.0.0.1:57268 [200]: GET /dist/js/adminlte.js
+2022-07-05T13:39:47: [Tue Jul  5 13:39:47 2022] 127.0.0.1:57268 Closing
+2022-07-05T13:39:47: [Tue Jul  5 13:39:47 2022] 127.0.0.1:57270 Accepted
+2022-07-05T13:39:47: [Tue Jul  5 13:39:47 2022] 127.0.0.1:57270 [200]: GET /plugins/summernote/summernote-bs4.min.css
+2022-07-05T13:39:47: [Tue Jul  5 13:39:47 2022] 127.0.0.1:57270 Closing
+2022-07-05T13:39:47: [Tue Jul  5 13:39:47 2022] 127.0.0.1:57272 Accepted
+2022-07-05T13:39:47: [Tue Jul  5 13:39:47 2022] 127.0.0.1:57272 [200]: GET /plugins/jquery/jquery.min.js
+2022-07-05T13:39:47: [Tue Jul  5 13:39:47 2022] 127.0.0.1:57272 Closing
+2022-07-05T13:39:47: [Tue Jul  5 13:39:47 2022] 127.0.0.1:57274 Accepted
+2022-07-05T13:39:47: [Tue Jul  5 13:39:47 2022] 127.0.0.1:57274 [200]: GET /plugins/jquery-ui/jquery-ui.min.js
+2022-07-05T13:39:47: [Tue Jul  5 13:39:47 2022] 127.0.0.1:57274 Closing
+2022-07-05T13:39:48: [Tue Jul  5 13:39:48 2022] 127.0.0.1:57276 Accepted
+2022-07-05T13:39:48: [Tue Jul  5 13:39:48 2022] 127.0.0.1:57276 [200]: GET /assets/images/logo/app-logo.png
+2022-07-05T13:39:48: [Tue Jul  5 13:39:48 2022] 127.0.0.1:57276 Closing
+2022-07-05T13:39:49: Starting Laravel development server: http://127.0.0.1:8000
+2022-07-05T13:39:49: [Tue Jul  5 13:39:49 2022] PHP 8.0.20 Development Server (http://127.0.0.1:8000) started
+2022-07-05T13:43:38: [Tue Jul  5 13:43:38 2022] 127.0.0.1:57280 Accepted
+2022-07-05T13:43:38: [Tue Jul  5 13:43:38 2022] 127.0.0.1:57280 Closing
+2022-07-05T13:43:39: Starting Laravel development server: http://127.0.0.1:8000
+2022-07-05T13:43:39: [Tue Jul  5 13:43:39 2022] PHP 8.0.20 Development Server (http://127.0.0.1:8000) started
+2022-07-05T13:43:39: [Tue Jul  5 13:43:39 2022] 127.0.0.1:57284 Accepted
+2022-07-05T13:43:39: [Tue Jul  5 13:43:39 2022] 127.0.0.1:57284 [200]: GET /plugins/fontawesome-free/css/all.min.css
+2022-07-05T13:43:39: [Tue Jul  5 13:43:39 2022] 127.0.0.1:57284 Closing
+2022-07-05T13:43:39: [Tue Jul  5 13:43:39 2022] 127.0.0.1:57286 Accepted
+2022-07-05T13:43:39: [Tue Jul  5 13:43:39 2022] 127.0.0.1:57288 Accepted
+2022-07-05T13:43:39: [Tue Jul  5 13:43:39 2022] 127.0.0.1:57286 [200]: GET /plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css
+2022-07-05T13:43:39: [Tue Jul  5 13:43:39 2022] 127.0.0.1:57288 [200]: GET /plugins/icheck-bootstrap/icheck-bootstrap.min.css
+2022-07-05T13:43:39: [Tue Jul  5 13:43:39 2022] 127.0.0.1:57286 Closing
+2022-07-05T13:43:39: [Tue Jul  5 13:43:39 2022] 127.0.0.1:57288 Closing
+2022-07-05T13:43:40: [Tue Jul  5 13:43:40 2022] 127.0.0.1:57290 Accepted
+2022-07-05T13:43:40: [Tue Jul  5 13:43:40 2022] 127.0.0.1:57290 [200]: GET /plugins/jqvmap/jqvmap.min.css
+2022-07-05T13:43:40: [Tue Jul  5 13:43:40 2022] 127.0.0.1:57290 Closing
+2022-07-05T13:43:40: [Tue Jul  5 13:43:40 2022] 127.0.0.1:57292 Accepted
+2022-07-05T13:43:40: [Tue Jul  5 13:43:40 2022] 127.0.0.1:57292 [200]: GET /plugins/overlayScrollbars/css/OverlayScrollbars.min.css
+2022-07-05T13:43:40: [Tue Jul  5 13:43:40 2022] 127.0.0.1:57294 Accepted
+2022-07-05T13:43:40: [Tue Jul  5 13:43:40 2022] 127.0.0.1:57294 [200]: GET /plugins/daterangepicker/daterangepicker.css
+2022-07-05T13:43:40: [Tue Jul  5 13:43:40 2022] 127.0.0.1:57292 Closing
+2022-07-05T13:43:40: [Tue Jul  5 13:43:40 2022] 127.0.0.1:57294 Closing
+2022-07-05T13:43:40: [Tue Jul  5 13:43:40 2022] 127.0.0.1:57296 Accepted
+2022-07-05T13:43:40: [Tue Jul  5 13:43:40 2022] 127.0.0.1:57296 [200]: GET /plugins/bootstrap/js/bootstrap.bundle.min.js
+2022-07-05T13:43:40: [Tue Jul  5 13:43:40 2022] 127.0.0.1:57296 Closing
+2022-07-05T13:43:40: [Tue Jul  5 13:43:40 2022] 127.0.0.1:57298 Accepted
+2022-07-05T13:43:40: [Tue Jul  5 13:43:40 2022] 127.0.0.1:57298 [200]: GET /plugins/summernote/summernote-bs4.min.css
+2022-07-05T13:43:40: [Tue Jul  5 13:43:40 2022] 127.0.0.1:57298 Closing
+2022-07-05T13:43:40: [Tue Jul  5 13:43:40 2022] 127.0.0.1:57300 Accepted
+2022-07-05T13:43:40: [Tue Jul  5 13:43:40 2022] 127.0.0.1:57300 [200]: GET /plugins/jquery-ui/jquery-ui.min.js
+2022-07-05T13:43:40: [Tue Jul  5 13:43:40 2022] 127.0.0.1:57300 Closing
+2022-07-05T13:43:40: [Tue Jul  5 13:43:40 2022] 127.0.0.1:57302 Accepted
+2022-07-05T13:43:40: [Tue Jul  5 13:43:40 2022] 127.0.0.1:57302 [200]: GET /plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js
+2022-07-05T13:43:40: [Tue Jul  5 13:43:40 2022] 127.0.0.1:57302 Closing
+2022-07-05T13:43:41: [Tue Jul  5 13:43:40 2022] 127.0.0.1:57304 Accepted
+2022-07-05T13:43:41: [Tue Jul  5 13:43:40 2022] 127.0.0.1:57304 [200]: GET /dist/js/adminlte.js
+2022-07-05T13:43:41: [Tue Jul  5 13:43:40 2022] 127.0.0.1:57304 Closing
+2022-07-05T13:43:41: [Tue Jul  5 13:43:40 2022] 127.0.0.1:57306 Accepted
+2022-07-05T13:43:41: [Tue Jul  5 13:43:40 2022] 127.0.0.1:57306 [200]: GET /dist/css/adminlte.min.css
+2022-07-05T13:43:41: [Tue Jul  5 13:43:40 2022] 127.0.0.1:57306 Closing
+2022-07-05T13:43:41: [Tue Jul  5 13:43:40 2022] 127.0.0.1:57308 Accepted
+2022-07-05T13:43:41: [Tue Jul  5 13:43:40 2022] 127.0.0.1:57308 [200]: GET /plugins/jquery/jquery.min.js
+2022-07-05T13:43:41: [Tue Jul  5 13:43:40 2022] 127.0.0.1:57308 Closing
+2022-07-05T13:43:48: [Tue Jul  5 13:43:48 2022] 127.0.0.1:57310 Accepted
+2022-07-05T13:43:48: [Tue Jul  5 13:43:48 2022] 127.0.0.1:57310 [200]: GET /assets/images/logo/app-logo.png
+2022-07-05T13:43:48: [Tue Jul  5 13:43:48 2022] 127.0.0.1:57310 Closing
+2022-07-05T13:43:48: Starting Laravel development server: http://127.0.0.1:8000
+2022-07-05T13:43:49: [Tue Jul  5 13:43:48 2022] PHP 8.0.20 Development Server (http://127.0.0.1:8000) started
+2022-07-05T13:44:05: Starting Laravel development server: http://127.0.0.1:8000
+2022-07-05T13:44:05: [Tue Jul  5 13:44:05 2022] PHP 8.0.20 Development Server (http://127.0.0.1:8000) started
+2022-07-05T13:44:12: Starting Laravel development server: http://127.0.0.1:8000
+2022-07-05T13:44:13: [Tue Jul  5 13:44:12 2022] PHP 8.0.20 Development Server (http://127.0.0.1:8000) started
+2022-07-05T13:44:21: [Tue Jul  5 13:44:21 2022] 127.0.0.1:57322 Accepted
+2022-07-05T13:44:22: Starting Laravel development server: http://127.0.0.1:8000
+2022-07-05T13:44:22: [Tue Jul  5 13:44:22 2022] PHP 8.0.20 Development Server (http://127.0.0.1:8000) started
+2022-07-05T13:44:22: [Tue Jul  5 13:44:22 2022] 127.0.0.1:57338 Accepted
+2022-07-05T13:44:22: [Tue Jul  5 13:44:22 2022] 127.0.0.1:57338 [200]: GET /plugins/daterangepicker/daterangepicker.css
+2022-07-05T13:44:22: [Tue Jul  5 13:44:22 2022] 127.0.0.1:57340 Accepted
+2022-07-05T13:44:22: [Tue Jul  5 13:44:22 2022] 127.0.0.1:57342 Accepted
+2022-07-05T13:44:22: [Tue Jul  5 13:44:22 2022] 127.0.0.1:57340 [200]: GET /plugins/bootstrap/js/bootstrap.bundle.min.js
+2022-07-05T13:44:22: [Tue Jul  5 13:44:22 2022] 127.0.0.1:57338 Closing
+2022-07-05T13:44:22: [Tue Jul  5 13:44:22 2022] 127.0.0.1:57342 [200]: GET /plugins/jquery-ui/jquery-ui.min.js
+2022-07-05T13:44:22: [Tue Jul  5 13:44:22 2022] 127.0.0.1:57340 Closing
+2022-07-05T13:44:22: [Tue Jul  5 13:44:22 2022] 127.0.0.1:57342 Closing
+2022-07-05T13:44:22: [Tue Jul  5 13:44:22 2022] 127.0.0.1:57344 Accepted
+2022-07-05T13:44:22: [Tue Jul  5 13:44:22 2022] 127.0.0.1:57344 [200]: GET /plugins/jquery/jquery.min.js
+2022-07-05T13:44:22: [Tue Jul  5 13:44:22 2022] 127.0.0.1:57344 Closing
+2022-07-05T13:44:22: [Tue Jul  5 13:44:22 2022] 127.0.0.1:57346 Accepted
+2022-07-05T13:44:22: [Tue Jul  5 13:44:22 2022] 127.0.0.1:57346 [200]: GET /plugins/summernote/summernote-bs4.min.css
+2022-07-05T13:44:22: [Tue Jul  5 13:44:22 2022] 127.0.0.1:57346 Closing
+2022-07-05T13:44:22: [Tue Jul  5 13:44:22 2022] 127.0.0.1:57348 Accepted
+2022-07-05T13:44:22: [Tue Jul  5 13:44:22 2022] 127.0.0.1:57348 [200]: GET /plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js
+2022-07-05T13:44:22: [Tue Jul  5 13:44:22 2022] 127.0.0.1:57348 Closing
+2022-07-05T13:44:22: [Tue Jul  5 13:44:22 2022] 127.0.0.1:57350 Accepted
+2022-07-05T13:44:22: [Tue Jul  5 13:44:22 2022] 127.0.0.1:57350 [200]: GET /dist/js/adminlte.js
+2022-07-05T13:44:22: [Tue Jul  5 13:44:22 2022] 127.0.0.1:57350 Closing
+2022-07-05T13:44:23: [Tue Jul  5 13:44:23 2022] 127.0.0.1:57352 Accepted
+2022-07-05T13:44:23: [Tue Jul  5 13:44:23 2022] 127.0.0.1:57352 [200]: GET /assets/images/logo/app-logo.png
+2022-07-05T13:44:23: [Tue Jul  5 13:44:23 2022] 127.0.0.1:57352 Closing
+2022-07-05T13:44:28: Starting Laravel development server: http://127.0.0.1:8000
+2022-07-05T13:44:29: [Tue Jul  5 13:44:28 2022] PHP 8.0.20 Development Server (http://127.0.0.1:8000) started
+2022-07-05T13:44:29: [Tue Jul  5 13:44:28 2022] 127.0.0.1:57370 Accepted
+2022-07-05T13:44:29: [Tue Jul  5 13:44:28 2022] 127.0.0.1:57372 Accepted
+2022-07-05T13:44:29: [Tue Jul  5 13:44:28 2022] 127.0.0.1:57370 [200]: GET /plugins/bootstrap/js/bootstrap.bundle.min.js
+2022-07-05T13:44:29: [Tue Jul  5 13:44:28 2022] 127.0.0.1:57372 [200]: GET /plugins/daterangepicker/daterangepicker.css
+2022-07-05T13:44:29: [Tue Jul  5 13:44:28 2022] 127.0.0.1:57370 Closing
+2022-07-05T13:44:29: [Tue Jul  5 13:44:28 2022] 127.0.0.1:57372 Closing
+2022-07-05T13:44:29: [Tue Jul  5 13:44:29 2022] 127.0.0.1:57374 Accepted
+2022-07-05T13:44:29: [Tue Jul  5 13:44:29 2022] 127.0.0.1:57374 [200]: GET /plugins/jquery-ui/jquery-ui.min.js
+2022-07-05T13:44:29: [Tue Jul  5 13:44:29 2022] 127.0.0.1:57374 Closing
+2022-07-05T13:44:29: [Tue Jul  5 13:44:29 2022] 127.0.0.1:57376 Accepted
+2022-07-05T13:44:29: [Tue Jul  5 13:44:29 2022] 127.0.0.1:57376 [200]: GET /plugins/summernote/summernote-bs4.min.css
+2022-07-05T13:44:29: [Tue Jul  5 13:44:29 2022] 127.0.0.1:57376 Closing
+2022-07-05T13:44:29: [Tue Jul  5 13:44:29 2022] 127.0.0.1:57378 Accepted
+2022-07-05T13:44:29: [Tue Jul  5 13:44:29 2022] 127.0.0.1:57378 [200]: GET /plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js
+2022-07-05T13:44:29: [Tue Jul  5 13:44:29 2022] 127.0.0.1:57378 Closing
+2022-07-05T13:44:29: [Tue Jul  5 13:44:29 2022] 127.0.0.1:57380 Accepted
+2022-07-05T13:44:29: [Tue Jul  5 13:44:29 2022] 127.0.0.1:57380 [200]: GET /plugins/jquery/jquery.min.js
+2022-07-05T13:44:29: [Tue Jul  5 13:44:29 2022] 127.0.0.1:57380 Closing
+2022-07-05T13:44:29: [Tue Jul  5 13:44:29 2022] 127.0.0.1:57382 Accepted
+2022-07-05T13:44:29: [Tue Jul  5 13:44:29 2022] 127.0.0.1:57382 [200]: GET /dist/js/adminlte.js
+2022-07-05T13:44:29: [Tue Jul  5 13:44:29 2022] 127.0.0.1:57382 Closing
+2022-07-05T13:44:29: [Tue Jul  5 13:44:29 2022] 127.0.0.1:57384 Accepted
+2022-07-05T13:44:29: [Tue Jul  5 13:44:29 2022] 127.0.0.1:57384 [200]: GET /assets/images/logo/app-logo.png
+2022-07-05T13:44:29: [Tue Jul  5 13:44:29 2022] 127.0.0.1:57384 Closing
+2022-07-05T13:44:37: Starting Laravel development server: http://127.0.0.1:8000
+2022-07-05T13:44:37: [Tue Jul  5 13:44:37 2022] PHP 8.0.20 Development Server (http://127.0.0.1:8000) started
+2022-07-05T13:46:00: Starting Laravel development server: http://127.0.0.1:8000
+2022-07-05T13:46:00: [Tue Jul  5 13:46:00 2022] PHP 8.0.20 Development Server (http://127.0.0.1:8000) started
+2022-07-05T13:46:06: Starting Laravel development server: http://127.0.0.1:8000
+2022-07-05T13:46:07: [Tue Jul  5 13:46:07 2022] PHP 8.0.20 Development Server (http://127.0.0.1:8000) started
+2022-07-05T13:50:17: Starting Laravel development server: http://127.0.0.1:8000
+2022-07-05T13:50:18: [Tue Jul  5 13:50:17 2022] PHP 8.0.20 Development Server (http://127.0.0.1:8000) started
+2022-07-05T13:51:02: [Tue Jul  5 13:51:02 2022] 127.0.0.1:57406 Accepted
+2022-07-05T13:51:03: Starting Laravel development server: http://127.0.0.1:8000
+2022-07-05T13:51:03: [Tue Jul  5 13:51:03 2022] PHP 8.0.20 Development Server (http://127.0.0.1:8000) started
+2022-07-05T13:51:03: [Tue Jul  5 13:51:03 2022] 127.0.0.1:57410 Accepted
+2022-07-05T13:51:03: [Tue Jul  5 13:51:03 2022] 127.0.0.1:57410 [200]: GET /plugins/fontawesome-free/css/all.min.css
+2022-07-05T13:51:03: [Tue Jul  5 13:51:03 2022] 127.0.0.1:57410 Closing
+2022-07-05T13:51:03: [Tue Jul  5 13:51:03 2022] 127.0.0.1:57412 Accepted
+2022-07-05T13:51:03: [Tue Jul  5 13:51:03 2022] 127.0.0.1:57412 [200]: GET /plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css
+2022-07-05T13:51:03: [Tue Jul  5 13:51:03 2022] 127.0.0.1:57412 Closing
+2022-07-05T13:51:03: [Tue Jul  5 13:51:03 2022] 127.0.0.1:57414 Accepted
+2022-07-05T13:51:03: [Tue Jul  5 13:51:03 2022] 127.0.0.1:57414 [200]: GET /plugins/jqvmap/jqvmap.min.css
+2022-07-05T13:51:03: [Tue Jul  5 13:51:03 2022] 127.0.0.1:57414 Closing
+2022-07-05T13:51:03: [Tue Jul  5 13:51:03 2022] 127.0.0.1:57416 Accepted
+2022-07-05T13:51:03: [Tue Jul  5 13:51:03 2022] 127.0.0.1:57416 [200]: GET /plugins/icheck-bootstrap/icheck-bootstrap.min.css
+2022-07-05T13:51:03: [Tue Jul  5 13:51:03 2022] 127.0.0.1:57416 Closing
+2022-07-05T13:51:04: [Tue Jul  5 13:51:03 2022] 127.0.0.1:57418 Accepted
+2022-07-05T13:51:04: [Tue Jul  5 13:51:03 2022] 127.0.0.1:57418 [200]: GET /plugins/overlayScrollbars/css/OverlayScrollbars.min.css
+2022-07-05T13:51:04: [Tue Jul  5 13:51:03 2022] 127.0.0.1:57418 Closing
+2022-07-05T13:51:04: [Tue Jul  5 13:51:03 2022] 127.0.0.1:57420 Accepted
+2022-07-05T13:51:04: [Tue Jul  5 13:51:03 2022] 127.0.0.1:57420 [200]: GET /dist/css/adminlte.min.css
+2022-07-05T13:51:04: [Tue Jul  5 13:51:03 2022] 127.0.0.1:57420 Closing
+2022-07-05T13:51:04: [Tue Jul  5 13:51:03 2022] 127.0.0.1:57422 Accepted
+2022-07-05T13:51:04: [Tue Jul  5 13:51:03 2022] 127.0.0.1:57422 [200]: GET /plugins/jquery-ui/jquery-ui.min.js
+2022-07-05T13:51:04: [Tue Jul  5 13:51:03 2022] 127.0.0.1:57422 Closing
+2022-07-05T13:51:04: [Tue Jul  5 13:51:03 2022] 127.0.0.1:57424 Accepted
+2022-07-05T13:51:04: [Tue Jul  5 13:51:03 2022] 127.0.0.1:57424 [200]: GET /plugins/jquery/jquery.min.js
+2022-07-05T13:51:04: [Tue Jul  5 13:51:03 2022] 127.0.0.1:57424 Closing
+2022-07-05T13:51:04: [Tue Jul  5 13:51:03 2022] 127.0.0.1:57426 Accepted
+2022-07-05T13:51:04: [Tue Jul  5 13:51:03 2022] 127.0.0.1:57426 [200]: GET /plugins/bootstrap/js/bootstrap.bundle.min.js
+2022-07-05T13:51:04: [Tue Jul  5 13:51:03 2022] 127.0.0.1:57426 Closing
+2022-07-05T13:51:04: [Tue Jul  5 13:51:04 2022] 127.0.0.1:57428 Accepted
+2022-07-05T13:51:04: [Tue Jul  5 13:51:04 2022] 127.0.0.1:57428 [200]: GET /plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js
+2022-07-05T13:51:04: [Tue Jul  5 13:51:04 2022] 127.0.0.1:57428 Closing
+2022-07-05T13:51:04: [Tue Jul  5 13:51:04 2022] 127.0.0.1:57430 Accepted
+2022-07-05T13:51:04: [Tue Jul  5 13:51:04 2022] 127.0.0.1:57430 [200]: GET /dist/js/adminlte.js
+2022-07-05T13:51:04: [Tue Jul  5 13:51:04 2022] 127.0.0.1:57430 Closing
+2022-07-05T13:51:04: [Tue Jul  5 13:51:04 2022] 127.0.0.1:57432 Accepted
+2022-07-05T13:51:04: [Tue Jul  5 13:51:04 2022] 127.0.0.1:57432 [200]: GET /plugins/daterangepicker/daterangepicker.css
+2022-07-05T13:51:04: [Tue Jul  5 13:51:04 2022] 127.0.0.1:57432 Closing
+2022-07-05T13:51:04: [Tue Jul  5 13:51:04 2022] 127.0.0.1:57434 Accepted
+2022-07-05T13:51:04: [Tue Jul  5 13:51:04 2022] 127.0.0.1:57434 [200]: GET /plugins/summernote/summernote-bs4.min.css
+2022-07-05T13:51:04: [Tue Jul  5 13:51:04 2022] 127.0.0.1:57434 Closing
+2022-07-05T13:51:07: [Tue Jul  5 13:51:06 2022] 127.0.0.1:57436 Accepted
+2022-07-05T13:51:07: [Tue Jul  5 13:51:06 2022] 127.0.0.1:57436 [200]: GET /assets/images/logo/app-logo.png
+2022-07-05T13:51:07: [Tue Jul  5 13:51:06 2022] 127.0.0.1:57436 Closing
+2022-07-05T13:51:07: [Tue Jul  5 13:51:06 2022] 127.0.0.1:57438 Accepted
+2022-07-05T13:51:07: [Tue Jul  5 13:51:06 2022] 127.0.0.1:57438 [200]: GET /plugins/fontawesome-free/webfonts/fa-solid-900.woff2
+2022-07-05T13:51:07: [Tue Jul  5 13:51:06 2022] 127.0.0.1:57438 Closing
+2022-07-05T13:51:07: Starting Laravel development server: http://127.0.0.1:8000
+2022-07-05T13:51:08: [Tue Jul  5 13:51:07 2022] PHP 8.0.20 Development Server (http://127.0.0.1:8000) started
+2022-07-05T13:51:10: [Tue Jul  5 13:51:10 2022] 127.0.0.1:57440 Accepted
+2022-07-05T13:51:11: Starting Laravel development server: http://127.0.0.1:8000
+2022-07-05T13:51:11: [Tue Jul  5 13:51:11 2022] PHP 8.0.20 Development Server (http://127.0.0.1:8000) started
+2022-07-05T13:51:11: [Tue Jul  5 13:51:11 2022] 127.0.0.1:57444 Accepted
+2022-07-05T13:51:11: [Tue Jul  5 13:51:11 2022] 127.0.0.1:57446 Accepted
+2022-07-05T13:51:11: [Tue Jul  5 13:51:11 2022] 127.0.0.1:57444 [200]: GET /plugins/daterangepicker/daterangepicker.css
+2022-07-05T13:51:11: [Tue Jul  5 13:51:11 2022] 127.0.0.1:57446 [200]: GET /plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css
+2022-07-05T13:51:11: [Tue Jul  5 13:51:11 2022] 127.0.0.1:57444 Closing
+2022-07-05T13:51:11: [Tue Jul  5 13:51:11 2022] 127.0.0.1:57446 Closing
+2022-07-05T13:51:11: [Tue Jul  5 13:51:11 2022] 127.0.0.1:57448 Accepted
+2022-07-05T13:51:11: [Tue Jul  5 13:51:11 2022] 127.0.0.1:57448 [200]: GET /dist/css/adminlte.min.css
+2022-07-05T13:51:11: [Tue Jul  5 13:51:11 2022] 127.0.0.1:57450 Accepted
+2022-07-05T13:51:11: [Tue Jul  5 13:51:11 2022] 127.0.0.1:57450 [200]: GET /plugins/icheck-bootstrap/icheck-bootstrap.min.css
+2022-07-05T13:51:11: [Tue Jul  5 13:51:11 2022] 127.0.0.1:57450 Closing
+2022-07-05T13:51:11: [Tue Jul  5 13:51:11 2022] 127.0.0.1:57448 Closing
+2022-07-05T13:51:11: [Tue Jul  5 13:51:11 2022] 127.0.0.1:57452 Accepted
+2022-07-05T13:51:11: [Tue Jul  5 13:51:11 2022] 127.0.0.1:57452 [200]: GET /plugins/jqvmap/jqvmap.min.css
+2022-07-05T13:51:11: [Tue Jul  5 13:51:11 2022] 127.0.0.1:57452 Closing
+2022-07-05T13:51:11: [Tue Jul  5 13:51:11 2022] 127.0.0.1:57454 Accepted
+2022-07-05T13:51:11: [Tue Jul  5 13:51:11 2022] 127.0.0.1:57454 [200]: GET /plugins/fontawesome-free/css/all.min.css
+2022-07-05T13:51:11: [Tue Jul  5 13:51:11 2022] 127.0.0.1:57454 Closing
+2022-07-05T13:51:11: [Tue Jul  5 13:51:11 2022] 127.0.0.1:57456 Accepted
+2022-07-05T13:51:11: [Tue Jul  5 13:51:11 2022] 127.0.0.1:57456 [200]: GET /plugins/overlayScrollbars/css/OverlayScrollbars.min.css
+2022-07-05T13:51:11: [Tue Jul  5 13:51:11 2022] 127.0.0.1:57456 Closing
+2022-07-05T13:51:12: [Tue Jul  5 13:51:11 2022] 127.0.0.1:57458 Accepted
+2022-07-05T13:51:12: [Tue Jul  5 13:51:11 2022] 127.0.0.1:57458 [200]: GET /plugins/summernote/summernote-bs4.min.css
+2022-07-05T13:51:12: [Tue Jul  5 13:51:11 2022] 127.0.0.1:57458 Closing
+2022-07-05T13:51:12: [Tue Jul  5 13:51:11 2022] 127.0.0.1:57460 Accepted
+2022-07-05T13:51:12: [Tue Jul  5 13:51:11 2022] 127.0.0.1:57460 [200]: GET /plugins/jquery-ui/jquery-ui.min.js
+2022-07-05T13:51:12: [Tue Jul  5 13:51:11 2022] 127.0.0.1:57460 Closing
+2022-07-05T13:51:12: [Tue Jul  5 13:51:11 2022] 127.0.0.1:57462 Accepted
+2022-07-05T13:51:12: [Tue Jul  5 13:51:11 2022] 127.0.0.1:57462 [200]: GET /plugins/jquery/jquery.min.js
+2022-07-05T13:51:12: [Tue Jul  5 13:51:11 2022] 127.0.0.1:57462 Closing
+2022-07-05T13:51:12: [Tue Jul  5 13:51:11 2022] 127.0.0.1:57464 Accepted
+2022-07-05T13:51:12: [Tue Jul  5 13:51:11 2022] 127.0.0.1:57464 [200]: GET /plugins/bootstrap/js/bootstrap.bundle.min.js
+2022-07-05T13:51:12: [Tue Jul  5 13:51:11 2022] 127.0.0.1:57464 Closing
+2022-07-05T13:51:12: [Tue Jul  5 13:51:12 2022] 127.0.0.1:57466 Accepted
+2022-07-05T13:51:12: [Tue Jul  5 13:51:12 2022] 127.0.0.1:57466 [200]: GET /plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js
+2022-07-05T13:51:12: [Tue Jul  5 13:51:12 2022] 127.0.0.1:57466 Closing
+2022-07-05T13:51:12: [Tue Jul  5 13:51:12 2022] 127.0.0.1:57468 Accepted
+2022-07-05T13:51:12: [Tue Jul  5 13:51:12 2022] 127.0.0.1:57468 [200]: GET /dist/js/adminlte.js
+2022-07-05T13:51:12: [Tue Jul  5 13:51:12 2022] 127.0.0.1:57468 Closing
+2022-07-05T13:51:19: [Tue Jul  5 13:51:19 2022] 127.0.0.1:57470 Accepted
+2022-07-05T13:51:19: [Tue Jul  5 13:51:19 2022] 127.0.0.1:57470 [200]: GET /assets/images/logo/app-logo.png
+2022-07-05T13:51:19: [Tue Jul  5 13:51:19 2022] 127.0.0.1:57470 Closing
+2022-07-05T13:51:19: Starting Laravel development server: http://127.0.0.1:8000
+2022-07-05T13:51:19: [Tue Jul  5 13:51:19 2022] PHP 8.0.20 Development Server (http://127.0.0.1:8000) started
+2022-07-05T13:51:31: Starting Laravel development server: http://127.0.0.1:8000
+2022-07-05T13:51:32: [Tue Jul  5 13:51:31 2022] PHP 8.0.20 Development Server (http://127.0.0.1:8000) started
+2022-07-05T13:51:32: [Tue Jul  5 13:51:31 2022] 127.0.0.1:57488 Accepted
+2022-07-05T13:51:32: [Tue Jul  5 13:51:31 2022] 127.0.0.1:57488 [200]: GET /plugins/jquery/jquery.min.js
+2022-07-05T13:51:32: [Tue Jul  5 13:51:31 2022] 127.0.0.1:57488 Closing
+2022-07-05T13:51:32: [Tue Jul  5 13:51:31 2022] 127.0.0.1:57490 Accepted
+2022-07-05T13:51:32: [Tue Jul  5 13:51:31 2022] 127.0.0.1:57490 [200]: GET /plugins/summernote/summernote-bs4.min.css
+2022-07-05T13:51:32: [Tue Jul  5 13:51:31 2022] 127.0.0.1:57490 Closing
+2022-07-05T13:51:32: [Tue Jul  5 13:51:31 2022] 127.0.0.1:57492 Accepted
+2022-07-05T13:51:32: [Tue Jul  5 13:51:31 2022] 127.0.0.1:57492 [200]: GET /plugins/bootstrap/js/bootstrap.bundle.min.js
+2022-07-05T13:51:32: [Tue Jul  5 13:51:31 2022] 127.0.0.1:57492 Closing
+2022-07-05T13:51:32: [Tue Jul  5 13:51:31 2022] 127.0.0.1:57494 Accepted
+2022-07-05T13:51:32: [Tue Jul  5 13:51:31 2022] 127.0.0.1:57494 [200]: GET /plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js
+2022-07-05T13:51:32: [Tue Jul  5 13:51:31 2022] 127.0.0.1:57494 Closing
+2022-07-05T13:51:32: [Tue Jul  5 13:51:31 2022] 127.0.0.1:57496 Accepted
+2022-07-05T13:51:32: [Tue Jul  5 13:51:31 2022] 127.0.0.1:57496 [200]: GET /plugins/daterangepicker/daterangepicker.css
+2022-07-05T13:51:32: [Tue Jul  5 13:51:31 2022] 127.0.0.1:57496 Closing
+2022-07-05T13:51:32: [Tue Jul  5 13:51:31 2022] 127.0.0.1:57498 Accepted
+2022-07-05T13:51:32: [Tue Jul  5 13:51:31 2022] 127.0.0.1:57498 [200]: GET /plugins/jquery-ui/jquery-ui.min.js
+2022-07-05T13:51:32: [Tue Jul  5 13:51:31 2022] 127.0.0.1:57498 Closing
+2022-07-05T13:51:32: [Tue Jul  5 13:51:32 2022] 127.0.0.1:57500 Accepted
+2022-07-05T13:51:32: [Tue Jul  5 13:51:32 2022] 127.0.0.1:57500 [200]: GET /dist/js/adminlte.js
+2022-07-05T13:51:32: [Tue Jul  5 13:51:32 2022] 127.0.0.1:57500 Closing
+2022-07-05T13:51:32: [Tue Jul  5 13:51:32 2022] 127.0.0.1:57502 Accepted
+2022-07-05T13:51:32: [Tue Jul  5 13:51:32 2022] 127.0.0.1:57502 [200]: GET /assets/images/logo/app-logo.png
+2022-07-05T13:51:32: [Tue Jul  5 13:51:32 2022] 127.0.0.1:57502 Closing
+2022-07-05T13:51:35: [Tue Jul  5 13:51:35 2022] 127.0.0.1:57504 Accepted
+2022-07-05T13:51:35: Starting Laravel development server: http://127.0.0.1:8000
+2022-07-05T13:51:36: [Tue Jul  5 13:51:35 2022] PHP 8.0.20 Development Server (http://127.0.0.1:8000) started
+2022-07-05T13:51:36: [Tue Jul  5 13:51:36 2022] 127.0.0.1:57520 Accepted
+2022-07-05T13:51:36: [Tue Jul  5 13:51:36 2022] 127.0.0.1:57522 Accepted
+2022-07-05T13:51:36: [Tue Jul  5 13:51:36 2022] 127.0.0.1:57520 [200]: GET /plugins/jquery/jquery.min.js
+2022-07-05T13:51:36: [Tue Jul  5 13:51:36 2022] 127.0.0.1:57522 [200]: GET /plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js
+2022-07-05T13:51:36: [Tue Jul  5 13:51:36 2022] 127.0.0.1:57524 Accepted
+2022-07-05T13:51:36: [Tue Jul  5 13:51:36 2022] 127.0.0.1:57520 Closing
+2022-07-05T13:51:36: [Tue Jul  5 13:51:36 2022] 127.0.0.1:57524 [200]: GET /plugins/summernote/summernote-bs4.min.css
+2022-07-05T13:51:36: [Tue Jul  5 13:51:36 2022] 127.0.0.1:57522 Closing
+2022-07-05T13:51:36: [Tue Jul  5 13:51:36 2022] 127.0.0.1:57524 Closing
+2022-07-05T13:51:36: [Tue Jul  5 13:51:36 2022] 127.0.0.1:57526 Accepted
+2022-07-05T13:51:36: [Tue Jul  5 13:51:36 2022] 127.0.0.1:57526 [200]: GET /plugins/bootstrap/js/bootstrap.bundle.min.js
+2022-07-05T13:51:36: [Tue Jul  5 13:51:36 2022] 127.0.0.1:57526 Closing
+2022-07-05T13:51:36: [Tue Jul  5 13:51:36 2022] 127.0.0.1:57528 Accepted
+2022-07-05T13:51:36: [Tue Jul  5 13:51:36 2022] 127.0.0.1:57528 [200]: GET /plugins/daterangepicker/daterangepicker.css
+2022-07-05T13:51:36: [Tue Jul  5 13:51:36 2022] 127.0.0.1:57528 Closing
+2022-07-05T13:51:36: [Tue Jul  5 13:51:36 2022] 127.0.0.1:57530 Accepted
+2022-07-05T13:51:36: [Tue Jul  5 13:51:36 2022] 127.0.0.1:57530 [200]: GET /plugins/jquery-ui/jquery-ui.min.js
+2022-07-05T13:51:36: [Tue Jul  5 13:51:36 2022] 127.0.0.1:57530 Closing
+2022-07-05T13:51:36: [Tue Jul  5 13:51:36 2022] 127.0.0.1:57532 Accepted
+2022-07-05T13:51:36: [Tue Jul  5 13:51:36 2022] 127.0.0.1:57532 [200]: GET /dist/js/adminlte.js
+2022-07-05T13:51:36: [Tue Jul  5 13:51:36 2022] 127.0.0.1:57532 Closing
+2022-07-05T13:51:36: [Tue Jul  5 13:51:36 2022] 127.0.0.1:57534 Accepted
+2022-07-05T13:51:36: [Tue Jul  5 13:51:36 2022] 127.0.0.1:57534 [200]: GET /assets/images/logo/app-logo.png
+2022-07-05T13:51:36: [Tue Jul  5 13:51:36 2022] 127.0.0.1:57534 Closing
+2022-07-05T13:51:46: [Tue Jul  5 13:51:46 2022] 127.0.0.1:57536 Accepted
+2022-07-05T13:51:47: Starting Laravel development server: http://127.0.0.1:8000
+2022-07-05T13:51:47: [Tue Jul  5 13:51:47 2022] PHP 8.0.20 Development Server (http://127.0.0.1:8000) started
+2022-07-05T14:14:11: Starting Laravel development server: http://127.0.0.1:8000
+2022-07-05T14:14:11: [Tue Jul  5 14:14:11 2022] PHP 8.0.20 Development Server (http://127.0.0.1:8000) started
+2022-07-05T14:14:42: [Tue Jul  5 14:14:42 2022] 127.0.0.1:57638 Accepted
+2022-07-05T14:14:42: [Tue Jul  5 14:14:42 2022] 127.0.0.1:57638 Closing
+2022-07-05T14:14:43: [Tue Jul  5 14:14:42 2022] 127.0.0.1:57640 Accepted
+2022-07-05T14:14:43: [Tue Jul  5 14:14:42 2022] 127.0.0.1:57640 Closing
+2022-07-05T14:14:43: [Tue Jul  5 14:14:43 2022] 127.0.0.1:57642 Accepted
+2022-07-05T14:14:43: [Tue Jul  5 14:14:43 2022] 127.0.0.1:57642 [200]: GET /assets/css/fontawesome.css
+2022-07-05T14:14:43: [Tue Jul  5 14:14:43 2022] 127.0.0.1:57642 Closing
+2022-07-05T14:14:43: [Tue Jul  5 14:14:43 2022] 127.0.0.1:57644 Accepted
+2022-07-05T14:14:43: [Tue Jul  5 14:14:43 2022] 127.0.0.1:57644 [200]: GET /assets/css/icofont.css
+2022-07-05T14:14:43: [Tue Jul  5 14:14:43 2022] 127.0.0.1:57644 Closing
+2022-07-05T14:14:43: [Tue Jul  5 14:14:43 2022] 127.0.0.1:57646 Accepted
+2022-07-05T14:14:43: [Tue Jul  5 14:14:43 2022] 127.0.0.1:57646 [200]: GET /assets/css/flag-icon.css
+2022-07-05T14:14:43: [Tue Jul  5 14:14:43 2022] 127.0.0.1:57646 Closing
+2022-07-05T14:14:43: [Tue Jul  5 14:14:43 2022] 127.0.0.1:57648 Accepted
+2022-07-05T14:14:43: [Tue Jul  5 14:14:43 2022] 127.0.0.1:57648 [200]: GET /assets/css/feather-icon.css
+2022-07-05T14:14:43: [Tue Jul  5 14:14:43 2022] 127.0.0.1:57648 Closing
+2022-07-05T14:14:43: [Tue Jul  5 14:14:43 2022] 127.0.0.1:57650 Accepted
+2022-07-05T14:14:43: [Tue Jul  5 14:14:43 2022] 127.0.0.1:57650 [200]: GET /assets/css/themify.css
+2022-07-05T14:14:43: [Tue Jul  5 14:14:43 2022] 127.0.0.1:57650 Closing
+2022-07-05T14:14:44: [Tue Jul  5 14:14:43 2022] 127.0.0.1:57652 Accepted
+2022-07-05T14:14:44: [Tue Jul  5 14:14:43 2022] 127.0.0.1:57652 [200]: GET /assets/css/bootstrap.css
+2022-07-05T14:14:44: [Tue Jul  5 14:14:43 2022] 127.0.0.1:57652 Closing
+2022-07-05T14:14:44: [Tue Jul  5 14:14:44 2022] 127.0.0.1:57654 Accepted
+2022-07-05T14:14:44: [Tue Jul  5 14:14:44 2022] 127.0.0.1:57654 [200]: GET /assets/css/style.css
+2022-07-05T14:14:44: [Tue Jul  5 14:14:44 2022] 127.0.0.1:57654 Closing
+2022-07-05T14:14:44: [Tue Jul  5 14:14:44 2022] 127.0.0.1:57656 Accepted
+2022-07-05T14:14:44: [Tue Jul  5 14:14:44 2022] 127.0.0.1:57656 [200]: GET /assets/css/color-1.css
+2022-07-05T14:14:44: [Tue Jul  5 14:14:44 2022] 127.0.0.1:57656 Closing
+2022-07-05T14:14:44: [Tue Jul  5 14:14:44 2022] 127.0.0.1:57658 Accepted
+2022-07-05T14:14:44: [Tue Jul  5 14:14:44 2022] 127.0.0.1:57658 [200]: GET /assets/css/responsive.css
+2022-07-05T14:14:44: [Tue Jul  5 14:14:44 2022] 127.0.0.1:57658 Closing
+2022-07-05T14:14:44: [Tue Jul  5 14:14:44 2022] 127.0.0.1:57660 Accepted
+2022-07-05T14:14:44: [Tue Jul  5 14:14:44 2022] 127.0.0.1:57660 [200]: GET /assets/js/jquery-3.5.1.min.js
+2022-07-05T14:14:44: [Tue Jul  5 14:14:44 2022] 127.0.0.1:57660 Closing
+2022-07-05T14:14:44: [Tue Jul  5 14:14:44 2022] 127.0.0.1:57662 Accepted
+2022-07-05T14:14:44: [Tue Jul  5 14:14:44 2022] 127.0.0.1:57662 [200]: GET /assets/js/icons/feather-icon/feather.min.js
+2022-07-05T14:14:44: [Tue Jul  5 14:14:44 2022] 127.0.0.1:57662 Closing
+2022-07-05T14:14:44: [Tue Jul  5 14:14:44 2022] 127.0.0.1:57664 Accepted
+2022-07-05T14:14:44: [Tue Jul  5 14:14:44 2022] 127.0.0.1:57664 [200]: GET /assets/js/icons/feather-icon/feather-icon.js
+2022-07-05T14:14:44: [Tue Jul  5 14:14:44 2022] 127.0.0.1:57664 Closing
+2022-07-05T14:14:45: [Tue Jul  5 14:14:44 2022] 127.0.0.1:57666 Accepted
+2022-07-05T14:14:45: [Tue Jul  5 14:14:44 2022] 127.0.0.1:57666 [200]: GET /assets/js/sidebar-menu.js
+2022-07-05T14:14:45: [Tue Jul  5 14:14:44 2022] 127.0.0.1:57666 Closing
+2022-07-05T14:14:45: [Tue Jul  5 14:14:44 2022] 127.0.0.1:57668 Accepted
+2022-07-05T14:14:45: [Tue Jul  5 14:14:44 2022] 127.0.0.1:57668 [200]: GET /assets/js/config.js
+2022-07-05T14:14:45: [Tue Jul  5 14:14:44 2022] 127.0.0.1:57668 Closing
+2022-07-05T14:14:45: [Tue Jul  5 14:14:45 2022] 127.0.0.1:57670 Accepted
+2022-07-05T14:14:45: [Tue Jul  5 14:14:45 2022] 127.0.0.1:57670 [200]: GET /assets/js/bootstrap/popper.min.js
+2022-07-05T14:14:45: [Tue Jul  5 14:14:45 2022] 127.0.0.1:57670 Closing
+2022-07-05T14:14:45: [Tue Jul  5 14:14:45 2022] 127.0.0.1:57672 Accepted
+2022-07-05T14:14:45: [Tue Jul  5 14:14:45 2022] 127.0.0.1:57672 [200]: GET /assets/js/bootstrap/bootstrap.min.js
+2022-07-05T14:14:45: [Tue Jul  5 14:14:45 2022] 127.0.0.1:57672 Closing
+2022-07-05T14:14:45: [Tue Jul  5 14:14:45 2022] 127.0.0.1:57674 Accepted
+2022-07-05T14:14:45: [Tue Jul  5 14:14:45 2022] 127.0.0.1:57674 [200]: GET /assets/js/script.js
+2022-07-05T14:14:45: [Tue Jul  5 14:14:45 2022] 127.0.0.1:57674 Closing
+2022-07-05T14:14:48: [Tue Jul  5 14:14:48 2022] 127.0.0.1:57676 Accepted
+2022-07-05T14:14:48: [Tue Jul  5 14:14:48 2022] 127.0.0.1:57676 [200]: GET /assets/images/login/bg-login.png
+2022-07-05T14:14:48: [Tue Jul  5 14:14:48 2022] 127.0.0.1:57676 Closing
+2022-07-05T14:14:48: [Tue Jul  5 14:14:48 2022] 127.0.0.1:57678 Accepted
+2022-07-05T14:14:48: [Tue Jul  5 14:14:48 2022] 127.0.0.1:57678 [200]: GET /assets/fonts/themify/themify.woff?-fvbane
+2022-07-05T14:14:48: [Tue Jul  5 14:14:48 2022] 127.0.0.1:57678 Closing
+2022-07-05T14:14:48: [Tue Jul  5 14:14:48 2022] 127.0.0.1:57680 Accepted
+2022-07-05T14:14:48: [Tue Jul  5 14:14:48 2022] 127.0.0.1:57680 [200]: GET /assets/images/favicon.png
+2022-07-05T14:14:48: [Tue Jul  5 14:14:48 2022] 127.0.0.1:57680 Closing
+2022-07-05T14:15:05: [Tue Jul  5 14:15:05 2022] 127.0.0.1:57682 Accepted
+2022-07-05T14:15:05: [Tue Jul  5 14:15:05 2022] 127.0.0.1:57682 Closing
+2022-07-05T14:15:06: [Tue Jul  5 14:15:05 2022] 127.0.0.1:57684 Accepted
+2022-07-05T14:15:06: [Tue Jul  5 14:15:06 2022] 127.0.0.1:57684 Closing
+2022-07-05T14:15:27: [Tue Jul  5 14:15:27 2022] 127.0.0.1:57714 Accepted
+2022-07-05T14:15:27: [Tue Jul  5 14:15:27 2022] 127.0.0.1:57714 Closing
+2022-07-05T14:15:27: [Tue Jul  5 14:15:27 2022] 127.0.0.1:57716 Accepted
+2022-07-05T14:15:27: [Tue Jul  5 14:15:27 2022] 127.0.0.1:57716 Closing
+2022-07-05T14:24:02: [Tue Jul  5 14:24:01 2022] 127.0.0.1:57768 Accepted
+2022-07-05T14:24:02: [Tue Jul  5 14:24:01 2022] 127.0.0.1:57768 Closing
+2022-07-05T14:24:02: [Tue Jul  5 14:24:02 2022] 127.0.0.1:57770 Accepted
+2022-07-05T14:24:02: [Tue Jul  5 14:24:02 2022] 127.0.0.1:57770 Closing
+2022-07-05T14:24:03: [Tue Jul  5 14:24:02 2022] 127.0.0.1:57774 Accepted
+2022-07-05T14:24:03: [Tue Jul  5 14:24:02 2022] 127.0.0.1:57774 Closing
+2022-07-05T14:24:03: [Tue Jul  5 14:24:02 2022] 127.0.0.1:57776 Accepted
+2022-07-05T14:24:03: [Tue Jul  5 14:24:02 2022] 127.0.0.1:57776 Closing
+2022-07-05T14:25:29: [Tue Jul  5 14:25:28 2022] 127.0.0.1:57806 Accepted
+2022-07-05T14:25:29: [Tue Jul  5 14:25:28 2022] 127.0.0.1:57806 Closing
+2022-07-05T14:25:37: [Tue Jul  5 14:25:37 2022] 127.0.0.1:57808 Accepted
+2022-07-05T14:25:37: [Tue Jul  5 14:25:37 2022] 127.0.0.1:57808 Closing
+2022-07-05T14:26:18: [Tue Jul  5 14:26:17 2022] 127.0.0.1:57810 Accepted
+2022-07-05T14:26:18: [Tue Jul  5 14:26:18 2022] 127.0.0.1:57810 Closing
+2022-07-05T14:28:46: Starting Laravel development server: http://127.0.0.1:8000
+2022-07-05T14:28:46: [Tue Jul  5 14:28:46 2022] PHP 8.0.20 Development Server (http://127.0.0.1:8000) started
+2022-07-05T14:31:58: [Tue Jul  5 14:31:57 2022] 127.0.0.1:57842 Accepted
+2022-07-05T14:31:58: [Tue Jul  5 14:31:58 2022] 127.0.0.1:57842 Closing
+2022-07-05T14:31:58: [Tue Jul  5 14:31:58 2022] 127.0.0.1:57844 Accepted
+2022-07-05T14:31:58: [Tue Jul  5 14:31:58 2022] 127.0.0.1:57844 Closing
+2022-07-05T14:31:59: [Tue Jul  5 14:31:58 2022] 127.0.0.1:57846 Accepted
+2022-07-05T14:31:59: [Tue Jul  5 14:31:58 2022] 127.0.0.1:57846 [200]: GET /assets/css/fontawesome.css
+2022-07-05T14:31:59: [Tue Jul  5 14:31:58 2022] 127.0.0.1:57846 Closing
+2022-07-05T14:31:59: [Tue Jul  5 14:31:59 2022] 127.0.0.1:57848 Accepted
+2022-07-05T14:31:59: [Tue Jul  5 14:31:59 2022] 127.0.0.1:57848 [200]: GET /assets/css/icofont.css
+2022-07-05T14:31:59: [Tue Jul  5 14:31:59 2022] 127.0.0.1:57848 Closing
+2022-07-05T14:31:59: [Tue Jul  5 14:31:59 2022] 127.0.0.1:57850 Accepted
+2022-07-05T14:31:59: [Tue Jul  5 14:31:59 2022] 127.0.0.1:57850 [200]: GET /assets/css/themify.css
+2022-07-05T14:31:59: [Tue Jul  5 14:31:59 2022] 127.0.0.1:57850 Closing
+2022-07-05T14:31:59: [Tue Jul  5 14:31:59 2022] 127.0.0.1:57852 Accepted
+2022-07-05T14:31:59: [Tue Jul  5 14:31:59 2022] 127.0.0.1:57852 [200]: GET /assets/css/color-1.css
+2022-07-05T14:31:59: [Tue Jul  5 14:31:59 2022] 127.0.0.1:57852 Closing
+2022-07-05T14:31:59: [Tue Jul  5 14:31:59 2022] 127.0.0.1:57854 Accepted
+2022-07-05T14:31:59: [Tue Jul  5 14:31:59 2022] 127.0.0.1:57854 [200]: GET /assets/css/responsive.css
+2022-07-05T14:31:59: [Tue Jul  5 14:31:59 2022] 127.0.0.1:57854 Closing
+2022-07-05T14:31:59: [Tue Jul  5 14:31:59 2022] 127.0.0.1:57856 Accepted
+2022-07-05T14:31:59: [Tue Jul  5 14:31:59 2022] 127.0.0.1:57856 [200]: GET /assets/css/flag-icon.css
+2022-07-05T14:31:59: [Tue Jul  5 14:31:59 2022] 127.0.0.1:57856 Closing
+2022-07-05T14:31:59: [Tue Jul  5 14:31:59 2022] 127.0.0.1:57858 Accepted
+2022-07-05T14:31:59: [Tue Jul  5 14:31:59 2022] 127.0.0.1:57858 [200]: GET /assets/js/jquery-3.5.1.min.js
+2022-07-05T14:31:59: [Tue Jul  5 14:31:59 2022] 127.0.0.1:57858 Closing
+2022-07-05T14:31:59: [Tue Jul  5 14:31:59 2022] 127.0.0.1:57860 Accepted
+2022-07-05T14:31:59: [Tue Jul  5 14:31:59 2022] 127.0.0.1:57860 [200]: GET /assets/css/feather-icon.css
+2022-07-05T14:31:59: [Tue Jul  5 14:31:59 2022] 127.0.0.1:57860 Closing
+2022-07-05T14:32:00: [Tue Jul  5 14:31:59 2022] 127.0.0.1:57862 Accepted
+2022-07-05T14:32:00: [Tue Jul  5 14:31:59 2022] 127.0.0.1:57862 [200]: GET /assets/js/icons/feather-icon/feather.min.js
+2022-07-05T14:32:00: [Tue Jul  5 14:31:59 2022] 127.0.0.1:57862 Closing
+2022-07-05T14:32:00: [Tue Jul  5 14:32:00 2022] 127.0.0.1:57864 Accepted
+2022-07-05T14:32:00: [Tue Jul  5 14:32:00 2022] 127.0.0.1:57864 [200]: GET /assets/css/bootstrap.css
+2022-07-05T14:32:00: [Tue Jul  5 14:32:00 2022] 127.0.0.1:57864 Closing
+2022-07-05T14:32:00: [Tue Jul  5 14:32:00 2022] 127.0.0.1:57866 Accepted
+2022-07-05T14:32:00: [Tue Jul  5 14:32:00 2022] 127.0.0.1:57866 [200]: GET /assets/js/icons/feather-icon/feather-icon.js
+2022-07-05T14:32:00: [Tue Jul  5 14:32:00 2022] 127.0.0.1:57866 Closing
+2022-07-05T14:32:00: [Tue Jul  5 14:32:00 2022] 127.0.0.1:57868 Accepted
+2022-07-05T14:32:00: [Tue Jul  5 14:32:00 2022] 127.0.0.1:57868 [200]: GET /assets/css/style.css
+2022-07-05T14:32:00: [Tue Jul  5 14:32:00 2022] 127.0.0.1:57868 Closing
+2022-07-05T14:32:01: [Tue Jul  5 14:32:00 2022] 127.0.0.1:57870 Accepted
+2022-07-05T14:32:01: [Tue Jul  5 14:32:00 2022] 127.0.0.1:57872 Accepted
+2022-07-05T14:32:01: [Tue Jul  5 14:32:00 2022] 127.0.0.1:57870 [200]: GET /assets/js/sidebar-menu.js
+2022-07-05T14:32:01: [Tue Jul  5 14:32:00 2022] 127.0.0.1:57872 [200]: GET /assets/js/config.js
+2022-07-05T14:32:01: [Tue Jul  5 14:32:00 2022] 127.0.0.1:57870 Closing
+2022-07-05T14:32:01: [Tue Jul  5 14:32:00 2022] 127.0.0.1:57872 Closing
+2022-07-05T14:32:01: [Tue Jul  5 14:32:01 2022] 127.0.0.1:57874 Accepted
+2022-07-05T14:32:01: [Tue Jul  5 14:32:01 2022] 127.0.0.1:57874 [200]: GET /assets/js/bootstrap/bootstrap.min.js
+2022-07-05T14:32:01: [Tue Jul  5 14:32:01 2022] 127.0.0.1:57874 Closing
+2022-07-05T14:32:01: [Tue Jul  5 14:32:01 2022] 127.0.0.1:57876 Accepted
+2022-07-05T14:32:01: [Tue Jul  5 14:32:01 2022] 127.0.0.1:57876 [200]: GET /assets/js/bootstrap/popper.min.js
+2022-07-05T14:32:01: [Tue Jul  5 14:32:01 2022] 127.0.0.1:57876 Closing
+2022-07-05T14:32:01: [Tue Jul  5 14:32:01 2022] 127.0.0.1:57878 Accepted
+2022-07-05T14:32:01: [Tue Jul  5 14:32:01 2022] 127.0.0.1:57878 [200]: GET /assets/js/script.js
+2022-07-05T14:32:01: [Tue Jul  5 14:32:01 2022] 127.0.0.1:57878 Closing
+2022-07-05T14:32:20: [Tue Jul  5 14:32:19 2022] 127.0.0.1:57880 Accepted
+2022-07-05T14:32:20: [Tue Jul  5 14:32:19 2022] 127.0.0.1:57880 [200]: GET /assets/images/login/bg-login.png
+2022-07-05T14:32:20: [Tue Jul  5 14:32:19 2022] 127.0.0.1:57880 Closing
+2022-07-05T14:32:20: [Tue Jul  5 14:32:19 2022] 127.0.0.1:57882 Accepted
+2022-07-05T14:32:20: [Tue Jul  5 14:32:19 2022] 127.0.0.1:57882 [200]: GET /assets/fonts/themify/themify.woff?-fvbane
+2022-07-05T14:32:20: [Tue Jul  5 14:32:19 2022] 127.0.0.1:57882 Closing
+2022-07-05T14:32:28: [Tue Jul  5 14:32:27 2022] 127.0.0.1:57884 Accepted
+2022-07-05T14:32:28: [Tue Jul  5 14:32:27 2022] 127.0.0.1:57884 Closing
+2022-07-05T14:32:28: [Tue Jul  5 14:32:28 2022] 127.0.0.1:57886 Accepted
+2022-07-05T14:32:28: [Tue Jul  5 14:32:28 2022] 127.0.0.1:57886 [200]: GET /assets/css/icofont.css
+2022-07-05T14:32:28: [Tue Jul  5 14:32:28 2022] 127.0.0.1:57886 Closing
+2022-07-05T14:32:28: [Tue Jul  5 14:32:28 2022] 127.0.0.1:57888 Accepted
+2022-07-05T14:32:28: [Tue Jul  5 14:32:28 2022] 127.0.0.1:57888 [200]: GET /assets/css/style.css
+2022-07-05T14:32:28: [Tue Jul  5 14:32:28 2022] 127.0.0.1:57888 Closing
+2022-07-05T14:32:28: [Tue Jul  5 14:32:28 2022] 127.0.0.1:57890 Accepted
+2022-07-05T14:32:28: [Tue Jul  5 14:32:28 2022] 127.0.0.1:57890 [200]: GET /assets/css/bootstrap.css
+2022-07-05T14:32:28: [Tue Jul  5 14:32:28 2022] 127.0.0.1:57890 Closing
+2022-07-05T14:32:28: [Tue Jul  5 14:32:28 2022] 127.0.0.1:57892 Accepted
+2022-07-05T14:32:28: [Tue Jul  5 14:32:28 2022] 127.0.0.1:57892 [200]: GET /assets/css/feather-icon.css
+2022-07-05T14:32:28: [Tue Jul  5 14:32:28 2022] 127.0.0.1:57892 Closing
+2022-07-05T14:32:28: [Tue Jul  5 14:32:28 2022] 127.0.0.1:57894 Accepted
+2022-07-05T14:32:28: [Tue Jul  5 14:32:28 2022] 127.0.0.1:57894 [200]: GET /assets/css/flag-icon.css
+2022-07-05T14:32:28: [Tue Jul  5 14:32:28 2022] 127.0.0.1:57894 Closing
+2022-07-05T14:32:28: [Tue Jul  5 14:32:28 2022] 127.0.0.1:57896 Accepted
+2022-07-05T14:32:28: [Tue Jul  5 14:32:28 2022] 127.0.0.1:57896 [200]: GET /assets/css/themify.css
+2022-07-05T14:32:28: [Tue Jul  5 14:32:28 2022] 127.0.0.1:57896 Closing
+2022-07-05T14:32:28: [Tue Jul  5 14:32:28 2022] 127.0.0.1:57898 Accepted
+2022-07-05T14:32:28: [Tue Jul  5 14:32:28 2022] 127.0.0.1:57898 [200]: GET /assets/css/color-1.css
+2022-07-05T14:32:28: [Tue Jul  5 14:32:28 2022] 127.0.0.1:57898 Closing
+2022-07-05T14:32:29: [Tue Jul  5 14:32:29 2022] 127.0.0.1:57900 Accepted
+2022-07-05T14:32:29: [Tue Jul  5 14:32:29 2022] 127.0.0.1:57900 [200]: GET /assets/css/fontawesome.css
+2022-07-05T14:32:29: [Tue Jul  5 14:32:29 2022] 127.0.0.1:57900 Closing
+2022-07-05T14:32:29: [Tue Jul  5 14:32:29 2022] 127.0.0.1:57902 Accepted
+2022-07-05T14:32:29: [Tue Jul  5 14:32:29 2022] 127.0.0.1:57902 [200]: GET /assets/css/responsive.css
+2022-07-05T14:32:29: [Tue Jul  5 14:32:29 2022] 127.0.0.1:57902 Closing
+2022-07-05T14:32:29: [Tue Jul  5 14:32:29 2022] 127.0.0.1:57904 Accepted
+2022-07-05T14:32:29: [Tue Jul  5 14:32:29 2022] 127.0.0.1:57904 [200]: GET /assets/js/jquery-3.5.1.min.js
+2022-07-05T14:32:29: [Tue Jul  5 14:32:29 2022] 127.0.0.1:57904 Closing
+2022-07-05T14:32:30: [Tue Jul  5 14:32:30 2022] 127.0.0.1:57906 Accepted
+2022-07-05T14:32:30: [Tue Jul  5 14:32:30 2022] 127.0.0.1:57906 [200]: GET /assets/js/icons/feather-icon/feather-icon.js
+2022-07-05T14:32:30: [Tue Jul  5 14:32:30 2022] 127.0.0.1:57906 Closing
+2022-07-05T14:32:30: [Tue Jul  5 14:32:30 2022] 127.0.0.1:57908 Accepted
+2022-07-05T14:32:30: [Tue Jul  5 14:32:30 2022] 127.0.0.1:57908 [200]: GET /assets/js/icons/feather-icon/feather.min.js
+2022-07-05T14:32:30: [Tue Jul  5 14:32:30 2022] 127.0.0.1:57908 Closing
+2022-07-05T14:32:30: [Tue Jul  5 14:32:30 2022] 127.0.0.1:57910 Accepted
+2022-07-05T14:32:30: [Tue Jul  5 14:32:30 2022] 127.0.0.1:57910 [200]: GET /assets/js/sidebar-menu.js
+2022-07-05T14:32:30: [Tue Jul  5 14:32:30 2022] 127.0.0.1:57910 Closing
+2022-07-05T14:32:30: [Tue Jul  5 14:32:30 2022] 127.0.0.1:57912 Accepted
+2022-07-05T14:32:30: [Tue Jul  5 14:32:30 2022] 127.0.0.1:57912 [200]: GET /assets/js/config.js
+2022-07-05T14:32:30: [Tue Jul  5 14:32:30 2022] 127.0.0.1:57912 Closing
+2022-07-05T14:32:31: [Tue Jul  5 14:32:30 2022] 127.0.0.1:57914 Accepted
+2022-07-05T14:32:31: [Tue Jul  5 14:32:30 2022] 127.0.0.1:57914 [200]: GET /assets/js/bootstrap/popper.min.js
+2022-07-05T14:32:31: [Tue Jul  5 14:32:30 2022] 127.0.0.1:57914 Closing
+2022-07-05T14:32:31: [Tue Jul  5 14:32:31 2022] 127.0.0.1:57916 Accepted
+2022-07-05T14:32:31: [Tue Jul  5 14:32:31 2022] 127.0.0.1:57916 [200]: GET /assets/js/bootstrap/bootstrap.min.js
+2022-07-05T14:32:31: [Tue Jul  5 14:32:31 2022] 127.0.0.1:57916 Closing
+2022-07-05T14:32:31: [Tue Jul  5 14:32:31 2022] 127.0.0.1:57918 Accepted
+2022-07-05T14:32:31: [Tue Jul  5 14:32:31 2022] 127.0.0.1:57918 [200]: GET /assets/js/script.js
+2022-07-05T14:32:31: [Tue Jul  5 14:32:31 2022] 127.0.0.1:57918 Closing
+2022-07-05T14:32:43: [Tue Jul  5 14:32:42 2022] 127.0.0.1:57920 Accepted
+2022-07-05T14:32:43: [Tue Jul  5 14:32:42 2022] 127.0.0.1:57920 [200]: GET /assets/images/login/bg-login.png
+2022-07-05T14:32:43: [Tue Jul  5 14:32:42 2022] 127.0.0.1:57920 Closing
+2022-07-05T14:39:02: [Tue Jul  5 14:39:02 2022] 127.0.0.1:57922 Accepted
+2022-07-05T14:39:02: [Tue Jul  5 14:39:02 2022] 127.0.0.1:57922 Closing
+2022-07-05T14:39:03: [Tue Jul  5 14:39:02 2022] 127.0.0.1:57926 Accepted
+2022-07-05T14:39:03: [Tue Jul  5 14:39:03 2022] 127.0.0.1:57926 Closing
+2022-07-05T14:39:03: [Tue Jul  5 14:39:03 2022] 127.0.0.1:57930 Accepted
+2022-07-05T14:39:03: [Tue Jul  5 14:39:03 2022] 127.0.0.1:57930 [200]: GET /plugins/fontawesome-free/css/all.min.css
+2022-07-05T14:39:03: [Tue Jul  5 14:39:03 2022] 127.0.0.1:57930 Closing
+2022-07-05T14:39:03: [Tue Jul  5 14:39:03 2022] 127.0.0.1:57932 Accepted
+2022-07-05T14:39:03: [Tue Jul  5 14:39:03 2022] 127.0.0.1:57932 [200]: GET /dist/css/adminlte.min.css
+2022-07-05T14:39:03: [Tue Jul  5 14:39:03 2022] 127.0.0.1:57932 Closing
+2022-07-05T14:39:03: [Tue Jul  5 14:39:03 2022] 127.0.0.1:57934 Accepted
+2022-07-05T14:39:03: [Tue Jul  5 14:39:03 2022] 127.0.0.1:57934 [200]: GET /plugins/jqvmap/jqvmap.min.css
+2022-07-05T14:39:03: [Tue Jul  5 14:39:03 2022] 127.0.0.1:57934 Closing
+2022-07-05T14:39:03: [Tue Jul  5 14:39:03 2022] 127.0.0.1:57936 Accepted
+2022-07-05T14:39:03: [Tue Jul  5 14:39:03 2022] 127.0.0.1:57936 [200]: GET /plugins/icheck-bootstrap/icheck-bootstrap.min.css
+2022-07-05T14:39:03: [Tue Jul  5 14:39:03 2022] 127.0.0.1:57936 Closing
+2022-07-05T14:39:03: [Tue Jul  5 14:39:03 2022] 127.0.0.1:57938 Accepted
+2022-07-05T14:39:03: [Tue Jul  5 14:39:03 2022] 127.0.0.1:57938 [200]: GET /plugins/overlayScrollbars/css/OverlayScrollbars.min.css
+2022-07-05T14:39:03: [Tue Jul  5 14:39:03 2022] 127.0.0.1:57938 Closing
+2022-07-05T14:39:03: [Tue Jul  5 14:39:03 2022] 127.0.0.1:57940 Accepted
+2022-07-05T14:39:03: [Tue Jul  5 14:39:03 2022] 127.0.0.1:57940 [200]: GET /plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css
+2022-07-05T14:39:03: [Tue Jul  5 14:39:03 2022] 127.0.0.1:57940 Closing
+2022-07-05T14:39:04: [Tue Jul  5 14:39:04 2022] 127.0.0.1:57942 Accepted
+2022-07-05T14:39:04: [Tue Jul  5 14:39:04 2022] 127.0.0.1:57942 [200]: GET /plugins/daterangepicker/daterangepicker.css
+2022-07-05T14:39:04: [Tue Jul  5 14:39:04 2022] 127.0.0.1:57942 Closing
+2022-07-05T14:39:04: [Tue Jul  5 14:39:04 2022] 127.0.0.1:57944 Accepted
+2022-07-05T14:39:04: [Tue Jul  5 14:39:04 2022] 127.0.0.1:57944 [200]: GET /plugins/summernote/summernote-bs4.min.css
+2022-07-05T14:39:04: [Tue Jul  5 14:39:04 2022] 127.0.0.1:57944 Closing
+2022-07-05T14:39:04: [Tue Jul  5 14:39:04 2022] 127.0.0.1:57946 Accepted
+2022-07-05T14:39:04: [Tue Jul  5 14:39:04 2022] 127.0.0.1:57946 [200]: GET /plugins/jquery/jquery.min.js
+2022-07-05T14:39:04: [Tue Jul  5 14:39:04 2022] 127.0.0.1:57946 Closing
+2022-07-05T14:39:04: [Tue Jul  5 14:39:04 2022] 127.0.0.1:57948 Accepted
+2022-07-05T14:39:04: [Tue Jul  5 14:39:04 2022] 127.0.0.1:57948 [200]: GET /plugins/jquery-ui/jquery-ui.min.js
+2022-07-05T14:39:04: [Tue Jul  5 14:39:04 2022] 127.0.0.1:57948 Closing
+2022-07-05T14:39:04: [Tue Jul  5 14:39:04 2022] 127.0.0.1:57950 Accepted
+2022-07-05T14:39:04: [Tue Jul  5 14:39:04 2022] 127.0.0.1:57950 [200]: GET /plugins/bootstrap/js/bootstrap.bundle.min.js
+2022-07-05T14:39:04: [Tue Jul  5 14:39:04 2022] 127.0.0.1:57950 Closing
+2022-07-05T14:39:04: [Tue Jul  5 14:39:04 2022] 127.0.0.1:57952 Accepted
+2022-07-05T14:39:04: [Tue Jul  5 14:39:04 2022] 127.0.0.1:57952 [200]: GET /plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js
+2022-07-05T14:39:04: [Tue Jul  5 14:39:04 2022] 127.0.0.1:57952 Closing
+2022-07-05T14:39:05: [Tue Jul  5 14:39:05 2022] 127.0.0.1:57954 Accepted
+2022-07-05T14:39:05: [Tue Jul  5 14:39:05 2022] 127.0.0.1:57954 [200]: GET /dist/js/adminlte.js
+2022-07-05T14:39:05: [Tue Jul  5 14:39:05 2022] 127.0.0.1:57954 Closing
+2022-07-05T14:39:26: [Tue Jul  5 14:39:26 2022] 127.0.0.1:57956 Accepted
+2022-07-05T14:39:26: [Tue Jul  5 14:39:26 2022] 127.0.0.1:57956 [200]: GET /assets/images/logo/app-logo.png
+2022-07-05T14:39:26: [Tue Jul  5 14:39:26 2022] 127.0.0.1:57956 Closing
+2022-07-05T14:39:26: [Tue Jul  5 14:39:26 2022] 127.0.0.1:57958 Accepted
+2022-07-05T14:39:26: [Tue Jul  5 14:39:26 2022] 127.0.0.1:57958 [200]: GET /plugins/fontawesome-free/webfonts/fa-solid-900.woff2
+2022-07-05T14:39:26: [Tue Jul  5 14:39:26 2022] 127.0.0.1:57958 Closing
+2022-07-06T09:35:50: [Wed Jul  6 09:35:50 2022] 127.0.0.1:58006 Accepted
+2022-07-06T09:35:50: [Wed Jul  6 09:35:50 2022] 127.0.0.1:58006 Closing
+2022-07-06T09:35:55: [Wed Jul  6 09:35:55 2022] 127.0.0.1:58008 Accepted
+2022-07-06T09:35:55: [Wed Jul  6 09:35:55 2022] 127.0.0.1:58008 Closing
+2022-07-06T09:35:55: [Wed Jul  6 09:35:55 2022] 127.0.0.1:58010 Accepted
+2022-07-06T09:35:55: [Wed Jul  6 09:35:55 2022] 127.0.0.1:58010 Closing
+2022-07-06T09:35:56: [Wed Jul  6 09:35:56 2022] 127.0.0.1:58012 Accepted
+2022-07-06T09:35:56: [Wed Jul  6 09:35:56 2022] 127.0.0.1:58012 Closing
+2022-07-06T12:56:18: [Wed Jul  6 12:56:18 2022] 127.0.0.1:58014 Accepted
+2022-07-06T12:56:18: [Wed Jul  6 12:56:18 2022] 127.0.0.1:58014 Closing
+2022-07-06T12:56:23: [Wed Jul  6 12:56:23 2022] 127.0.0.1:58016 Accepted
+2022-07-06T12:56:23: [Wed Jul  6 12:56:23 2022] 127.0.0.1:58016 Closing
+2022-07-06T12:56:23: [Wed Jul  6 12:56:23 2022] 127.0.0.1:58018 Accepted
+2022-07-06T12:56:23: [Wed Jul  6 12:56:23 2022] 127.0.0.1:58018 Closing
+2022-07-06T12:56:27: [Wed Jul  6 12:56:27 2022] 127.0.0.1:58020 Accepted
+2022-07-06T12:56:27: [Wed Jul  6 12:56:27 2022] 127.0.0.1:58020 Closing
+2022-07-06T14:51:18: [Wed Jul  6 14:51:18 2022] 127.0.0.1:58056 Accepted
+2022-07-06T14:51:18: [Wed Jul  6 14:51:18 2022] 127.0.0.1:58056 Closing
+2022-07-06T14:51:19: [Wed Jul  6 14:51:18 2022] 127.0.0.1:58058 Accepted
+2022-07-06T14:51:19: [Wed Jul  6 14:51:18 2022] 127.0.0.1:58058 Closing
+2022-07-07T09:30:30: [Thu Jul  7 09:30:29 2022] 127.0.0.1:58130 Accepted
+2022-07-07T09:30:30: [Thu Jul  7 09:30:29 2022] 127.0.0.1:58130 Closing
+2022-07-07T09:30:30: [Thu Jul  7 09:30:30 2022] 127.0.0.1:58132 Accepted
+2022-07-07T09:30:30: [Thu Jul  7 09:30:30 2022] 127.0.0.1:58132 Closing
+2022-07-07T09:30:31: [Thu Jul  7 09:30:30 2022] 127.0.0.1:58134 Accepted
+2022-07-07T09:30:31: [Thu Jul  7 09:30:30 2022] 127.0.0.1:58134 [200]: GET /assets/css/flag-icon.css
+2022-07-07T09:30:31: [Thu Jul  7 09:30:30 2022] 127.0.0.1:58134 Closing
+2022-07-07T09:30:31: [Thu Jul  7 09:30:30 2022] 127.0.0.1:58136 Accepted
+2022-07-07T09:30:31: [Thu Jul  7 09:30:30 2022] 127.0.0.1:58138 Accepted
+2022-07-07T09:30:31: [Thu Jul  7 09:30:30 2022] 127.0.0.1:58136 [200]: GET /assets/css/fontawesome.css
+2022-07-07T09:30:31: [Thu Jul  7 09:30:30 2022] 127.0.0.1:58138 [200]: GET /assets/css/feather-icon.css
+2022-07-07T09:30:31: [Thu Jul  7 09:30:30 2022] 127.0.0.1:58136 Closing
+2022-07-07T09:30:31: [Thu Jul  7 09:30:30 2022] 127.0.0.1:58138 Closing
+2022-07-07T09:30:31: [Thu Jul  7 09:30:30 2022] 127.0.0.1:58140 Accepted
+2022-07-07T09:30:31: [Thu Jul  7 09:30:30 2022] 127.0.0.1:58142 Accepted
+2022-07-07T09:30:31: [Thu Jul  7 09:30:30 2022] 127.0.0.1:58140 [200]: GET /assets/css/color-1.css
+2022-07-07T09:30:31: [Thu Jul  7 09:30:30 2022] 127.0.0.1:58144 Accepted
+2022-07-07T09:30:31: [Thu Jul  7 09:30:30 2022] 127.0.0.1:58142 [200]: GET /assets/css/bootstrap.css
+2022-07-07T09:30:31: [Thu Jul  7 09:30:30 2022] 127.0.0.1:58140 Closing
+2022-07-07T09:30:31: [Thu Jul  7 09:30:30 2022] 127.0.0.1:58144 [200]: GET /assets/css/themify.css
+2022-07-07T09:30:31: [Thu Jul  7 09:30:30 2022] 127.0.0.1:58142 Closing
+2022-07-07T09:30:31: [Thu Jul  7 09:30:30 2022] 127.0.0.1:58144 Closing
+2022-07-07T09:30:31: [Thu Jul  7 09:30:31 2022] 127.0.0.1:58146 Accepted
+2022-07-07T09:30:31: [Thu Jul  7 09:30:31 2022] 127.0.0.1:58148 Accepted
+2022-07-07T09:30:31: [Thu Jul  7 09:30:31 2022] 127.0.0.1:58146 [200]: GET /assets/css/icofont.css
+2022-07-07T09:30:31: [Thu Jul  7 09:30:31 2022] 127.0.0.1:58148 [200]: GET /assets/css/responsive.css
+2022-07-07T09:30:31: [Thu Jul  7 09:30:31 2022] 127.0.0.1:58146 Closing
+2022-07-07T09:30:31: [Thu Jul  7 09:30:31 2022] 127.0.0.1:58148 Closing
+2022-07-07T09:30:31: [Thu Jul  7 09:30:31 2022] 127.0.0.1:58150 Accepted
+2022-07-07T09:30:31: [Thu Jul  7 09:30:31 2022] 127.0.0.1:58150 [200]: GET /assets/css/style.css
+2022-07-07T09:30:31: [Thu Jul  7 09:30:31 2022] 127.0.0.1:58152 Accepted
+2022-07-07T09:30:31: [Thu Jul  7 09:30:31 2022] 127.0.0.1:58154 Accepted
+2022-07-07T09:30:31: [Thu Jul  7 09:30:31 2022] 127.0.0.1:58152 [200]: GET /assets/js/jquery-3.5.1.min.js
+2022-07-07T09:30:31: [Thu Jul  7 09:30:31 2022] 127.0.0.1:58154 [200]: GET /assets/js/icons/feather-icon/feather.min.js
+2022-07-07T09:30:31: [Thu Jul  7 09:30:31 2022] 127.0.0.1:58150 Closing
+2022-07-07T09:30:31: [Thu Jul  7 09:30:31 2022] 127.0.0.1:58152 Closing
+2022-07-07T09:30:31: [Thu Jul  7 09:30:31 2022] 127.0.0.1:58154 Closing
+2022-07-07T09:30:32: [Thu Jul  7 09:30:32 2022] 127.0.0.1:58156 Accepted
+2022-07-07T09:30:32: [Thu Jul  7 09:30:32 2022] 127.0.0.1:58156 [200]: GET /assets/js/icons/feather-icon/feather-icon.js
+2022-07-07T09:30:32: [Thu Jul  7 09:30:32 2022] 127.0.0.1:58156 Closing
+2022-07-07T09:30:32: [Thu Jul  7 09:30:32 2022] 127.0.0.1:58158 Accepted
+2022-07-07T09:30:32: [Thu Jul  7 09:30:32 2022] 127.0.0.1:58158 [200]: GET /assets/js/sidebar-menu.js
+2022-07-07T09:30:32: [Thu Jul  7 09:30:32 2022] 127.0.0.1:58158 Closing
+2022-07-07T09:30:32: [Thu Jul  7 09:30:32 2022] 127.0.0.1:58160 Accepted
+2022-07-07T09:30:32: [Thu Jul  7 09:30:32 2022] 127.0.0.1:58160 [200]: GET /assets/js/config.js
+2022-07-07T09:30:32: [Thu Jul  7 09:30:32 2022] 127.0.0.1:58160 Closing
+2022-07-07T09:30:33: [Thu Jul  7 09:30:32 2022] 127.0.0.1:58162 Accepted
+2022-07-07T09:30:33: [Thu Jul  7 09:30:32 2022] 127.0.0.1:58162 [200]: GET /assets/js/bootstrap/bootstrap.min.js
+2022-07-07T09:30:33: [Thu Jul  7 09:30:32 2022] 127.0.0.1:58162 Closing
+2022-07-07T09:30:33: [Thu Jul  7 09:30:32 2022] 127.0.0.1:58164 Accepted
+2022-07-07T09:30:33: [Thu Jul  7 09:30:32 2022] 127.0.0.1:58164 [200]: GET /assets/js/script.js
+2022-07-07T09:30:33: [Thu Jul  7 09:30:32 2022] 127.0.0.1:58164 Closing
+2022-07-07T09:30:33: [Thu Jul  7 09:30:32 2022] 127.0.0.1:58166 Accepted
+2022-07-07T09:30:33: [Thu Jul  7 09:30:32 2022] 127.0.0.1:58166 [200]: GET /assets/js/bootstrap/popper.min.js
+2022-07-07T09:30:33: [Thu Jul  7 09:30:32 2022] 127.0.0.1:58166 Closing
+2022-07-07T09:30:35: [Thu Jul  7 09:30:35 2022] 127.0.0.1:58168 Accepted
+2022-07-07T09:30:35: [Thu Jul  7 09:30:35 2022] 127.0.0.1:58168 [200]: GET /assets/images/login/bg-login.png
+2022-07-07T09:30:35: [Thu Jul  7 09:30:35 2022] 127.0.0.1:58168 Closing
+2022-07-07T09:30:36: [Thu Jul  7 09:30:35 2022] 127.0.0.1:58170 Accepted
+2022-07-07T09:30:36: [Thu Jul  7 09:30:35 2022] 127.0.0.1:58170 [200]: GET /assets/fonts/themify/themify.woff?-fvbane
+2022-07-07T09:30:36: [Thu Jul  7 09:30:35 2022] 127.0.0.1:58170 Closing
+2022-07-07T09:30:55: [Thu Jul  7 09:30:54 2022] 127.0.0.1:58172 Accepted
+2022-07-07T09:30:55: [Thu Jul  7 09:30:54 2022] 127.0.0.1:58172 Closing
+2022-07-07T09:31:17: [Thu Jul  7 09:31:16 2022] 127.0.0.1:58184 Accepted
+2022-07-07T09:31:17: [Thu Jul  7 09:31:16 2022] 127.0.0.1:58184 Closing
+2022-07-07T10:01:01: [Thu Jul  7 10:01:01 2022] 127.0.0.1:58190 Accepted
+2022-07-07T10:01:01: [Thu Jul  7 10:01:01 2022] 127.0.0.1:58190 Closing
+2022-07-07T10:01:01: [Thu Jul  7 10:01:01 2022] 127.0.0.1:58192 Accepted
+2022-07-07T10:01:02: [Thu Jul  7 10:01:01 2022] 127.0.0.1:58192 Closing
+2022-07-07T10:01:02: [Thu Jul  7 10:01:01 2022] 127.0.0.1:58196 Accepted
+2022-07-07T10:01:02: [Thu Jul  7 10:01:01 2022] 127.0.0.1:58196 Closing
+2022-07-07T10:01:02: [Thu Jul  7 10:01:02 2022] 127.0.0.1:58198 Accepted
+2022-07-07T10:01:02: [Thu Jul  7 10:01:02 2022] 127.0.0.1:58198 Closing
+2022-07-07T10:05:41: [Thu Jul  7 10:05:41 2022] 127.0.0.1:58202 Accepted
+2022-07-07T10:05:41: [Thu Jul  7 10:05:41 2022] 127.0.0.1:58202 Closing
+2022-07-07T10:05:42: [Thu Jul  7 10:05:41 2022] 127.0.0.1:58204 Accepted
+2022-07-07T10:05:42: [Thu Jul  7 10:05:41 2022] 127.0.0.1:58204 Closing
+2022-07-07T10:05:42: [Thu Jul  7 10:05:42 2022] 127.0.0.1:58208 Accepted
+2022-07-07T10:05:42: [Thu Jul  7 10:05:42 2022] 127.0.0.1:58208 Closing
+2022-07-07T10:05:42: [Thu Jul  7 10:05:42 2022] 127.0.0.1:58210 Accepted
+2022-07-07T10:05:42: [Thu Jul  7 10:05:42 2022] 127.0.0.1:58210 Closing
+2022-07-07T10:09:51: [Thu Jul  7 10:09:51 2022] 127.0.0.1:58214 Accepted
+2022-07-07T10:09:51: [Thu Jul  7 10:09:51 2022] 127.0.0.1:58214 Closing
+2022-07-07T10:09:51: [Thu Jul  7 10:09:51 2022] 127.0.0.1:58216 Accepted
+2022-07-07T10:09:51: [Thu Jul  7 10:09:51 2022] 127.0.0.1:58216 Closing
+2022-07-07T10:10:17: [Thu Jul  7 10:10:16 2022] 127.0.0.1:58220 Accepted
+2022-07-07T10:10:17: [Thu Jul  7 10:10:16 2022] 127.0.0.1:58220 Closing
+2022-07-07T14:40:41: [Thu Jul  7 14:40:41 2022] 127.0.0.1:58230 Accepted
+2022-07-07T14:40:41: [Thu Jul  7 14:40:41 2022] 127.0.0.1:58230 Closing
+2022-07-07T14:40:42: [Thu Jul  7 14:40:42 2022] 127.0.0.1:58232 Accepted
+2022-07-07T14:40:42: [Thu Jul  7 14:40:42 2022] 127.0.0.1:58232 Closing
+2022-07-07T14:40:42: [Thu Jul  7 14:40:42 2022] 127.0.0.1:58234 Accepted
+2022-07-07T14:40:42: [Thu Jul  7 14:40:42 2022] 127.0.0.1:58234 [200]: GET /assets/css/icofont.css
+2022-07-07T14:40:42: [Thu Jul  7 14:40:42 2022] 127.0.0.1:58234 Closing
+2022-07-07T14:40:43: [Thu Jul  7 14:40:42 2022] 127.0.0.1:58236 Accepted
+2022-07-07T14:40:43: [Thu Jul  7 14:40:42 2022] 127.0.0.1:58236 [200]: GET /assets/css/fontawesome.css
+2022-07-07T14:40:43: [Thu Jul  7 14:40:42 2022] 127.0.0.1:58236 Closing
+2022-07-07T14:40:43: [Thu Jul  7 14:40:43 2022] 127.0.0.1:58238 Accepted
+2022-07-07T14:40:43: [Thu Jul  7 14:40:43 2022] 127.0.0.1:58238 [200]: GET /assets/css/bootstrap.css
+2022-07-07T14:40:43: [Thu Jul  7 14:40:43 2022] 127.0.0.1:58238 Closing
+2022-07-07T14:40:43: [Thu Jul  7 14:40:43 2022] 127.0.0.1:58240 Accepted
+2022-07-07T14:40:43: [Thu Jul  7 14:40:43 2022] 127.0.0.1:58240 [200]: GET /assets/css/flag-icon.css
+2022-07-07T14:40:43: [Thu Jul  7 14:40:43 2022] 127.0.0.1:58240 Closing
+2022-07-07T14:40:43: [Thu Jul  7 14:40:43 2022] 127.0.0.1:58242 Accepted
+2022-07-07T14:40:43: [Thu Jul  7 14:40:43 2022] 127.0.0.1:58242 [200]: GET /assets/css/feather-icon.css
+2022-07-07T14:40:43: [Thu Jul  7 14:40:43 2022] 127.0.0.1:58242 Closing
+2022-07-07T14:40:43: [Thu Jul  7 14:40:43 2022] 127.0.0.1:58244 Accepted
+2022-07-07T14:40:43: [Thu Jul  7 14:40:43 2022] 127.0.0.1:58244 [200]: GET /assets/css/themify.css
+2022-07-07T14:40:43: [Thu Jul  7 14:40:43 2022] 127.0.0.1:58244 Closing
+2022-07-07T14:40:43: [Thu Jul  7 14:40:43 2022] 127.0.0.1:58246 Accepted
+2022-07-07T14:40:43: [Thu Jul  7 14:40:43 2022] 127.0.0.1:58246 [200]: GET /assets/css/style.css
+2022-07-07T14:40:43: [Thu Jul  7 14:40:43 2022] 127.0.0.1:58246 Closing
+2022-07-07T14:40:43: [Thu Jul  7 14:40:43 2022] 127.0.0.1:58248 Accepted
+2022-07-07T14:40:43: [Thu Jul  7 14:40:43 2022] 127.0.0.1:58248 [200]: GET /assets/css/color-1.css
+2022-07-07T14:40:43: [Thu Jul  7 14:40:43 2022] 127.0.0.1:58248 Closing
+2022-07-07T14:40:44: [Thu Jul  7 14:40:43 2022] 127.0.0.1:58250 Accepted
+2022-07-07T14:40:44: [Thu Jul  7 14:40:43 2022] 127.0.0.1:58250 [200]: GET /assets/css/responsive.css
+2022-07-07T14:40:44: [Thu Jul  7 14:40:43 2022] 127.0.0.1:58250 Closing
+2022-07-07T14:40:44: [Thu Jul  7 14:40:43 2022] 127.0.0.1:58252 Accepted
+2022-07-07T14:40:44: [Thu Jul  7 14:40:43 2022] 127.0.0.1:58252 [200]: GET /assets/js/icons/feather-icon/feather.min.js
+2022-07-07T14:40:44: [Thu Jul  7 14:40:43 2022] 127.0.0.1:58252 Closing
+2022-07-07T14:40:44: [Thu Jul  7 14:40:44 2022] 127.0.0.1:58254 Accepted
+2022-07-07T14:40:44: [Thu Jul  7 14:40:44 2022] 127.0.0.1:58254 [200]: GET /assets/js/jquery-3.5.1.min.js
+2022-07-07T14:40:44: [Thu Jul  7 14:40:44 2022] 127.0.0.1:58254 Closing
+2022-07-07T14:40:44: [Thu Jul  7 14:40:44 2022] 127.0.0.1:58256 Accepted
+2022-07-07T14:40:44: [Thu Jul  7 14:40:44 2022] 127.0.0.1:58256 [200]: GET /assets/js/icons/feather-icon/feather-icon.js
+2022-07-07T14:40:44: [Thu Jul  7 14:40:44 2022] 127.0.0.1:58256 Closing
+2022-07-07T14:40:44: [Thu Jul  7 14:40:44 2022] 127.0.0.1:58258 Accepted
+2022-07-07T14:40:44: [Thu Jul  7 14:40:44 2022] 127.0.0.1:58258 [200]: GET /assets/js/sidebar-menu.js
+2022-07-07T14:40:44: [Thu Jul  7 14:40:44 2022] 127.0.0.1:58258 Closing
+2022-07-07T14:40:44: [Thu Jul  7 14:40:44 2022] 127.0.0.1:58260 Accepted
+2022-07-07T14:40:44: [Thu Jul  7 14:40:44 2022] 127.0.0.1:58260 [200]: GET /assets/js/config.js
+2022-07-07T14:40:44: [Thu Jul  7 14:40:44 2022] 127.0.0.1:58260 Closing
+2022-07-07T14:40:44: [Thu Jul  7 14:40:44 2022] 127.0.0.1:58262 Accepted
+2022-07-07T14:40:44: [Thu Jul  7 14:40:44 2022] 127.0.0.1:58262 [200]: GET /assets/js/bootstrap/popper.min.js
+2022-07-07T14:40:44: [Thu Jul  7 14:40:44 2022] 127.0.0.1:58262 Closing
+2022-07-07T14:40:44: [Thu Jul  7 14:40:44 2022] 127.0.0.1:58264 Accepted
+2022-07-07T14:40:44: [Thu Jul  7 14:40:44 2022] 127.0.0.1:58264 [200]: GET /assets/js/script.js
+2022-07-07T14:40:44: [Thu Jul  7 14:40:44 2022] 127.0.0.1:58264 Closing
+2022-07-07T14:40:45: [Thu Jul  7 14:40:44 2022] 127.0.0.1:58266 Accepted
+2022-07-07T14:40:45: [Thu Jul  7 14:40:44 2022] 127.0.0.1:58266 [200]: GET /assets/js/bootstrap/bootstrap.min.js
+2022-07-07T14:40:45: [Thu Jul  7 14:40:44 2022] 127.0.0.1:58266 Closing
+2022-07-07T14:40:47: [Thu Jul  7 14:40:46 2022] 127.0.0.1:58268 Accepted
+2022-07-07T14:40:47: [Thu Jul  7 14:40:46 2022] 127.0.0.1:58268 [200]: GET /assets/images/login/bg-login.png
+2022-07-07T14:40:47: [Thu Jul  7 14:40:46 2022] 127.0.0.1:58268 Closing
+2022-07-07T14:40:47: [Thu Jul  7 14:40:47 2022] 127.0.0.1:58270 Accepted
+2022-07-07T14:40:47: [Thu Jul  7 14:40:47 2022] 127.0.0.1:58270 [200]: GET /assets/fonts/themify/themify.woff?-fvbane
+2022-07-07T14:40:47: [Thu Jul  7 14:40:47 2022] 127.0.0.1:58270 Closing
+2022-07-07T14:40:47: [Thu Jul  7 14:40:47 2022] 127.0.0.1:58272 Accepted
+2022-07-07T14:40:47: [Thu Jul  7 14:40:47 2022] 127.0.0.1:58272 [200]: GET /assets/images/favicon.png
+2022-07-07T14:40:47: [Thu Jul  7 14:40:47 2022] 127.0.0.1:58272 Closing
+2022-07-07T14:46:19: [Thu Jul  7 14:46:18 2022] 127.0.0.1:58276 Accepted
+2022-07-07T14:46:19: [Thu Jul  7 14:46:18 2022] 127.0.0.1:58276 Closing
+2022-07-07T14:46:19: [Thu Jul  7 14:46:19 2022] 127.0.0.1:58278 Accepted
+2022-07-07T14:46:19: [Thu Jul  7 14:46:19 2022] 127.0.0.1:58278 Closing
+2022-07-07T14:46:20: [Thu Jul  7 14:46:19 2022] 127.0.0.1:58280 Accepted
+2022-07-07T14:46:20: [Thu Jul  7 14:46:19 2022] 127.0.0.1:58280 [200]: GET /assets/css/icofont.css
+2022-07-07T14:46:20: [Thu Jul  7 14:46:19 2022] 127.0.0.1:58280 Closing
+2022-07-07T14:46:20: [Thu Jul  7 14:46:19 2022] 127.0.0.1:58282 Accepted
+2022-07-07T14:46:20: [Thu Jul  7 14:46:19 2022] 127.0.0.1:58282 [200]: GET /assets/css/bootstrap.css
+2022-07-07T14:46:20: [Thu Jul  7 14:46:19 2022] 127.0.0.1:58282 Closing
+2022-07-07T14:46:20: [Thu Jul  7 14:46:19 2022] 127.0.0.1:58284 Accepted
+2022-07-07T14:46:20: [Thu Jul  7 14:46:19 2022] 127.0.0.1:58284 [200]: GET /assets/css/feather-icon.css
+2022-07-07T14:46:20: [Thu Jul  7 14:46:19 2022] 127.0.0.1:58284 Closing
+2022-07-07T14:46:20: [Thu Jul  7 14:46:19 2022] 127.0.0.1:58286 Accepted
+2022-07-07T14:46:20: [Thu Jul  7 14:46:19 2022] 127.0.0.1:58286 [200]: GET /assets/css/themify.css
+2022-07-07T14:46:20: [Thu Jul  7 14:46:19 2022] 127.0.0.1:58286 Closing
+2022-07-07T14:46:20: [Thu Jul  7 14:46:19 2022] 127.0.0.1:58288 Accepted
+2022-07-07T14:46:20: [Thu Jul  7 14:46:19 2022] 127.0.0.1:58288 [200]: GET /assets/css/fontawesome.css
+2022-07-07T14:46:20: [Thu Jul  7 14:46:19 2022] 127.0.0.1:58288 Closing
+2022-07-07T14:46:20: [Thu Jul  7 14:46:20 2022] 127.0.0.1:58290 Accepted
+2022-07-07T14:46:20: [Thu Jul  7 14:46:20 2022] 127.0.0.1:58290 [200]: GET /assets/css/color-1.css
+2022-07-07T14:46:20: [Thu Jul  7 14:46:20 2022] 127.0.0.1:58290 Closing
+2022-07-07T14:46:20: [Thu Jul  7 14:46:20 2022] 127.0.0.1:58292 Accepted
+2022-07-07T14:46:20: [Thu Jul  7 14:46:20 2022] 127.0.0.1:58292 [200]: GET /assets/css/flag-icon.css
+2022-07-07T14:46:20: [Thu Jul  7 14:46:20 2022] 127.0.0.1:58292 Closing
+2022-07-07T14:46:20: [Thu Jul  7 14:46:20 2022] 127.0.0.1:58294 Accepted
+2022-07-07T14:46:20: [Thu Jul  7 14:46:20 2022] 127.0.0.1:58294 [200]: GET /assets/css/responsive.css
+2022-07-07T14:46:20: [Thu Jul  7 14:46:20 2022] 127.0.0.1:58294 Closing
+2022-07-07T14:46:20: [Thu Jul  7 14:46:20 2022] 127.0.0.1:58296 Accepted
+2022-07-07T14:46:20: [Thu Jul  7 14:46:20 2022] 127.0.0.1:58296 [200]: GET /assets/js/jquery-3.5.1.min.js
+2022-07-07T14:46:20: [Thu Jul  7 14:46:20 2022] 127.0.0.1:58296 Closing
+2022-07-07T14:46:20: [Thu Jul  7 14:46:20 2022] 127.0.0.1:58298 Accepted
+2022-07-07T14:46:20: [Thu Jul  7 14:46:20 2022] 127.0.0.1:58298 [200]: GET /assets/js/icons/feather-icon/feather.min.js
+2022-07-07T14:46:20: [Thu Jul  7 14:46:20 2022] 127.0.0.1:58298 Closing
+2022-07-07T14:46:21: [Thu Jul  7 14:46:20 2022] 127.0.0.1:58300 Accepted
+2022-07-07T14:46:21: [Thu Jul  7 14:46:20 2022] 127.0.0.1:58300 [200]: GET /assets/css/style.css
+2022-07-07T14:46:21: [Thu Jul  7 14:46:20 2022] 127.0.0.1:58300 Closing
+2022-07-07T14:46:21: [Thu Jul  7 14:46:20 2022] 127.0.0.1:58302 Accepted
+2022-07-07T14:46:21: [Thu Jul  7 14:46:20 2022] 127.0.0.1:58302 [200]: GET /assets/js/icons/feather-icon/feather-icon.js
+2022-07-07T14:46:21: [Thu Jul  7 14:46:20 2022] 127.0.0.1:58302 Closing
+2022-07-07T14:46:21: [Thu Jul  7 14:46:21 2022] 127.0.0.1:58304 Accepted
+2022-07-07T14:46:21: [Thu Jul  7 14:46:21 2022] 127.0.0.1:58304 [200]: GET /assets/js/sidebar-menu.js
+2022-07-07T14:46:21: [Thu Jul  7 14:46:21 2022] 127.0.0.1:58304 Closing
+2022-07-07T14:46:22: [Thu Jul  7 14:46:21 2022] 127.0.0.1:58306 Accepted
+2022-07-07T14:46:22: [Thu Jul  7 14:46:21 2022] 127.0.0.1:58306 [200]: GET /assets/js/bootstrap/popper.min.js
+2022-07-07T14:46:22: [Thu Jul  7 14:46:21 2022] 127.0.0.1:58306 Closing
+2022-07-07T14:46:22: [Thu Jul  7 14:46:21 2022] 127.0.0.1:58308 Accepted
+2022-07-07T14:46:22: [Thu Jul  7 14:46:21 2022] 127.0.0.1:58308 [200]: GET /assets/js/config.js
+2022-07-07T14:46:22: [Thu Jul  7 14:46:21 2022] 127.0.0.1:58308 Closing
+2022-07-07T14:46:22: [Thu Jul  7 14:46:21 2022] 127.0.0.1:58310 Accepted
+2022-07-07T14:46:22: [Thu Jul  7 14:46:21 2022] 127.0.0.1:58310 [200]: GET /assets/js/bootstrap/bootstrap.min.js
+2022-07-07T14:46:22: [Thu Jul  7 14:46:21 2022] 127.0.0.1:58310 Closing
+2022-07-07T14:46:22: [Thu Jul  7 14:46:21 2022] 127.0.0.1:58312 Accepted
+2022-07-07T14:46:22: [Thu Jul  7 14:46:21 2022] 127.0.0.1:58312 [200]: GET /assets/js/script.js
+2022-07-07T14:46:22: [Thu Jul  7 14:46:21 2022] 127.0.0.1:58312 Closing
+2022-07-07T14:46:25: [Thu Jul  7 14:46:25 2022] 127.0.0.1:58314 Accepted
+2022-07-07T14:46:25: [Thu Jul  7 14:46:25 2022] 127.0.0.1:58314 [200]: GET /assets/images/login/bg-login.png
+2022-07-07T14:46:25: [Thu Jul  7 14:46:25 2022] 127.0.0.1:58314 Closing
+2022-07-07T14:46:25: [Thu Jul  7 14:46:25 2022] 127.0.0.1:58316 Accepted
+2022-07-07T14:46:25: [Thu Jul  7 14:46:25 2022] 127.0.0.1:58316 [200]: GET /assets/fonts/themify/themify.woff?-fvbane
+2022-07-07T14:46:25: [Thu Jul  7 14:46:25 2022] 127.0.0.1:58316 Closing
+2022-07-07T14:46:35: [Thu Jul  7 14:46:34 2022] 127.0.0.1:58318 Accepted
+2022-07-07T14:46:35: [Thu Jul  7 14:46:34 2022] 127.0.0.1:58318 Closing
+2022-07-07T14:46:35: [Thu Jul  7 14:46:35 2022] 127.0.0.1:58322 Accepted
+2022-07-07T14:46:35: [Thu Jul  7 14:46:35 2022] 127.0.0.1:58322 Closing
+2022-07-07T14:46:35: [Thu Jul  7 14:46:35 2022] 127.0.0.1:58324 Accepted
+2022-07-07T14:46:35: [Thu Jul  7 14:46:35 2022] 127.0.0.1:58324 [200]: GET /assets/css/themify.css
+2022-07-07T14:46:35: [Thu Jul  7 14:46:35 2022] 127.0.0.1:58324 Closing
+2022-07-07T14:46:35: [Thu Jul  7 14:46:35 2022] 127.0.0.1:58326 Accepted
+2022-07-07T14:46:35: [Thu Jul  7 14:46:35 2022] 127.0.0.1:58326 [200]: GET /assets/js/icons/feather-icon/feather.min.js
+2022-07-07T14:46:35: [Thu Jul  7 14:46:35 2022] 127.0.0.1:58326 Closing
+2022-07-07T14:46:35: [Thu Jul  7 14:46:35 2022] 127.0.0.1:58328 Accepted
+2022-07-07T14:46:35: [Thu Jul  7 14:46:35 2022] 127.0.0.1:58328 [200]: GET /assets/css/fontawesome.css
+2022-07-07T14:46:35: [Thu Jul  7 14:46:35 2022] 127.0.0.1:58328 Closing
+2022-07-07T14:46:35: [Thu Jul  7 14:46:35 2022] 127.0.0.1:58330 Accepted
+2022-07-07T14:46:35: [Thu Jul  7 14:46:35 2022] 127.0.0.1:58330 [200]: GET /assets/js/jquery-3.5.1.min.js
+2022-07-07T14:46:35: [Thu Jul  7 14:46:35 2022] 127.0.0.1:58330 Closing
+2022-07-07T14:46:36: [Thu Jul  7 14:46:35 2022] 127.0.0.1:58332 Accepted
+2022-07-07T14:46:36: [Thu Jul  7 14:46:35 2022] 127.0.0.1:58332 [200]: GET /assets/css/style.css
+2022-07-07T14:46:36: [Thu Jul  7 14:46:35 2022] 127.0.0.1:58332 Closing
+2022-07-07T14:46:36: [Thu Jul  7 14:46:35 2022] 127.0.0.1:58334 Accepted
+2022-07-07T14:46:36: [Thu Jul  7 14:46:35 2022] 127.0.0.1:58334 [200]: GET /assets/css/flag-icon.css
+2022-07-07T14:46:36: [Thu Jul  7 14:46:35 2022] 127.0.0.1:58334 Closing
+2022-07-07T14:46:36: [Thu Jul  7 14:46:36 2022] 127.0.0.1:58336 Accepted
+2022-07-07T14:46:36: [Thu Jul  7 14:46:36 2022] 127.0.0.1:58336 [200]: GET /assets/js/icons/feather-icon/feather-icon.js
+2022-07-07T14:46:36: [Thu Jul  7 14:46:36 2022] 127.0.0.1:58336 Closing
+2022-07-07T14:46:36: [Thu Jul  7 14:46:36 2022] 127.0.0.1:58338 Accepted
+2022-07-07T14:46:36: [Thu Jul  7 14:46:36 2022] 127.0.0.1:58338 [200]: GET /assets/js/sidebar-menu.js
+2022-07-07T14:46:36: [Thu Jul  7 14:46:36 2022] 127.0.0.1:58338 Closing
+2022-07-07T14:46:37: [Thu Jul  7 14:46:36 2022] 127.0.0.1:58340 Accepted
+2022-07-07T14:46:37: [Thu Jul  7 14:46:36 2022] 127.0.0.1:58342 Accepted
+2022-07-07T14:46:37: [Thu Jul  7 14:46:36 2022] 127.0.0.1:58340 [200]: GET /assets/js/config.js
+2022-07-07T14:46:37: [Thu Jul  7 14:46:36 2022] 127.0.0.1:58342 [200]: GET /assets/js/bootstrap/popper.min.js
+2022-07-07T14:46:37: [Thu Jul  7 14:46:36 2022] 127.0.0.1:58340 Closing
+2022-07-07T14:46:37: [Thu Jul  7 14:46:36 2022] 127.0.0.1:58342 Closing
+2022-07-07T14:46:37: [Thu Jul  7 14:46:36 2022] 127.0.0.1:58344 Accepted
+2022-07-07T14:46:37: [Thu Jul  7 14:46:36 2022] 127.0.0.1:58344 [200]: GET /assets/js/bootstrap/bootstrap.min.js
+2022-07-07T14:46:37: [Thu Jul  7 14:46:36 2022] 127.0.0.1:58344 Closing
+2022-07-07T14:46:37: [Thu Jul  7 14:46:36 2022] 127.0.0.1:58346 Accepted
+2022-07-07T14:46:37: [Thu Jul  7 14:46:36 2022] 127.0.0.1:58346 [200]: GET /assets/js/script.js
+2022-07-07T14:46:37: [Thu Jul  7 14:46:36 2022] 127.0.0.1:58346 Closing
+2022-07-07T14:46:37: [Thu Jul  7 14:46:36 2022] 127.0.0.1:58348 Accepted
+2022-07-07T14:46:37: [Thu Jul  7 14:46:36 2022] 127.0.0.1:58348 [200]: GET /assets/css/icofont.css
+2022-07-07T14:46:37: [Thu Jul  7 14:46:36 2022] 127.0.0.1:58348 Closing
+2022-07-07T14:46:37: [Thu Jul  7 14:46:36 2022] 127.0.0.1:58350 Accepted
+2022-07-07T14:46:37: [Thu Jul  7 14:46:36 2022] 127.0.0.1:58350 [200]: GET /assets/css/feather-icon.css
+2022-07-07T14:46:37: [Thu Jul  7 14:46:36 2022] 127.0.0.1:58350 Closing
+2022-07-07T14:46:37: [Thu Jul  7 14:46:36 2022] 127.0.0.1:58352 Accepted
+2022-07-07T14:46:37: [Thu Jul  7 14:46:36 2022] 127.0.0.1:58352 [200]: GET /assets/css/bootstrap.css
+2022-07-07T14:46:37: [Thu Jul  7 14:46:36 2022] 127.0.0.1:58352 Closing
+2022-07-07T14:46:37: [Thu Jul  7 14:46:37 2022] 127.0.0.1:58354 Accepted
+2022-07-07T14:46:37: [Thu Jul  7 14:46:37 2022] 127.0.0.1:58354 [200]: GET /assets/css/color-1.css
+2022-07-07T14:46:37: [Thu Jul  7 14:46:37 2022] 127.0.0.1:58354 Closing
+2022-07-07T14:46:37: [Thu Jul  7 14:46:37 2022] 127.0.0.1:58356 Accepted
+2022-07-07T14:46:37: [Thu Jul  7 14:46:37 2022] 127.0.0.1:58356 [200]: GET /assets/css/responsive.css
+2022-07-07T14:46:37: [Thu Jul  7 14:46:37 2022] 127.0.0.1:58356 Closing
+2022-07-07T14:46:40: [Thu Jul  7 14:46:39 2022] 127.0.0.1:58358 Accepted
+2022-07-07T14:46:40: [Thu Jul  7 14:46:39 2022] 127.0.0.1:58358 [200]: GET /assets/images/login/bg-login.png
+2022-07-07T14:46:40: [Thu Jul  7 14:46:39 2022] 127.0.0.1:58358 Closing
+2022-07-07T14:46:56: [Thu Jul  7 14:46:56 2022] 127.0.0.1:58360 Accepted
+2022-07-07T14:46:57: [Thu Jul  7 14:46:56 2022] 127.0.0.1:58360 Closing
+2022-07-07T14:46:57: [Thu Jul  7 14:46:56 2022] 127.0.0.1:58364 Accepted
+2022-07-07T14:46:57: [Thu Jul  7 14:46:56 2022] 127.0.0.1:58364 Closing
+2022-07-07T14:46:57: [Thu Jul  7 14:46:57 2022] 127.0.0.1:58366 Accepted
+2022-07-07T14:46:57: [Thu Jul  7 14:46:57 2022] 127.0.0.1:58366 [200]: GET /assets/css/bootstrap.css
+2022-07-07T14:46:57: [Thu Jul  7 14:46:57 2022] 127.0.0.1:58366 Closing
+2022-07-07T14:46:57: [Thu Jul  7 14:46:57 2022] 127.0.0.1:58368 Accepted
+2022-07-07T14:46:57: [Thu Jul  7 14:46:57 2022] 127.0.0.1:58370 Accepted
+2022-07-07T14:46:57: [Thu Jul  7 14:46:57 2022] 127.0.0.1:58368 [200]: GET /assets/css/feather-icon.css
+2022-07-07T14:46:57: [Thu Jul  7 14:46:57 2022] 127.0.0.1:58370 [200]: GET /assets/css/flag-icon.css
+2022-07-07T14:46:57: [Thu Jul  7 14:46:57 2022] 127.0.0.1:58372 Accepted
+2022-07-07T14:46:57: [Thu Jul  7 14:46:57 2022] 127.0.0.1:58368 Closing
+2022-07-07T14:46:57: [Thu Jul  7 14:46:57 2022] 127.0.0.1:58372 [200]: GET /assets/css/themify.css
+2022-07-07T14:46:57: [Thu Jul  7 14:46:57 2022] 127.0.0.1:58370 Closing
+2022-07-07T14:46:57: [Thu Jul  7 14:46:57 2022] 127.0.0.1:58372 Closing
+2022-07-07T14:46:57: [Thu Jul  7 14:46:57 2022] 127.0.0.1:58374 Accepted
+2022-07-07T14:46:57: [Thu Jul  7 14:46:57 2022] 127.0.0.1:58374 [200]: GET /assets/css/fontawesome.css
+2022-07-07T14:46:57: [Thu Jul  7 14:46:57 2022] 127.0.0.1:58374 Closing
+2022-07-07T14:46:57: [Thu Jul  7 14:46:57 2022] 127.0.0.1:58376 Accepted
+2022-07-07T14:46:57: [Thu Jul  7 14:46:57 2022] 127.0.0.1:58376 [200]: GET /assets/css/icofont.css
+2022-07-07T14:46:57: [Thu Jul  7 14:46:57 2022] 127.0.0.1:58376 Closing
+2022-07-07T14:46:58: [Thu Jul  7 14:46:57 2022] 127.0.0.1:58378 Accepted
+2022-07-07T14:46:58: [Thu Jul  7 14:46:57 2022] 127.0.0.1:58378 [200]: GET /assets/css/style.css
+2022-07-07T14:46:58: [Thu Jul  7 14:46:57 2022] 127.0.0.1:58378 Closing
+2022-07-07T14:46:58: [Thu Jul  7 14:46:58 2022] 127.0.0.1:58380 Accepted
+2022-07-07T14:46:58: [Thu Jul  7 14:46:58 2022] 127.0.0.1:58380 [200]: GET /assets/css/color-1.css
+2022-07-07T14:46:58: [Thu Jul  7 14:46:58 2022] 127.0.0.1:58380 Closing
+2022-07-07T14:46:58: [Thu Jul  7 14:46:58 2022] 127.0.0.1:58382 Accepted
+2022-07-07T14:46:58: [Thu Jul  7 14:46:58 2022] 127.0.0.1:58382 [200]: GET /assets/css/responsive.css
+2022-07-07T14:46:58: [Thu Jul  7 14:46:58 2022] 127.0.0.1:58382 Closing
+2022-07-07T14:46:58: [Thu Jul  7 14:46:58 2022] 127.0.0.1:58384 Accepted
+2022-07-07T14:46:58: [Thu Jul  7 14:46:58 2022] 127.0.0.1:58384 [200]: GET /assets/js/icons/feather-icon/feather.min.js
+2022-07-07T14:46:58: [Thu Jul  7 14:46:58 2022] 127.0.0.1:58384 Closing
+2022-07-07T14:46:58: [Thu Jul  7 14:46:58 2022] 127.0.0.1:58386 Accepted
+2022-07-07T14:46:58: [Thu Jul  7 14:46:58 2022] 127.0.0.1:58386 [200]: GET /assets/js/jquery-3.5.1.min.js
+2022-07-07T14:46:58: [Thu Jul  7 14:46:58 2022] 127.0.0.1:58386 Closing
+2022-07-07T14:46:59: [Thu Jul  7 14:46:58 2022] 127.0.0.1:58388 Accepted
+2022-07-07T14:46:59: [Thu Jul  7 14:46:58 2022] 127.0.0.1:58388 [200]: GET /assets/js/icons/feather-icon/feather-icon.js
+2022-07-07T14:46:59: [Thu Jul  7 14:46:58 2022] 127.0.0.1:58388 Closing
+2022-07-07T14:46:59: [Thu Jul  7 14:46:58 2022] 127.0.0.1:58390 Accepted
+2022-07-07T14:46:59: [Thu Jul  7 14:46:58 2022] 127.0.0.1:58390 [200]: GET /assets/js/sidebar-menu.js
+2022-07-07T14:46:59: [Thu Jul  7 14:46:58 2022] 127.0.0.1:58390 Closing
+2022-07-07T14:46:59: [Thu Jul  7 14:46:58 2022] 127.0.0.1:58392 Accepted
+2022-07-07T14:46:59: [Thu Jul  7 14:46:58 2022] 127.0.0.1:58392 [200]: GET /assets/js/config.js
+2022-07-07T14:46:59: [Thu Jul  7 14:46:58 2022] 127.0.0.1:58392 Closing
+2022-07-07T14:46:59: [Thu Jul  7 14:46:58 2022] 127.0.0.1:58394 Accepted
+2022-07-07T14:46:59: [Thu Jul  7 14:46:58 2022] 127.0.0.1:58394 [200]: GET /assets/js/bootstrap/popper.min.js
+2022-07-07T14:46:59: [Thu Jul  7 14:46:58 2022] 127.0.0.1:58394 Closing
+2022-07-07T14:46:59: [Thu Jul  7 14:46:59 2022] 127.0.0.1:58396 Accepted
+2022-07-07T14:46:59: [Thu Jul  7 14:46:59 2022] 127.0.0.1:58396 [200]: GET /assets/js/bootstrap/bootstrap.min.js
+2022-07-07T14:46:59: [Thu Jul  7 14:46:59 2022] 127.0.0.1:58396 Closing
+2022-07-07T14:46:59: [Thu Jul  7 14:46:59 2022] 127.0.0.1:58398 Accepted
+2022-07-07T14:46:59: [Thu Jul  7 14:46:59 2022] 127.0.0.1:58398 [200]: GET /assets/js/script.js
+2022-07-07T14:46:59: [Thu Jul  7 14:46:59 2022] 127.0.0.1:58398 Closing
+2022-07-07T14:47:03: [Thu Jul  7 14:47:02 2022] 127.0.0.1:58400 Accepted
+2022-07-07T14:47:03: [Thu Jul  7 14:47:02 2022] 127.0.0.1:58400 [200]: GET /assets/images/login/bg-login.png
+2022-07-07T14:47:03: [Thu Jul  7 14:47:02 2022] 127.0.0.1:58400 Closing
+2022-07-07T14:47:21: [Thu Jul  7 14:47:20 2022] 127.0.0.1:58402 Accepted
+2022-07-07T14:47:21: [Thu Jul  7 14:47:21 2022] 127.0.0.1:58402 Closing
+2022-07-07T14:47:21: [Thu Jul  7 14:47:21 2022] 127.0.0.1:58406 Accepted
+2022-07-07T14:47:21: [Thu Jul  7 14:47:21 2022] 127.0.0.1:58406 Closing
+2022-07-07T14:47:22: [Thu Jul  7 14:47:21 2022] 127.0.0.1:58408 Accepted
+2022-07-07T14:47:22: [Thu Jul  7 14:47:21 2022] 127.0.0.1:58408 [200]: GET /assets/js/icons/feather-icon/feather.min.js
+2022-07-07T14:47:22: [Thu Jul  7 14:47:21 2022] 127.0.0.1:58408 Closing
+2022-07-07T14:47:22: [Thu Jul  7 14:47:21 2022] 127.0.0.1:58410 Accepted
+2022-07-07T14:47:22: [Thu Jul  7 14:47:21 2022] 127.0.0.1:58410 [200]: GET /assets/js/jquery-3.5.1.min.js
+2022-07-07T14:47:22: [Thu Jul  7 14:47:21 2022] 127.0.0.1:58410 Closing
+2022-07-07T14:47:22: [Thu Jul  7 14:47:21 2022] 127.0.0.1:58412 Accepted
+2022-07-07T14:47:22: [Thu Jul  7 14:47:21 2022] 127.0.0.1:58412 [200]: GET /assets/css/responsive.css
+2022-07-07T14:47:22: [Thu Jul  7 14:47:21 2022] 127.0.0.1:58412 Closing
+2022-07-07T14:47:22: [Thu Jul  7 14:47:21 2022] 127.0.0.1:58414 Accepted
+2022-07-07T14:47:22: [Thu Jul  7 14:47:21 2022] 127.0.0.1:58414 [200]: GET /assets/css/color-1.css
+2022-07-07T14:47:22: [Thu Jul  7 14:47:21 2022] 127.0.0.1:58414 Closing
+2022-07-07T14:47:22: [Thu Jul  7 14:47:21 2022] 127.0.0.1:58416 Accepted
+2022-07-07T14:47:22: [Thu Jul  7 14:47:21 2022] 127.0.0.1:58416 [200]: GET /assets/css/style.css
+2022-07-07T14:47:22: [Thu Jul  7 14:47:21 2022] 127.0.0.1:58416 Closing
+2022-07-07T14:47:22: [Thu Jul  7 14:47:21 2022] 127.0.0.1:58418 Accepted
+2022-07-07T14:47:22: [Thu Jul  7 14:47:21 2022] 127.0.0.1:58418 [200]: GET /assets/css/bootstrap.css
+2022-07-07T14:47:22: [Thu Jul  7 14:47:21 2022] 127.0.0.1:58418 Closing
+2022-07-07T14:47:22: [Thu Jul  7 14:47:22 2022] 127.0.0.1:58420 Accepted
+2022-07-07T14:47:22: [Thu Jul  7 14:47:22 2022] 127.0.0.1:58420 [200]: GET /assets/js/icons/feather-icon/feather-icon.js
+2022-07-07T14:47:22: [Thu Jul  7 14:47:22 2022] 127.0.0.1:58420 Closing
+2022-07-07T14:47:23: [Thu Jul  7 14:47:22 2022] 127.0.0.1:58422 Accepted
+2022-07-07T14:47:23: [Thu Jul  7 14:47:22 2022] 127.0.0.1:58422 [200]: GET /assets/js/sidebar-menu.js
+2022-07-07T14:47:23: [Thu Jul  7 14:47:22 2022] 127.0.0.1:58422 Closing
+2022-07-07T14:47:23: [Thu Jul  7 14:47:22 2022] 127.0.0.1:58424 Accepted
+2022-07-07T14:47:23: [Thu Jul  7 14:47:22 2022] 127.0.0.1:58424 [200]: GET /assets/js/config.js
+2022-07-07T14:47:23: [Thu Jul  7 14:47:22 2022] 127.0.0.1:58424 Closing
+2022-07-07T14:47:23: [Thu Jul  7 14:47:23 2022] 127.0.0.1:58426 Accepted
+2022-07-07T14:47:23: [Thu Jul  7 14:47:23 2022] 127.0.0.1:58426 [200]: GET /assets/js/bootstrap/popper.min.js
+2022-07-07T14:47:23: [Thu Jul  7 14:47:23 2022] 127.0.0.1:58426 Closing
+2022-07-07T14:47:23: [Thu Jul  7 14:47:23 2022] 127.0.0.1:58428 Accepted
+2022-07-07T14:47:23: [Thu Jul  7 14:47:23 2022] 127.0.0.1:58428 [200]: GET /assets/css/fontawesome.css
+2022-07-07T14:47:23: [Thu Jul  7 14:47:23 2022] 127.0.0.1:58428 Closing
+2022-07-07T14:47:24: [Thu Jul  7 14:47:23 2022] 127.0.0.1:58430 Accepted
+2022-07-07T14:47:24: [Thu Jul  7 14:47:23 2022] 127.0.0.1:58430 [200]: GET /assets/css/icofont.css
+2022-07-07T14:47:24: [Thu Jul  7 14:47:23 2022] 127.0.0.1:58430 Closing
+2022-07-07T14:47:24: [Thu Jul  7 14:47:23 2022] 127.0.0.1:58432 Accepted
+2022-07-07T14:47:24: [Thu Jul  7 14:47:23 2022] 127.0.0.1:58432 [200]: GET /assets/js/bootstrap/bootstrap.min.js
+2022-07-07T14:47:24: [Thu Jul  7 14:47:23 2022] 127.0.0.1:58432 Closing
+2022-07-07T14:47:24: [Thu Jul  7 14:47:23 2022] 127.0.0.1:58434 Accepted
+2022-07-07T14:47:24: [Thu Jul  7 14:47:23 2022] 127.0.0.1:58434 [200]: GET /assets/js/script.js
+2022-07-07T14:47:24: [Thu Jul  7 14:47:23 2022] 127.0.0.1:58434 Closing
+2022-07-07T14:47:24: [Thu Jul  7 14:47:23 2022] 127.0.0.1:58436 Accepted
+2022-07-07T14:47:24: [Thu Jul  7 14:47:23 2022] 127.0.0.1:58436 [200]: GET /assets/css/themify.css
+2022-07-07T14:47:24: [Thu Jul  7 14:47:23 2022] 127.0.0.1:58436 Closing
+2022-07-07T14:47:24: [Thu Jul  7 14:47:24 2022] 127.0.0.1:58438 Accepted
+2022-07-07T14:47:24: [Thu Jul  7 14:47:24 2022] 127.0.0.1:58438 [200]: GET /assets/css/flag-icon.css
+2022-07-07T14:47:24: [Thu Jul  7 14:47:24 2022] 127.0.0.1:58438 Closing
+2022-07-07T14:47:24: [Thu Jul  7 14:47:24 2022] 127.0.0.1:58440 Accepted
+2022-07-07T14:47:24: [Thu Jul  7 14:47:24 2022] 127.0.0.1:58440 [200]: GET /assets/css/feather-icon.css
+2022-07-07T14:47:24: [Thu Jul  7 14:47:24 2022] 127.0.0.1:58440 Closing
+2022-07-07T14:47:25: [Thu Jul  7 14:47:25 2022] 127.0.0.1:58442 Accepted
+2022-07-07T14:47:25: [Thu Jul  7 14:47:25 2022] 127.0.0.1:58442 [200]: GET /assets/images/login/bg-login.png
+2022-07-07T14:47:26: [Thu Jul  7 14:47:25 2022] 127.0.0.1:58442 Closing
+2022-07-07T14:47:26: [Thu Jul  7 14:47:25 2022] 127.0.0.1:58444 Accepted
+2022-07-07T14:47:26: [Thu Jul  7 14:47:25 2022] 127.0.0.1:58444 [200]: GET /assets/images/favicon.png
+2022-07-07T14:47:26: [Thu Jul  7 14:47:25 2022] 127.0.0.1:58444 Closing
+2022-07-07T14:49:34: [Thu Jul  7 14:49:33 2022] 127.0.0.1:58446 Accepted
+2022-07-07T14:49:34: [Thu Jul  7 14:49:33 2022] 127.0.0.1:58446 Closing
+2022-07-07T14:49:34: [Thu Jul  7 14:49:34 2022] 127.0.0.1:58450 Accepted
+2022-07-07T14:49:34: [Thu Jul  7 14:49:34 2022] 127.0.0.1:58450 Closing
+2022-07-07T14:49:35: [Thu Jul  7 14:49:34 2022] 127.0.0.1:58454 Accepted
+2022-07-07T14:49:35: [Thu Jul  7 14:49:34 2022] 127.0.0.1:58454 [200]: GET /plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css
+2022-07-07T14:49:35: [Thu Jul  7 14:49:34 2022] 127.0.0.1:58454 Closing
+2022-07-07T14:49:35: [Thu Jul  7 14:49:34 2022] 127.0.0.1:58456 Accepted
+2022-07-07T14:49:35: [Thu Jul  7 14:49:34 2022] 127.0.0.1:58456 [200]: GET /plugins/fontawesome-free/css/all.min.css
+2022-07-07T14:49:35: [Thu Jul  7 14:49:34 2022] 127.0.0.1:58456 Closing
+2022-07-07T14:49:35: [Thu Jul  7 14:49:35 2022] 127.0.0.1:58458 Accepted
+2022-07-07T14:49:35: [Thu Jul  7 14:49:35 2022] 127.0.0.1:58460 Accepted
+2022-07-07T14:49:35: [Thu Jul  7 14:49:35 2022] 127.0.0.1:58458 [200]: GET /plugins/overlayScrollbars/css/OverlayScrollbars.min.css
+2022-07-07T14:49:35: [Thu Jul  7 14:49:35 2022] 127.0.0.1:58460 [200]: GET /plugins/daterangepicker/daterangepicker.css
+2022-07-07T14:49:35: [Thu Jul  7 14:49:35 2022] 127.0.0.1:58458 Closing
+2022-07-07T14:49:35: [Thu Jul  7 14:49:35 2022] 127.0.0.1:58460 Closing
+2022-07-07T14:49:35: [Thu Jul  7 14:49:35 2022] 127.0.0.1:58462 Accepted
+2022-07-07T14:49:35: [Thu Jul  7 14:49:35 2022] 127.0.0.1:58462 [200]: GET /dist/css/adminlte.min.css
+2022-07-07T14:49:35: [Thu Jul  7 14:49:35 2022] 127.0.0.1:58462 Closing
+2022-07-07T14:49:35: [Thu Jul  7 14:49:35 2022] 127.0.0.1:58464 Accepted
+2022-07-07T14:49:35: [Thu Jul  7 14:49:35 2022] 127.0.0.1:58464 [200]: GET /plugins/jquery/jquery.min.js
+2022-07-07T14:49:35: [Thu Jul  7 14:49:35 2022] 127.0.0.1:58464 Closing
+2022-07-07T14:49:35: [Thu Jul  7 14:49:35 2022] 127.0.0.1:58466 Accepted
+2022-07-07T14:49:35: [Thu Jul  7 14:49:35 2022] 127.0.0.1:58466 [200]: GET /plugins/summernote/summernote-bs4.min.css
+2022-07-07T14:49:35: [Thu Jul  7 14:49:35 2022] 127.0.0.1:58466 Closing
+2022-07-07T14:49:36: [Thu Jul  7 14:49:35 2022] 127.0.0.1:58468 Accepted
+2022-07-07T14:49:36: [Thu Jul  7 14:49:35 2022] 127.0.0.1:58468 [200]: GET /plugins/jquery-ui/jquery-ui.min.js
+2022-07-07T14:49:36: [Thu Jul  7 14:49:35 2022] 127.0.0.1:58468 Closing
+2022-07-07T14:49:36: [Thu Jul  7 14:49:35 2022] 127.0.0.1:58470 Accepted
+2022-07-07T14:49:36: [Thu Jul  7 14:49:35 2022] 127.0.0.1:58470 [200]: GET /plugins/bootstrap/js/bootstrap.bundle.min.js
+2022-07-07T14:49:36: [Thu Jul  7 14:49:35 2022] 127.0.0.1:58470 Closing
+2022-07-07T14:49:36: [Thu Jul  7 14:49:35 2022] 127.0.0.1:58472 Accepted
+2022-07-07T14:49:36: [Thu Jul  7 14:49:35 2022] 127.0.0.1:58472 [200]: GET /dist/js/adminlte.js
+2022-07-07T14:49:36: [Thu Jul  7 14:49:35 2022] 127.0.0.1:58472 Closing
+2022-07-07T14:49:36: [Thu Jul  7 14:49:36 2022] 127.0.0.1:58474 Accepted
+2022-07-07T14:49:36: [Thu Jul  7 14:49:36 2022] 127.0.0.1:58474 [200]: GET /plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js
+2022-07-07T14:49:36: [Thu Jul  7 14:49:36 2022] 127.0.0.1:58474 Closing
+2022-07-07T14:49:36: [Thu Jul  7 14:49:36 2022] 127.0.0.1:58476 Accepted
+2022-07-07T14:49:36: [Thu Jul  7 14:49:36 2022] 127.0.0.1:58476 [200]: GET /plugins/jqvmap/jqvmap.min.css
+2022-07-07T14:49:36: [Thu Jul  7 14:49:36 2022] 127.0.0.1:58476 Closing
+2022-07-07T14:49:36: [Thu Jul  7 14:49:36 2022] 127.0.0.1:58478 Accepted
+2022-07-07T14:49:36: [Thu Jul  7 14:49:36 2022] 127.0.0.1:58478 [200]: GET /plugins/icheck-bootstrap/icheck-bootstrap.min.css
+2022-07-07T14:49:36: [Thu Jul  7 14:49:36 2022] 127.0.0.1:58478 Closing
+2022-07-07T14:49:42: [Thu Jul  7 14:49:42 2022] 127.0.0.1:58480 Accepted
+2022-07-07T14:49:42: [Thu Jul  7 14:49:42 2022] 127.0.0.1:58480 [200]: GET /assets/images/logo/app-logo.png
+2022-07-07T14:49:42: [Thu Jul  7 14:49:42 2022] 127.0.0.1:58480 Closing
+2022-07-07T14:49:42: [Thu Jul  7 14:49:42 2022] 127.0.0.1:58482 Accepted
+2022-07-07T14:49:42: [Thu Jul  7 14:49:42 2022] 127.0.0.1:58482 [200]: GET /plugins/fontawesome-free/webfonts/fa-solid-900.woff2
+2022-07-07T14:49:42: [Thu Jul  7 14:49:42 2022] 127.0.0.1:58482 Closing
+2022-07-07T14:50:01: [Thu Jul  7 14:50:01 2022] 127.0.0.1:58484 Accepted
+2022-07-07T14:50:01: [Thu Jul  7 14:50:01 2022] 127.0.0.1:58484 Closing
+2022-07-07T14:50:03: [Thu Jul  7 14:50:03 2022] 127.0.0.1:58488 Accepted
+2022-07-07T14:50:03: [Thu Jul  7 14:50:03 2022] 127.0.0.1:58488 [200]: GET /plugins/fontawesome-free/css/all.min.css
+2022-07-07T14:50:03: [Thu Jul  7 14:50:03 2022] 127.0.0.1:58488 Closing
+2022-07-07T14:50:03: [Thu Jul  7 14:50:03 2022] 127.0.0.1:58490 Accepted
+2022-07-07T14:50:03: [Thu Jul  7 14:50:03 2022] 127.0.0.1:58490 [200]: GET /plugins/overlayScrollbars/css/OverlayScrollbars.min.css
+2022-07-07T14:50:03: [Thu Jul  7 14:50:03 2022] 127.0.0.1:58490 Closing
+2022-07-07T14:50:03: [Thu Jul  7 14:50:03 2022] 127.0.0.1:58492 Accepted
+2022-07-07T14:50:03: [Thu Jul  7 14:50:03 2022] 127.0.0.1:58492 [200]: GET /plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css
+2022-07-07T14:50:03: [Thu Jul  7 14:50:03 2022] 127.0.0.1:58492 Closing
+2022-07-07T14:50:03: [Thu Jul  7 14:50:03 2022] 127.0.0.1:58494 Accepted
+2022-07-07T14:50:03: [Thu Jul  7 14:50:03 2022] 127.0.0.1:58494 [200]: GET /dist/css/adminlte.min.css
+2022-07-07T14:50:03: [Thu Jul  7 14:50:03 2022] 127.0.0.1:58496 Accepted
+2022-07-07T14:50:03: [Thu Jul  7 14:50:03 2022] 127.0.0.1:58496 [200]: GET /plugins/icheck-bootstrap/icheck-bootstrap.min.css
+2022-07-07T14:50:03: [Thu Jul  7 14:50:03 2022] 127.0.0.1:58494 Closing
+2022-07-07T14:50:03: [Thu Jul  7 14:50:03 2022] 127.0.0.1:58496 Closing
+2022-07-07T14:50:03: [Thu Jul  7 14:50:03 2022] 127.0.0.1:58498 Accepted
+2022-07-07T14:50:03: [Thu Jul  7 14:50:03 2022] 127.0.0.1:58498 [200]: GET /plugins/jqvmap/jqvmap.min.css
+2022-07-07T14:50:03: [Thu Jul  7 14:50:03 2022] 127.0.0.1:58498 Closing
+2022-07-07T14:50:03: [Thu Jul  7 14:50:03 2022] 127.0.0.1:58500 Accepted
+2022-07-07T14:50:03: [Thu Jul  7 14:50:03 2022] 127.0.0.1:58500 [200]: GET /plugins/jquery-ui/jquery-ui.min.js
+2022-07-07T14:50:03: [Thu Jul  7 14:50:03 2022] 127.0.0.1:58502 Accepted
+2022-07-07T14:50:03: [Thu Jul  7 14:50:03 2022] 127.0.0.1:58500 Closing
+2022-07-07T14:50:03: [Thu Jul  7 14:50:03 2022] 127.0.0.1:58502 [200]: GET /plugins/jquery/jquery.min.js
+2022-07-07T14:50:03: [Thu Jul  7 14:50:03 2022] 127.0.0.1:58502 Closing
+2022-07-07T14:50:03: [Thu Jul  7 14:50:03 2022] 127.0.0.1:58504 Accepted
+2022-07-07T14:50:03: [Thu Jul  7 14:50:03 2022] 127.0.0.1:58504 [200]: GET /plugins/summernote/summernote-bs4.min.css
+2022-07-07T14:50:03: [Thu Jul  7 14:50:03 2022] 127.0.0.1:58504 Closing
+2022-07-07T14:50:03: [Thu Jul  7 14:50:03 2022] 127.0.0.1:58506 Accepted
+2022-07-07T14:50:03: [Thu Jul  7 14:50:03 2022] 127.0.0.1:58506 [200]: GET /plugins/bootstrap/js/bootstrap.bundle.min.js
+2022-07-07T14:50:03: [Thu Jul  7 14:50:03 2022] 127.0.0.1:58506 Closing
+2022-07-07T14:50:04: [Thu Jul  7 14:50:03 2022] 127.0.0.1:58508 Accepted
+2022-07-07T14:50:04: [Thu Jul  7 14:50:03 2022] 127.0.0.1:58508 [200]: GET /plugins/daterangepicker/daterangepicker.css
+2022-07-07T14:50:04: [Thu Jul  7 14:50:03 2022] 127.0.0.1:58508 Closing
+2022-07-07T14:50:04: [Thu Jul  7 14:50:03 2022] 127.0.0.1:58510 Accepted
+2022-07-07T14:50:04: [Thu Jul  7 14:50:03 2022] 127.0.0.1:58510 [200]: GET /plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js
+2022-07-07T14:50:04: [Thu Jul  7 14:50:03 2022] 127.0.0.1:58510 Closing
+2022-07-07T14:50:04: [Thu Jul  7 14:50:03 2022] 127.0.0.1:58512 Accepted
+2022-07-07T14:50:04: [Thu Jul  7 14:50:03 2022] 127.0.0.1:58512 [200]: GET /dist/js/adminlte.js
+2022-07-07T14:50:04: [Thu Jul  7 14:50:03 2022] 127.0.0.1:58512 Closing
+2022-07-07T14:50:06: [Thu Jul  7 14:50:06 2022] 127.0.0.1:58514 Accepted
+2022-07-07T14:50:06: [Thu Jul  7 14:50:06 2022] 127.0.0.1:58514 [200]: GET /assets/images/logo/app-logo.png
+2022-07-07T14:50:06: [Thu Jul  7 14:50:06 2022] 127.0.0.1:58514 Closing
+2022-07-07T14:50:12: [Thu Jul  7 14:50:12 2022] 127.0.0.1:58516 Accepted
+2022-07-07T14:50:12: [Thu Jul  7 14:50:12 2022] 127.0.0.1:58516 Closing
+2022-07-07T14:50:13: [Thu Jul  7 14:50:13 2022] 127.0.0.1:58520 Accepted
+2022-07-07T14:50:13: [Thu Jul  7 14:50:13 2022] 127.0.0.1:58520 [200]: GET /dist/css/adminlte.min.css
+2022-07-07T14:50:13: [Thu Jul  7 14:50:13 2022] 127.0.0.1:58522 Accepted
+2022-07-07T14:50:13: [Thu Jul  7 14:50:13 2022] 127.0.0.1:58524 Accepted
+2022-07-07T14:50:13: [Thu Jul  7 14:50:13 2022] 127.0.0.1:58522 [200]: GET /plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css
+2022-07-07T14:50:13: [Thu Jul  7 14:50:13 2022] 127.0.0.1:58524 [200]: GET /plugins/overlayScrollbars/css/OverlayScrollbars.min.css
+2022-07-07T14:50:13: [Thu Jul  7 14:50:13 2022] 127.0.0.1:58522 Closing
+2022-07-07T14:50:13: [Thu Jul  7 14:50:13 2022] 127.0.0.1:58524 Closing
+2022-07-07T14:50:13: [Thu Jul  7 14:50:13 2022] 127.0.0.1:58526 Accepted
+2022-07-07T14:50:13: [Thu Jul  7 14:50:13 2022] 127.0.0.1:58520 Closing
+2022-07-07T14:50:13: [Thu Jul  7 14:50:13 2022] 127.0.0.1:58526 [200]: GET /plugins/jqvmap/jqvmap.min.css
+2022-07-07T14:50:13: [Thu Jul  7 14:50:13 2022] 127.0.0.1:58526 Closing
+2022-07-07T14:50:13: [Thu Jul  7 14:50:13 2022] 127.0.0.1:58528 Accepted
+2022-07-07T14:50:13: [Thu Jul  7 14:50:13 2022] 127.0.0.1:58528 [200]: GET /plugins/icheck-bootstrap/icheck-bootstrap.min.css
+2022-07-07T14:50:13: [Thu Jul  7 14:50:13 2022] 127.0.0.1:58530 Accepted
+2022-07-07T14:50:13: [Thu Jul  7 14:50:13 2022] 127.0.0.1:58530 [200]: GET /plugins/fontawesome-free/css/all.min.css
+2022-07-07T14:50:13: [Thu Jul  7 14:50:13 2022] 127.0.0.1:58528 Closing
+2022-07-07T14:50:13: [Thu Jul  7 14:50:13 2022] 127.0.0.1:58530 Closing
+2022-07-07T14:50:14: [Thu Jul  7 14:50:13 2022] 127.0.0.1:58532 Accepted
+2022-07-07T14:50:14: [Thu Jul  7 14:50:13 2022] 127.0.0.1:58532 [200]: GET /plugins/summernote/summernote-bs4.min.css
+2022-07-07T14:50:14: [Thu Jul  7 14:50:13 2022] 127.0.0.1:58532 Closing
+2022-07-07T14:50:14: [Thu Jul  7 14:50:13 2022] 127.0.0.1:58534 Accepted
+2022-07-07T14:50:14: [Thu Jul  7 14:50:13 2022] 127.0.0.1:58534 [200]: GET /plugins/daterangepicker/daterangepicker.css
+2022-07-07T14:50:14: [Thu Jul  7 14:50:13 2022] 127.0.0.1:58534 Closing
+2022-07-07T14:50:14: [Thu Jul  7 14:50:13 2022] 127.0.0.1:58536 Accepted
+2022-07-07T14:50:14: [Thu Jul  7 14:50:13 2022] 127.0.0.1:58536 [200]: GET /plugins/jquery/jquery.min.js
+2022-07-07T14:50:14: [Thu Jul  7 14:50:13 2022] 127.0.0.1:58536 Closing
+2022-07-07T14:50:14: [Thu Jul  7 14:50:14 2022] 127.0.0.1:58538 Accepted
+2022-07-07T14:50:14: [Thu Jul  7 14:50:14 2022] 127.0.0.1:58538 [200]: GET /plugins/bootstrap/js/bootstrap.bundle.min.js
+2022-07-07T14:50:14: [Thu Jul  7 14:50:14 2022] 127.0.0.1:58538 Closing
+2022-07-07T14:50:14: [Thu Jul  7 14:50:14 2022] 127.0.0.1:58540 Accepted
+2022-07-07T14:50:14: [Thu Jul  7 14:50:14 2022] 127.0.0.1:58540 [200]: GET /plugins/jquery-ui/jquery-ui.min.js
+2022-07-07T14:50:14: [Thu Jul  7 14:50:14 2022] 127.0.0.1:58540 Closing
+2022-07-07T14:50:15: [Thu Jul  7 14:50:14 2022] 127.0.0.1:58542 Accepted
+2022-07-07T14:50:15: [Thu Jul  7 14:50:14 2022] 127.0.0.1:58542 [200]: GET /plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js
+2022-07-07T14:50:15: [Thu Jul  7 14:50:14 2022] 127.0.0.1:58542 Closing
+2022-07-07T14:50:15: [Thu Jul  7 14:50:14 2022] 127.0.0.1:58544 Accepted
+2022-07-07T14:50:15: [Thu Jul  7 14:50:14 2022] 127.0.0.1:58544 [200]: GET /dist/js/adminlte.js
+2022-07-07T14:50:15: [Thu Jul  7 14:50:14 2022] 127.0.0.1:58544 Closing
+2022-07-07T14:50:19: [Thu Jul  7 14:50:18 2022] 127.0.0.1:58546 Accepted
+2022-07-07T14:50:19: [Thu Jul  7 14:50:18 2022] 127.0.0.1:58546 [200]: GET /assets/images/logo/app-logo.png
+2022-07-07T14:50:19: [Thu Jul  7 14:50:18 2022] 127.0.0.1:58546 Closing
+2022-07-07T14:50:25: [Thu Jul  7 14:50:24 2022] 127.0.0.1:58548 Accepted
+2022-07-07T14:50:25: [Thu Jul  7 14:50:24 2022] 127.0.0.1:58548 Closing
+2022-07-07T14:50:25: [Thu Jul  7 14:50:25 2022] 127.0.0.1:58552 Accepted
+2022-07-07T14:50:25: [Thu Jul  7 14:50:25 2022] 127.0.0.1:58552 [200]: GET /plugins/icheck-bootstrap/icheck-bootstrap.min.css
+2022-07-07T14:50:25: [Thu Jul  7 14:50:25 2022] 127.0.0.1:58552 Closing
+2022-07-07T14:50:25: [Thu Jul  7 14:50:25 2022] 127.0.0.1:58554 Accepted
+2022-07-07T14:50:25: [Thu Jul  7 14:50:25 2022] 127.0.0.1:58554 [200]: GET /plugins/overlayScrollbars/css/OverlayScrollbars.min.css
+2022-07-07T14:50:25: [Thu Jul  7 14:50:25 2022] 127.0.0.1:58554 Closing
+2022-07-07T14:50:25: [Thu Jul  7 14:50:25 2022] 127.0.0.1:58556 Accepted
+2022-07-07T14:50:25: [Thu Jul  7 14:50:25 2022] 127.0.0.1:58556 [200]: GET /plugins/jqvmap/jqvmap.min.css
+2022-07-07T14:50:25: [Thu Jul  7 14:50:25 2022] 127.0.0.1:58556 Closing
+2022-07-07T14:50:25: [Thu Jul  7 14:50:25 2022] 127.0.0.1:58558 Accepted
+2022-07-07T14:50:25: [Thu Jul  7 14:50:25 2022] 127.0.0.1:58558 [200]: GET /plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css
+2022-07-07T14:50:25: [Thu Jul  7 14:50:25 2022] 127.0.0.1:58558 Closing
+2022-07-07T14:50:25: [Thu Jul  7 14:50:25 2022] 127.0.0.1:58560 Accepted
+2022-07-07T14:50:25: [Thu Jul  7 14:50:25 2022] 127.0.0.1:58560 [200]: GET /dist/css/adminlte.min.css
+2022-07-07T14:50:25: [Thu Jul  7 14:50:25 2022] 127.0.0.1:58560 Closing
+2022-07-07T14:50:25: [Thu Jul  7 14:50:25 2022] 127.0.0.1:58562 Accepted
+2022-07-07T14:50:25: [Thu Jul  7 14:50:25 2022] 127.0.0.1:58562 [200]: GET /plugins/fontawesome-free/css/all.min.css
+2022-07-07T14:50:25: [Thu Jul  7 14:50:25 2022] 127.0.0.1:58562 Closing
+2022-07-07T14:50:25: [Thu Jul  7 14:50:25 2022] 127.0.0.1:58564 Accepted
+2022-07-07T14:50:25: [Thu Jul  7 14:50:25 2022] 127.0.0.1:58564 [200]: GET /plugins/daterangepicker/daterangepicker.css
+2022-07-07T14:50:25: [Thu Jul  7 14:50:25 2022] 127.0.0.1:58564 Closing
+2022-07-07T14:50:25: [Thu Jul  7 14:50:25 2022] 127.0.0.1:58566 Accepted
+2022-07-07T14:50:25: [Thu Jul  7 14:50:25 2022] 127.0.0.1:58566 [200]: GET /plugins/select2/css/select2.min.css
+2022-07-07T14:50:25: [Thu Jul  7 14:50:25 2022] 127.0.0.1:58566 Closing
+2022-07-07T14:50:25: [Thu Jul  7 14:50:25 2022] 127.0.0.1:58568 Accepted
+2022-07-07T14:50:25: [Thu Jul  7 14:50:25 2022] 127.0.0.1:58568 [200]: GET /plugins/jquery/jquery.min.js
+2022-07-07T14:50:25: [Thu Jul  7 14:50:25 2022] 127.0.0.1:58568 Closing
+2022-07-07T14:50:25: [Thu Jul  7 14:50:25 2022] 127.0.0.1:58570 Accepted
+2022-07-07T14:50:25: [Thu Jul  7 14:50:25 2022] 127.0.0.1:58570 [200]: GET /plugins/summernote/summernote-bs4.min.css
+2022-07-07T14:50:25: [Thu Jul  7 14:50:25 2022] 127.0.0.1:58570 Closing
+2022-07-07T14:50:25: [Thu Jul  7 14:50:25 2022] 127.0.0.1:58572 Accepted
+2022-07-07T14:50:25: [Thu Jul  7 14:50:25 2022] 127.0.0.1:58572 [200]: GET /plugins/jquery-ui/jquery-ui.min.js
+2022-07-07T14:50:25: [Thu Jul  7 14:50:25 2022] 127.0.0.1:58572 Closing
+2022-07-07T14:50:26: [Thu Jul  7 14:50:25 2022] 127.0.0.1:58574 Accepted
+2022-07-07T14:50:26: [Thu Jul  7 14:50:25 2022] 127.0.0.1:58574 [200]: GET /plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js
+2022-07-07T14:50:26: [Thu Jul  7 14:50:25 2022] 127.0.0.1:58574 Closing
+2022-07-07T14:50:26: [Thu Jul  7 14:50:25 2022] 127.0.0.1:58576 Accepted
+2022-07-07T14:50:26: [Thu Jul  7 14:50:25 2022] 127.0.0.1:58576 [200]: GET /plugins/bootstrap/js/bootstrap.bundle.min.js
+2022-07-07T14:50:26: [Thu Jul  7 14:50:25 2022] 127.0.0.1:58576 Closing
+2022-07-07T14:50:26: [Thu Jul  7 14:50:25 2022] 127.0.0.1:58578 Accepted
+2022-07-07T14:50:26: [Thu Jul  7 14:50:25 2022] 127.0.0.1:58578 [200]: GET /dist/js/adminlte.js
+2022-07-07T14:50:26: [Thu Jul  7 14:50:25 2022] 127.0.0.1:58578 Closing
+2022-07-07T14:50:26: [Thu Jul  7 14:50:26 2022] 127.0.0.1:58580 Accepted
+2022-07-07T14:50:26: [Thu Jul  7 14:50:26 2022] 127.0.0.1:58580 [200]: GET /plugins/select2/js/select2.min.js
+2022-07-07T14:50:26: [Thu Jul  7 14:50:26 2022] 127.0.0.1:58580 Closing
+2022-07-07T14:50:29: [Thu Jul  7 14:50:29 2022] 127.0.0.1:58582 Accepted
+2022-07-07T14:50:29: [Thu Jul  7 14:50:29 2022] 127.0.0.1:58582 [200]: GET /assets/images/logo/app-logo.png
+2022-07-07T14:50:29: [Thu Jul  7 14:50:29 2022] 127.0.0.1:58582 Closing
+2022-07-07T14:50:36: [Thu Jul  7 14:50:36 2022] 127.0.0.1:58584 Accepted
+2022-07-07T14:50:36: [Thu Jul  7 14:50:36 2022] 127.0.0.1:58584 [200]: GET /plugins/fontawesome-free/webfonts/fa-regular-400.woff2
+2022-07-07T14:50:36: [Thu Jul  7 14:50:36 2022] 127.0.0.1:58584 Closing
+2022-07-07T14:50:41: [Thu Jul  7 14:50:40 2022] 127.0.0.1:58586 Accepted
+2022-07-07T14:50:41: [Thu Jul  7 14:50:40 2022] 127.0.0.1:58586 Closing
+2022-07-07T14:50:41: [Thu Jul  7 14:50:41 2022] 127.0.0.1:58590 Accepted
+2022-07-07T14:50:41: [Thu Jul  7 14:50:41 2022] 127.0.0.1:58590 [200]: GET /plugins/jqvmap/jqvmap.min.css
+2022-07-07T14:50:41: [Thu Jul  7 14:50:41 2022] 127.0.0.1:58590 Closing
+2022-07-07T14:50:41: [Thu Jul  7 14:50:41 2022] 127.0.0.1:58592 Accepted
+2022-07-07T14:50:41: [Thu Jul  7 14:50:41 2022] 127.0.0.1:58592 [200]: GET /plugins/overlayScrollbars/css/OverlayScrollbars.min.css
+2022-07-07T14:50:41: [Thu Jul  7 14:50:41 2022] 127.0.0.1:58592 Closing
+2022-07-07T14:50:41: [Thu Jul  7 14:50:41 2022] 127.0.0.1:58594 Accepted
+2022-07-07T14:50:41: [Thu Jul  7 14:50:41 2022] 127.0.0.1:58594 [200]: GET /dist/css/adminlte.min.css
+2022-07-07T14:50:41: [Thu Jul  7 14:50:41 2022] 127.0.0.1:58596 Accepted
+2022-07-07T14:50:41: [Thu Jul  7 14:50:41 2022] 127.0.0.1:58596 [200]: GET /plugins/icheck-bootstrap/icheck-bootstrap.min.css
+2022-07-07T14:50:41: [Thu Jul  7 14:50:41 2022] 127.0.0.1:58596 Closing
+2022-07-07T14:50:41: [Thu Jul  7 14:50:41 2022] 127.0.0.1:58594 Closing
+2022-07-07T14:50:41: [Thu Jul  7 14:50:41 2022] 127.0.0.1:58598 Accepted
+2022-07-07T14:50:41: [Thu Jul  7 14:50:41 2022] 127.0.0.1:58598 [200]: GET /plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css
+2022-07-07T14:50:41: [Thu Jul  7 14:50:41 2022] 127.0.0.1:58598 Closing
+2022-07-07T14:50:41: [Thu Jul  7 14:50:41 2022] 127.0.0.1:58600 Accepted
+2022-07-07T14:50:41: [Thu Jul  7 14:50:41 2022] 127.0.0.1:58600 [200]: GET /plugins/fontawesome-free/css/all.min.css
+2022-07-07T14:50:41: [Thu Jul  7 14:50:41 2022] 127.0.0.1:58600 Closing
+2022-07-07T14:50:42: [Thu Jul  7 14:50:41 2022] 127.0.0.1:58602 Accepted
+2022-07-07T14:50:42: [Thu Jul  7 14:50:41 2022] 127.0.0.1:58602 [200]: GET /plugins/daterangepicker/daterangepicker.css
+2022-07-07T14:50:42: [Thu Jul  7 14:50:41 2022] 127.0.0.1:58602 Closing
+2022-07-07T14:50:42: [Thu Jul  7 14:50:41 2022] 127.0.0.1:58604 Accepted
+2022-07-07T14:50:42: [Thu Jul  7 14:50:41 2022] 127.0.0.1:58604 [200]: GET /plugins/summernote/summernote-bs4.min.css
+2022-07-07T14:50:42: [Thu Jul  7 14:50:41 2022] 127.0.0.1:58604 Closing
+2022-07-07T14:50:42: [Thu Jul  7 14:50:41 2022] 127.0.0.1:58606 Accepted
+2022-07-07T14:50:42: [Thu Jul  7 14:50:41 2022] 127.0.0.1:58606 [200]: GET /plugins/jquery/jquery.min.js
+2022-07-07T14:50:42: [Thu Jul  7 14:50:41 2022] 127.0.0.1:58606 Closing
+2022-07-07T14:50:42: [Thu Jul  7 14:50:42 2022] 127.0.0.1:58608 Accepted
+2022-07-07T14:50:42: [Thu Jul  7 14:50:42 2022] 127.0.0.1:58608 [200]: GET /plugins/jquery-ui/jquery-ui.min.js
+2022-07-07T14:50:42: [Thu Jul  7 14:50:42 2022] 127.0.0.1:58608 Closing
+2022-07-07T14:50:42: [Thu Jul  7 14:50:42 2022] 127.0.0.1:58610 Accepted
+2022-07-07T14:50:42: [Thu Jul  7 14:50:42 2022] 127.0.0.1:58610 [200]: GET /plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js
+2022-07-07T14:50:42: [Thu Jul  7 14:50:42 2022] 127.0.0.1:58610 Closing
+2022-07-07T14:50:42: [Thu Jul  7 14:50:42 2022] 127.0.0.1:58612 Accepted
+2022-07-07T14:50:42: [Thu Jul  7 14:50:42 2022] 127.0.0.1:58612 [200]: GET /plugins/bootstrap/js/bootstrap.bundle.min.js
+2022-07-07T14:50:42: [Thu Jul  7 14:50:42 2022] 127.0.0.1:58612 Closing
+2022-07-07T14:50:43: [Thu Jul  7 14:50:42 2022] 127.0.0.1:58614 Accepted
+2022-07-07T14:50:43: [Thu Jul  7 14:50:42 2022] 127.0.0.1:58614 [200]: GET /dist/js/adminlte.js
+2022-07-07T14:50:43: [Thu Jul  7 14:50:42 2022] 127.0.0.1:58614 Closing
+2022-07-07T14:50:47: [Thu Jul  7 14:50:46 2022] 127.0.0.1:58616 Accepted
+2022-07-07T14:50:47: [Thu Jul  7 14:50:46 2022] 127.0.0.1:58616 [200]: GET /assets/images/logo/app-logo.png
+2022-07-07T14:50:47: [Thu Jul  7 14:50:46 2022] 127.0.0.1:58616 Closing
+2022-07-07T14:52:40: [Thu Jul  7 14:52:40 2022] 127.0.0.1:58618 Accepted
+2022-07-07T14:52:40: [Thu Jul  7 14:52:40 2022] 127.0.0.1:58618 Closing
+2022-07-07T14:52:41: [Thu Jul  7 14:52:41 2022] 127.0.0.1:58622 Accepted
+2022-07-07T14:52:41: [Thu Jul  7 14:52:41 2022] 127.0.0.1:58622 [200]: GET /plugins/fontawesome-free/css/all.min.css
+2022-07-07T14:52:41: [Thu Jul  7 14:52:41 2022] 127.0.0.1:58622 Closing
+2022-07-07T14:52:41: [Thu Jul  7 14:52:41 2022] 127.0.0.1:58624 Accepted
+2022-07-07T14:52:41: [Thu Jul  7 14:52:41 2022] 127.0.0.1:58624 [200]: GET /plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css
+2022-07-07T14:52:41: [Thu Jul  7 14:52:41 2022] 127.0.0.1:58624 Closing
+2022-07-07T14:52:41: [Thu Jul  7 14:52:41 2022] 127.0.0.1:58626 Accepted
+2022-07-07T14:52:41: [Thu Jul  7 14:52:41 2022] 127.0.0.1:58626 [200]: GET /dist/css/adminlte.min.css
+2022-07-07T14:52:41: [Thu Jul  7 14:52:41 2022] 127.0.0.1:58626 Closing
+2022-07-07T14:52:41: [Thu Jul  7 14:52:41 2022] 127.0.0.1:58628 Accepted
+2022-07-07T14:52:41: [Thu Jul  7 14:52:41 2022] 127.0.0.1:58628 [200]: GET /plugins/icheck-bootstrap/icheck-bootstrap.min.css
+2022-07-07T14:52:41: [Thu Jul  7 14:52:41 2022] 127.0.0.1:58628 Closing
+2022-07-07T14:52:41: [Thu Jul  7 14:52:41 2022] 127.0.0.1:58630 Accepted
+2022-07-07T14:52:41: [Thu Jul  7 14:52:41 2022] 127.0.0.1:58630 [200]: GET /plugins/jqvmap/jqvmap.min.css
+2022-07-07T14:52:41: [Thu Jul  7 14:52:41 2022] 127.0.0.1:58630 Closing
+2022-07-07T14:52:41: [Thu Jul  7 14:52:41 2022] 127.0.0.1:58632 Accepted
+2022-07-07T14:52:41: [Thu Jul  7 14:52:41 2022] 127.0.0.1:58632 [200]: GET /plugins/overlayScrollbars/css/OverlayScrollbars.min.css
+2022-07-07T14:52:41: [Thu Jul  7 14:52:41 2022] 127.0.0.1:58632 Closing
+2022-07-07T14:52:41: [Thu Jul  7 14:52:41 2022] 127.0.0.1:58634 Accepted
+2022-07-07T14:52:41: [Thu Jul  7 14:52:41 2022] 127.0.0.1:58634 [200]: GET /plugins/summernote/summernote-bs4.min.css
+2022-07-07T14:52:41: [Thu Jul  7 14:52:41 2022] 127.0.0.1:58634 Closing
+2022-07-07T14:52:42: [Thu Jul  7 14:52:42 2022] 127.0.0.1:58636 Accepted
+2022-07-07T14:52:42: [Thu Jul  7 14:52:42 2022] 127.0.0.1:58636 [200]: GET /plugins/jquery/jquery.min.js
+2022-07-07T14:52:42: [Thu Jul  7 14:52:42 2022] 127.0.0.1:58636 Closing
+2022-07-07T14:52:42: [Thu Jul  7 14:52:42 2022] 127.0.0.1:58638 Accepted
+2022-07-07T14:52:42: [Thu Jul  7 14:52:42 2022] 127.0.0.1:58638 [200]: GET /plugins/select2/css/select2.min.css
+2022-07-07T14:52:42: [Thu Jul  7 14:52:42 2022] 127.0.0.1:58638 Closing
+2022-07-07T14:52:42: [Thu Jul  7 14:52:42 2022] 127.0.0.1:58640 Accepted
+2022-07-07T14:52:42: [Thu Jul  7 14:52:42 2022] 127.0.0.1:58640 [200]: GET /plugins/jquery-ui/jquery-ui.min.js
+2022-07-07T14:52:42: [Thu Jul  7 14:52:42 2022] 127.0.0.1:58640 Closing
+2022-07-07T14:52:43: [Thu Jul  7 14:52:43 2022] 127.0.0.1:58642 Accepted
+2022-07-07T14:52:43: [Thu Jul  7 14:52:43 2022] 127.0.0.1:58642 [200]: GET /plugins/bootstrap/js/bootstrap.bundle.min.js
+2022-07-07T14:52:43: [Thu Jul  7 14:52:43 2022] 127.0.0.1:58642 Closing
+2022-07-07T14:52:43: [Thu Jul  7 14:52:43 2022] 127.0.0.1:58644 Accepted
+2022-07-07T14:52:43: [Thu Jul  7 14:52:43 2022] 127.0.0.1:58646 Accepted
+2022-07-07T14:52:43: [Thu Jul  7 14:52:43 2022] 127.0.0.1:58644 [200]: GET /plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js
+2022-07-07T14:52:43: [Thu Jul  7 14:52:43 2022] 127.0.0.1:58646 [200]: GET /dist/js/adminlte.js
+2022-07-07T14:52:43: [Thu Jul  7 14:52:43 2022] 127.0.0.1:58644 Closing
+2022-07-07T14:52:43: [Thu Jul  7 14:52:43 2022] 127.0.0.1:58646 Closing
+2022-07-07T14:52:44: [Thu Jul  7 14:52:43 2022] 127.0.0.1:58648 Accepted
+2022-07-07T14:52:44: [Thu Jul  7 14:52:43 2022] 127.0.0.1:58648 [200]: GET /plugins/select2/js/select2.min.js
+2022-07-07T14:52:44: [Thu Jul  7 14:52:43 2022] 127.0.0.1:58648 Closing
+2022-07-07T14:52:44: [Thu Jul  7 14:52:44 2022] 127.0.0.1:58650 Accepted
+2022-07-07T14:52:44: [Thu Jul  7 14:52:44 2022] 127.0.0.1:58650 [200]: GET /plugins/daterangepicker/daterangepicker.css
+2022-07-07T14:52:44: [Thu Jul  7 14:52:44 2022] 127.0.0.1:58650 Closing
+2022-07-07T14:52:48: [Thu Jul  7 14:52:48 2022] 127.0.0.1:58652 Accepted
+2022-07-07T14:52:48: [Thu Jul  7 14:52:48 2022] 127.0.0.1:58652 [200]: GET /assets/images/logo/app-logo.png
+2022-07-07T14:52:48: [Thu Jul  7 14:52:48 2022] 127.0.0.1:58652 Closing
+2022-07-07T14:52:55: [Thu Jul  7 14:52:55 2022] 127.0.0.1:58654 Accepted
+2022-07-07T14:52:55: [Thu Jul  7 14:52:55 2022] 127.0.0.1:58654 Closing
+2022-07-07T14:52:56: [Thu Jul  7 14:52:55 2022] 127.0.0.1:58658 Accepted
+2022-07-07T14:52:56: [Thu Jul  7 14:52:55 2022] 127.0.0.1:58658 [200]: GET /plugins/icheck-bootstrap/icheck-bootstrap.min.css
+2022-07-07T14:52:56: [Thu Jul  7 14:52:55 2022] 127.0.0.1:58658 Closing
+2022-07-07T14:52:56: [Thu Jul  7 14:52:55 2022] 127.0.0.1:58660 Accepted
+2022-07-07T14:52:56: [Thu Jul  7 14:52:55 2022] 127.0.0.1:58660 [200]: GET /plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css
+2022-07-07T14:52:56: [Thu Jul  7 14:52:55 2022] 127.0.0.1:58660 Closing
+2022-07-07T14:52:56: [Thu Jul  7 14:52:55 2022] 127.0.0.1:58662 Accepted
+2022-07-07T14:52:56: [Thu Jul  7 14:52:55 2022] 127.0.0.1:58662 [200]: GET /plugins/overlayScrollbars/css/OverlayScrollbars.min.css
+2022-07-07T14:52:56: [Thu Jul  7 14:52:55 2022] 127.0.0.1:58662 Closing
+2022-07-07T14:52:56: [Thu Jul  7 14:52:55 2022] 127.0.0.1:58664 Accepted
+2022-07-07T14:52:56: [Thu Jul  7 14:52:55 2022] 127.0.0.1:58664 [200]: GET /plugins/fontawesome-free/css/all.min.css
+2022-07-07T14:52:56: [Thu Jul  7 14:52:55 2022] 127.0.0.1:58664 Closing
+2022-07-07T14:52:56: [Thu Jul  7 14:52:55 2022] 127.0.0.1:58666 Accepted
+2022-07-07T14:52:56: [Thu Jul  7 14:52:55 2022] 127.0.0.1:58666 [200]: GET /dist/css/adminlte.min.css
+2022-07-07T14:52:56: [Thu Jul  7 14:52:55 2022] 127.0.0.1:58666 Closing
+2022-07-07T14:52:56: [Thu Jul  7 14:52:56 2022] 127.0.0.1:58668 Accepted
+2022-07-07T14:52:56: [Thu Jul  7 14:52:56 2022] 127.0.0.1:58668 [200]: GET /plugins/jqvmap/jqvmap.min.css
+2022-07-07T14:52:56: [Thu Jul  7 14:52:56 2022] 127.0.0.1:58668 Closing
+2022-07-07T14:52:56: [Thu Jul  7 14:52:56 2022] 127.0.0.1:58670 Accepted
+2022-07-07T14:52:56: [Thu Jul  7 14:52:56 2022] 127.0.0.1:58670 [200]: GET /plugins/select2/css/select2.min.css
+2022-07-07T14:52:56: [Thu Jul  7 14:52:56 2022] 127.0.0.1:58670 Closing
+2022-07-07T14:52:56: [Thu Jul  7 14:52:56 2022] 127.0.0.1:58672 Accepted
+2022-07-07T14:52:56: [Thu Jul  7 14:52:56 2022] 127.0.0.1:58672 [200]: GET /plugins/daterangepicker/daterangepicker.css
+2022-07-07T14:52:56: [Thu Jul  7 14:52:56 2022] 127.0.0.1:58672 Closing
+2022-07-07T14:52:56: [Thu Jul  7 14:52:56 2022] 127.0.0.1:58674 Accepted
+2022-07-07T14:52:56: [Thu Jul  7 14:52:56 2022] 127.0.0.1:58674 [200]: GET /plugins/jquery/jquery.min.js
+2022-07-07T14:52:56: [Thu Jul  7 14:52:56 2022] 127.0.0.1:58674 Closing
+2022-07-07T14:52:56: [Thu Jul  7 14:52:56 2022] 127.0.0.1:58676 Accepted
+2022-07-07T14:52:56: [Thu Jul  7 14:52:56 2022] 127.0.0.1:58676 [200]: GET /plugins/jquery-ui/jquery-ui.min.js
+2022-07-07T14:52:56: [Thu Jul  7 14:52:56 2022] 127.0.0.1:58676 Closing
+2022-07-07T14:52:56: [Thu Jul  7 14:52:56 2022] 127.0.0.1:58678 Accepted
+2022-07-07T14:52:56: [Thu Jul  7 14:52:56 2022] 127.0.0.1:58678 [200]: GET /plugins/bootstrap/js/bootstrap.bundle.min.js
+2022-07-07T14:52:56: [Thu Jul  7 14:52:56 2022] 127.0.0.1:58678 Closing
+2022-07-07T14:52:56: [Thu Jul  7 14:52:56 2022] 127.0.0.1:58680 Accepted
+2022-07-07T14:52:56: [Thu Jul  7 14:52:56 2022] 127.0.0.1:58680 [200]: GET /plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js
+2022-07-07T14:52:56: [Thu Jul  7 14:52:56 2022] 127.0.0.1:58680 Closing
+2022-07-07T14:52:57: [Thu Jul  7 14:52:57 2022] 127.0.0.1:58682 Accepted
+2022-07-07T14:52:57: [Thu Jul  7 14:52:57 2022] 127.0.0.1:58682 [200]: GET /dist/js/adminlte.js
+2022-07-07T14:52:57: [Thu Jul  7 14:52:57 2022] 127.0.0.1:58682 Closing
+2022-07-07T14:52:57: [Thu Jul  7 14:52:57 2022] 127.0.0.1:58684 Accepted
+2022-07-07T14:52:57: [Thu Jul  7 14:52:57 2022] 127.0.0.1:58684 [200]: GET /plugins/select2/js/select2.min.js
+2022-07-07T14:52:57: [Thu Jul  7 14:52:57 2022] 127.0.0.1:58684 Closing
+2022-07-07T14:52:57: [Thu Jul  7 14:52:57 2022] 127.0.0.1:58686 Accepted
+2022-07-07T14:52:57: [Thu Jul  7 14:52:57 2022] 127.0.0.1:58686 [200]: GET /plugins/summernote/summernote-bs4.min.css
+2022-07-07T14:52:57: [Thu Jul  7 14:52:57 2022] 127.0.0.1:58686 Closing
+2022-07-07T14:53:01: [Thu Jul  7 14:53:01 2022] 127.0.0.1:58688 Accepted
+2022-07-07T14:53:01: [Thu Jul  7 14:53:01 2022] 127.0.0.1:58688 [200]: GET /assets/images/logo/app-logo.png
+2022-07-07T14:53:01: [Thu Jul  7 14:53:01 2022] 127.0.0.1:58688 Closing
+2022-07-07T14:53:04: [Thu Jul  7 14:53:04 2022] 127.0.0.1:58690 Accepted
+2022-07-07T14:53:04: [Thu Jul  7 14:53:04 2022] 127.0.0.1:58690 Closing
+2022-07-07T14:53:04: [Thu Jul  7 14:53:04 2022] 127.0.0.1:58694 Accepted
+2022-07-07T14:53:04: [Thu Jul  7 14:53:04 2022] 127.0.0.1:58694 [200]: GET /plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css
+2022-07-07T14:53:04: [Thu Jul  7 14:53:04 2022] 127.0.0.1:58694 Closing
+2022-07-07T14:53:04: [Thu Jul  7 14:53:04 2022] 127.0.0.1:58696 Accepted
+2022-07-07T14:53:04: [Thu Jul  7 14:53:04 2022] 127.0.0.1:58696 [200]: GET /plugins/overlayScrollbars/css/OverlayScrollbars.min.css
+2022-07-07T14:53:04: [Thu Jul  7 14:53:04 2022] 127.0.0.1:58696 Closing
+2022-07-07T14:53:04: [Thu Jul  7 14:53:04 2022] 127.0.0.1:58698 Accepted
+2022-07-07T14:53:04: [Thu Jul  7 14:53:04 2022] 127.0.0.1:58698 [200]: GET /dist/css/adminlte.min.css
+2022-07-07T14:53:04: [Thu Jul  7 14:53:04 2022] 127.0.0.1:58698 Closing
+2022-07-07T14:53:04: [Thu Jul  7 14:53:04 2022] 127.0.0.1:58700 Accepted
+2022-07-07T14:53:04: [Thu Jul  7 14:53:04 2022] 127.0.0.1:58700 [200]: GET /plugins/jqvmap/jqvmap.min.css
+2022-07-07T14:53:04: [Thu Jul  7 14:53:04 2022] 127.0.0.1:58700 Closing
+2022-07-07T14:53:04: [Thu Jul  7 14:53:04 2022] 127.0.0.1:58702 Accepted
+2022-07-07T14:53:04: [Thu Jul  7 14:53:04 2022] 127.0.0.1:58702 [200]: GET /plugins/icheck-bootstrap/icheck-bootstrap.min.css
+2022-07-07T14:53:04: [Thu Jul  7 14:53:04 2022] 127.0.0.1:58702 Closing
+2022-07-07T14:53:04: [Thu Jul  7 14:53:04 2022] 127.0.0.1:58704 Accepted
+2022-07-07T14:53:04: [Thu Jul  7 14:53:04 2022] 127.0.0.1:58704 [200]: GET /plugins/fontawesome-free/css/all.min.css
+2022-07-07T14:53:04: [Thu Jul  7 14:53:04 2022] 127.0.0.1:58704 Closing
+2022-07-07T14:53:05: [Thu Jul  7 14:53:05 2022] 127.0.0.1:58706 Accepted
+2022-07-07T14:53:05: [Thu Jul  7 14:53:05 2022] 127.0.0.1:58706 [200]: GET /plugins/summernote/summernote-bs4.min.css
+2022-07-07T14:53:05: [Thu Jul  7 14:53:05 2022] 127.0.0.1:58706 Closing
+2022-07-07T14:53:05: [Thu Jul  7 14:53:05 2022] 127.0.0.1:58708 Accepted
+2022-07-07T14:53:05: [Thu Jul  7 14:53:05 2022] 127.0.0.1:58708 [200]: GET /plugins/daterangepicker/daterangepicker.css
+2022-07-07T14:53:05: [Thu Jul  7 14:53:05 2022] 127.0.0.1:58708 Closing
+2022-07-07T14:53:05: [Thu Jul  7 14:53:05 2022] 127.0.0.1:58710 Accepted
+2022-07-07T14:53:05: [Thu Jul  7 14:53:05 2022] 127.0.0.1:58710 [200]: GET /plugins/jquery/jquery.min.js
+2022-07-07T14:53:05: [Thu Jul  7 14:53:05 2022] 127.0.0.1:58710 Closing
+2022-07-07T14:53:06: [Thu Jul  7 14:53:06 2022] 127.0.0.1:58712 Accepted
+2022-07-07T14:53:06: [Thu Jul  7 14:53:06 2022] 127.0.0.1:58712 [200]: GET /plugins/bootstrap/js/bootstrap.bundle.min.js
+2022-07-07T14:53:06: [Thu Jul  7 14:53:06 2022] 127.0.0.1:58712 Closing
+2022-07-07T14:53:06: [Thu Jul  7 14:53:06 2022] 127.0.0.1:58714 Accepted
+2022-07-07T14:53:06: [Thu Jul  7 14:53:06 2022] 127.0.0.1:58714 [200]: GET /plugins/jquery-ui/jquery-ui.min.js
+2022-07-07T14:53:06: [Thu Jul  7 14:53:06 2022] 127.0.0.1:58714 Closing
+2022-07-07T14:53:06: [Thu Jul  7 14:53:06 2022] 127.0.0.1:58716 Accepted
+2022-07-07T14:53:06: [Thu Jul  7 14:53:06 2022] 127.0.0.1:58716 [200]: GET /plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js
+2022-07-07T14:53:06: [Thu Jul  7 14:53:06 2022] 127.0.0.1:58716 Closing
+2022-07-07T14:53:06: [Thu Jul  7 14:53:06 2022] 127.0.0.1:58718 Accepted
+2022-07-07T14:53:06: [Thu Jul  7 14:53:06 2022] 127.0.0.1:58718 [200]: GET /dist/js/adminlte.js
+2022-07-07T14:53:06: [Thu Jul  7 14:53:06 2022] 127.0.0.1:58718 Closing
+2022-07-07T14:53:09: [Thu Jul  7 14:53:09 2022] 127.0.0.1:58720 Accepted
+2022-07-07T14:53:09: [Thu Jul  7 14:53:09 2022] 127.0.0.1:58720 [200]: GET /assets/images/logo/app-logo.png
+2022-07-07T14:53:09: [Thu Jul  7 14:53:09 2022] 127.0.0.1:58720 Closing
+2022-07-07T14:53:25: [Thu Jul  7 14:53:24 2022] 127.0.0.1:58722 Accepted
+2022-07-07T14:53:25: [Thu Jul  7 14:53:24 2022] 127.0.0.1:58722 Closing
+2022-07-07T14:53:25: [Thu Jul  7 14:53:25 2022] 127.0.0.1:58726 Accepted
+2022-07-07T14:53:25: [Thu Jul  7 14:53:25 2022] 127.0.0.1:58726 [200]: GET /plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css
+2022-07-07T14:53:25: [Thu Jul  7 14:53:25 2022] 127.0.0.1:58726 Closing
+2022-07-07T14:53:25: [Thu Jul  7 14:53:25 2022] 127.0.0.1:58728 Accepted
+2022-07-07T14:53:25: [Thu Jul  7 14:53:25 2022] 127.0.0.1:58728 [200]: GET /plugins/overlayScrollbars/css/OverlayScrollbars.min.css
+2022-07-07T14:53:25: [Thu Jul  7 14:53:25 2022] 127.0.0.1:58728 Closing
+2022-07-07T14:53:25: [Thu Jul  7 14:53:25 2022] 127.0.0.1:58730 Accepted
+2022-07-07T14:53:25: [Thu Jul  7 14:53:25 2022] 127.0.0.1:58730 [200]: GET /dist/css/adminlte.min.css
+2022-07-07T14:53:25: [Thu Jul  7 14:53:25 2022] 127.0.0.1:58730 Closing
+2022-07-07T14:53:25: [Thu Jul  7 14:53:25 2022] 127.0.0.1:58732 Accepted
+2022-07-07T14:53:25: [Thu Jul  7 14:53:25 2022] 127.0.0.1:58732 [200]: GET /plugins/jqvmap/jqvmap.min.css
+2022-07-07T14:53:25: [Thu Jul  7 14:53:25 2022] 127.0.0.1:58732 Closing
+2022-07-07T14:53:25: [Thu Jul  7 14:53:25 2022] 127.0.0.1:58734 Accepted
+2022-07-07T14:53:25: [Thu Jul  7 14:53:25 2022] 127.0.0.1:58734 [200]: GET /plugins/icheck-bootstrap/icheck-bootstrap.min.css
+2022-07-07T14:53:25: [Thu Jul  7 14:53:25 2022] 127.0.0.1:58734 Closing
+2022-07-07T14:53:25: [Thu Jul  7 14:53:25 2022] 127.0.0.1:58736 Accepted
+2022-07-07T14:53:25: [Thu Jul  7 14:53:25 2022] 127.0.0.1:58736 [200]: GET /plugins/fontawesome-free/css/all.min.css
+2022-07-07T14:53:25: [Thu Jul  7 14:53:25 2022] 127.0.0.1:58736 Closing
+2022-07-07T14:53:26: [Thu Jul  7 14:53:26 2022] 127.0.0.1:58738 Accepted
+2022-07-07T14:53:26: [Thu Jul  7 14:53:26 2022] 127.0.0.1:58738 [200]: GET /plugins/summernote/summernote-bs4.min.css
+2022-07-07T14:53:26: [Thu Jul  7 14:53:26 2022] 127.0.0.1:58738 Closing
+2022-07-07T14:53:26: [Thu Jul  7 14:53:26 2022] 127.0.0.1:58740 Accepted
+2022-07-07T14:53:26: [Thu Jul  7 14:53:26 2022] 127.0.0.1:58740 [200]: GET /plugins/daterangepicker/daterangepicker.css
+2022-07-07T14:53:26: [Thu Jul  7 14:53:26 2022] 127.0.0.1:58740 Closing
+2022-07-07T14:53:26: [Thu Jul  7 14:53:26 2022] 127.0.0.1:58742 Accepted
+2022-07-07T14:53:26: [Thu Jul  7 14:53:26 2022] 127.0.0.1:58742 [200]: GET /plugins/jquery/jquery.min.js
+2022-07-07T14:53:26: [Thu Jul  7 14:53:26 2022] 127.0.0.1:58742 Closing
+2022-07-07T14:53:26: [Thu Jul  7 14:53:26 2022] 127.0.0.1:58744 Accepted
+2022-07-07T14:53:26: [Thu Jul  7 14:53:26 2022] 127.0.0.1:58744 [200]: GET /plugins/jquery-ui/jquery-ui.min.js
+2022-07-07T14:53:26: [Thu Jul  7 14:53:26 2022] 127.0.0.1:58744 Closing
+2022-07-07T14:53:26: [Thu Jul  7 14:53:26 2022] 127.0.0.1:58746 Accepted
+2022-07-07T14:53:26: [Thu Jul  7 14:53:26 2022] 127.0.0.1:58746 [200]: GET /plugins/bootstrap/js/bootstrap.bundle.min.js
+2022-07-07T14:53:26: [Thu Jul  7 14:53:26 2022] 127.0.0.1:58746 Closing
+2022-07-07T14:53:26: [Thu Jul  7 14:53:26 2022] 127.0.0.1:58748 Accepted
+2022-07-07T14:53:26: [Thu Jul  7 14:53:26 2022] 127.0.0.1:58748 [200]: GET /plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js
+2022-07-07T14:53:26: [Thu Jul  7 14:53:26 2022] 127.0.0.1:58748 Closing
+2022-07-07T14:53:26: [Thu Jul  7 14:53:26 2022] 127.0.0.1:58750 Accepted
+2022-07-07T14:53:26: [Thu Jul  7 14:53:26 2022] 127.0.0.1:58750 [200]: GET /dist/js/adminlte.js
+2022-07-07T14:53:26: [Thu Jul  7 14:53:26 2022] 127.0.0.1:58750 Closing
+2022-07-07T14:53:29: [Thu Jul  7 14:53:29 2022] 127.0.0.1:58752 Accepted
+2022-07-07T14:53:29: [Thu Jul  7 14:53:29 2022] 127.0.0.1:58752 [200]: GET /assets/images/logo/app-logo.png
+2022-07-07T14:53:29: [Thu Jul  7 14:53:29 2022] 127.0.0.1:58752 Closing
+2022-07-07T14:53:37: [Thu Jul  7 14:53:37 2022] 127.0.0.1:58754 Accepted
+2022-07-07T14:53:37: [Thu Jul  7 14:53:37 2022] 127.0.0.1:58754 Closing
+2022-07-07T14:53:37: [Thu Jul  7 14:53:37 2022] 127.0.0.1:58758 Accepted
+2022-07-07T14:53:37: [Thu Jul  7 14:53:37 2022] 127.0.0.1:58758 [200]: GET /plugins/fontawesome-free/css/all.min.css
+2022-07-07T14:53:37: [Thu Jul  7 14:53:37 2022] 127.0.0.1:58758 Closing
+2022-07-07T14:53:37: [Thu Jul  7 14:53:37 2022] 127.0.0.1:58760 Accepted
+2022-07-07T14:53:37: [Thu Jul  7 14:53:37 2022] 127.0.0.1:58760 [200]: GET /plugins/overlayScrollbars/css/OverlayScrollbars.min.css
+2022-07-07T14:53:37: [Thu Jul  7 14:53:37 2022] 127.0.0.1:58760 Closing
+2022-07-07T14:53:37: [Thu Jul  7 14:53:37 2022] 127.0.0.1:58762 Accepted
+2022-07-07T14:53:37: [Thu Jul  7 14:53:37 2022] 127.0.0.1:58762 [200]: GET /dist/css/adminlte.min.css
+2022-07-07T14:53:37: [Thu Jul  7 14:53:37 2022] 127.0.0.1:58762 Closing
+2022-07-07T14:53:37: [Thu Jul  7 14:53:37 2022] 127.0.0.1:58764 Accepted
+2022-07-07T14:53:37: [Thu Jul  7 14:53:37 2022] 127.0.0.1:58764 [200]: GET /plugins/jqvmap/jqvmap.min.css
+2022-07-07T14:53:37: [Thu Jul  7 14:53:37 2022] 127.0.0.1:58764 Closing
+2022-07-07T14:53:37: [Thu Jul  7 14:53:37 2022] 127.0.0.1:58766 Accepted
+2022-07-07T14:53:37: [Thu Jul  7 14:53:37 2022] 127.0.0.1:58766 [200]: GET /plugins/icheck-bootstrap/icheck-bootstrap.min.css
+2022-07-07T14:53:37: [Thu Jul  7 14:53:37 2022] 127.0.0.1:58766 Closing
+2022-07-07T14:53:37: [Thu Jul  7 14:53:37 2022] 127.0.0.1:58768 Accepted
+2022-07-07T14:53:37: [Thu Jul  7 14:53:37 2022] 127.0.0.1:58768 [200]: GET /plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css
+2022-07-07T14:53:37: [Thu Jul  7 14:53:37 2022] 127.0.0.1:58768 Closing
+2022-07-07T14:53:38: [Thu Jul  7 14:53:38 2022] 127.0.0.1:58770 Accepted
+2022-07-07T14:53:38: [Thu Jul  7 14:53:38 2022] 127.0.0.1:58770 [200]: GET /plugins/daterangepicker/daterangepicker.css
+2022-07-07T14:53:38: [Thu Jul  7 14:53:38 2022] 127.0.0.1:58770 Closing
+2022-07-07T14:53:38: [Thu Jul  7 14:53:38 2022] 127.0.0.1:58772 Accepted
+2022-07-07T14:53:38: [Thu Jul  7 14:53:38 2022] 127.0.0.1:58772 [200]: GET /plugins/jquery/jquery.min.js
+2022-07-07T14:53:38: [Thu Jul  7 14:53:38 2022] 127.0.0.1:58772 Closing
+2022-07-07T14:53:38: [Thu Jul  7 14:53:38 2022] 127.0.0.1:58774 Accepted
+2022-07-07T14:53:38: [Thu Jul  7 14:53:38 2022] 127.0.0.1:58774 [200]: GET /plugins/summernote/summernote-bs4.min.css
+2022-07-07T14:53:38: [Thu Jul  7 14:53:38 2022] 127.0.0.1:58774 Closing
+2022-07-07T14:53:38: [Thu Jul  7 14:53:38 2022] 127.0.0.1:58776 Accepted
+2022-07-07T14:53:38: [Thu Jul  7 14:53:38 2022] 127.0.0.1:58776 [200]: GET /plugins/jquery-ui/jquery-ui.min.js
+2022-07-07T14:53:38: [Thu Jul  7 14:53:38 2022] 127.0.0.1:58776 Closing
+2022-07-07T14:53:38: [Thu Jul  7 14:53:38 2022] 127.0.0.1:58778 Accepted
+2022-07-07T14:53:38: [Thu Jul  7 14:53:38 2022] 127.0.0.1:58778 [200]: GET /plugins/bootstrap/js/bootstrap.bundle.min.js
+2022-07-07T14:53:38: [Thu Jul  7 14:53:38 2022] 127.0.0.1:58778 Closing
+2022-07-07T14:53:38: [Thu Jul  7 14:53:38 2022] 127.0.0.1:58780 Accepted
+2022-07-07T14:53:38: [Thu Jul  7 14:53:38 2022] 127.0.0.1:58780 [200]: GET /plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js
+2022-07-07T14:53:38: [Thu Jul  7 14:53:38 2022] 127.0.0.1:58780 Closing
+2022-07-07T14:53:39: [Thu Jul  7 14:53:38 2022] 127.0.0.1:58782 Accepted
+2022-07-07T14:53:39: [Thu Jul  7 14:53:38 2022] 127.0.0.1:58782 [200]: GET /dist/js/adminlte.js
+2022-07-07T14:53:39: [Thu Jul  7 14:53:38 2022] 127.0.0.1:58782 Closing
+2022-07-07T14:53:56: [Thu Jul  7 14:53:56 2022] 127.0.0.1:58784 Accepted
+2022-07-07T14:53:56: [Thu Jul  7 14:53:56 2022] 127.0.0.1:58784 [200]: GET /assets/images/logo/app-logo.png
+2022-07-07T14:53:56: [Thu Jul  7 14:53:56 2022] 127.0.0.1:58784 Closing
+2022-07-07T14:55:00: [Thu Jul  7 14:55:00 2022] 127.0.0.1:58786 Accepted
+2022-07-07T14:55:00: [Thu Jul  7 14:55:00 2022] 127.0.0.1:58786 Closing
+2022-07-07T14:55:00: [Thu Jul  7 14:55:00 2022] 127.0.0.1:58790 Accepted
+2022-07-07T14:55:00: [Thu Jul  7 14:55:00 2022] 127.0.0.1:58790 Closing
+2022-07-07T14:55:01: [Thu Jul  7 14:55:01 2022] 127.0.0.1:58794 Accepted
+2022-07-07T14:55:01: [Thu Jul  7 14:55:01 2022] 127.0.0.1:58794 [200]: GET /plugins/fontawesome-free/css/all.min.css
+2022-07-07T14:55:01: [Thu Jul  7 14:55:01 2022] 127.0.0.1:58794 Closing
+2022-07-07T14:55:01: [Thu Jul  7 14:55:01 2022] 127.0.0.1:58796 Accepted
+2022-07-07T14:55:01: [Thu Jul  7 14:55:01 2022] 127.0.0.1:58796 [200]: GET /plugins/overlayScrollbars/css/OverlayScrollbars.min.css
+2022-07-07T14:55:01: [Thu Jul  7 14:55:01 2022] 127.0.0.1:58796 Closing
+2022-07-07T14:55:01: [Thu Jul  7 14:55:01 2022] 127.0.0.1:58798 Accepted
+2022-07-07T14:55:01: [Thu Jul  7 14:55:01 2022] 127.0.0.1:58798 [200]: GET /plugins/icheck-bootstrap/icheck-bootstrap.min.css
+2022-07-07T14:55:01: [Thu Jul  7 14:55:01 2022] 127.0.0.1:58798 Closing
+2022-07-07T14:55:01: [Thu Jul  7 14:55:01 2022] 127.0.0.1:58800 Accepted
+2022-07-07T14:55:01: [Thu Jul  7 14:55:01 2022] 127.0.0.1:58800 [200]: GET /plugins/jqvmap/jqvmap.min.css
+2022-07-07T14:55:01: [Thu Jul  7 14:55:01 2022] 127.0.0.1:58800 Closing
+2022-07-07T14:55:01: [Thu Jul  7 14:55:01 2022] 127.0.0.1:58802 Accepted
+2022-07-07T14:55:01: [Thu Jul  7 14:55:01 2022] 127.0.0.1:58802 [200]: GET /dist/css/adminlte.min.css
+2022-07-07T14:55:01: [Thu Jul  7 14:55:01 2022] 127.0.0.1:58802 Closing
+2022-07-07T14:55:01: [Thu Jul  7 14:55:01 2022] 127.0.0.1:58804 Accepted
+2022-07-07T14:55:01: [Thu Jul  7 14:55:01 2022] 127.0.0.1:58804 [200]: GET /plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css
+2022-07-07T14:55:01: [Thu Jul  7 14:55:01 2022] 127.0.0.1:58804 Closing
+2022-07-07T14:55:01: [Thu Jul  7 14:55:01 2022] 127.0.0.1:58806 Accepted
+2022-07-07T14:55:01: [Thu Jul  7 14:55:01 2022] 127.0.0.1:58806 [200]: GET /plugins/summernote/summernote-bs4.min.css
+2022-07-07T14:55:01: [Thu Jul  7 14:55:01 2022] 127.0.0.1:58806 Closing
+2022-07-07T14:55:01: [Thu Jul  7 14:55:01 2022] 127.0.0.1:58808 Accepted
+2022-07-07T14:55:01: [Thu Jul  7 14:55:01 2022] 127.0.0.1:58808 [200]: GET /plugins/daterangepicker/daterangepicker.css
+2022-07-07T14:55:01: [Thu Jul  7 14:55:01 2022] 127.0.0.1:58808 Closing
+2022-07-07T14:55:01: [Thu Jul  7 14:55:01 2022] 127.0.0.1:58810 Accepted
+2022-07-07T14:55:01: [Thu Jul  7 14:55:01 2022] 127.0.0.1:58810 [200]: GET /plugins/jquery/jquery.min.js
+2022-07-07T14:55:01: [Thu Jul  7 14:55:01 2022] 127.0.0.1:58810 Closing
+2022-07-07T14:55:02: [Thu Jul  7 14:55:02 2022] 127.0.0.1:58812 Accepted
+2022-07-07T14:55:02: [Thu Jul  7 14:55:02 2022] 127.0.0.1:58812 [200]: GET /plugins/bootstrap/js/bootstrap.bundle.min.js
+2022-07-07T14:55:02: [Thu Jul  7 14:55:02 2022] 127.0.0.1:58812 Closing
+2022-07-07T14:55:02: [Thu Jul  7 14:55:02 2022] 127.0.0.1:58814 Accepted
+2022-07-07T14:55:02: [Thu Jul  7 14:55:02 2022] 127.0.0.1:58814 [200]: GET /plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js
+2022-07-07T14:55:02: [Thu Jul  7 14:55:02 2022] 127.0.0.1:58814 Closing
+2022-07-07T14:55:02: [Thu Jul  7 14:55:02 2022] 127.0.0.1:58816 Accepted
+2022-07-07T14:55:02: [Thu Jul  7 14:55:02 2022] 127.0.0.1:58816 [200]: GET /plugins/jquery-ui/jquery-ui.min.js
+2022-07-07T14:55:02: [Thu Jul  7 14:55:02 2022] 127.0.0.1:58816 Closing
+2022-07-07T14:55:02: [Thu Jul  7 14:55:02 2022] 127.0.0.1:58818 Accepted
+2022-07-07T14:55:02: [Thu Jul  7 14:55:02 2022] 127.0.0.1:58818 [200]: GET /dist/js/adminlte.js
+2022-07-07T14:55:02: [Thu Jul  7 14:55:02 2022] 127.0.0.1:58818 Closing
+2022-07-07T14:55:06: [Thu Jul  7 14:55:06 2022] 127.0.0.1:58820 Accepted
+2022-07-07T14:55:06: [Thu Jul  7 14:55:06 2022] 127.0.0.1:58820 [200]: GET /assets/images/logo/app-logo.png
+2022-07-07T14:55:06: [Thu Jul  7 14:55:06 2022] 127.0.0.1:58820 Closing
+2022-07-07T14:55:29: [Thu Jul  7 14:55:29 2022] 127.0.0.1:58822 Accepted
+2022-07-07T14:55:29: [Thu Jul  7 14:55:29 2022] 127.0.0.1:58822 Closing
+2022-07-07T14:55:58: [Thu Jul  7 14:55:58 2022] 127.0.0.1:58826 Accepted
+2022-07-07T14:55:58: [Thu Jul  7 14:55:58 2022] 127.0.0.1:58826 Closing
+2022-07-07T14:55:58: [Thu Jul  7 14:55:58 2022] 127.0.0.1:58828 Accepted
+2022-07-07T14:55:58: [Thu Jul  7 14:55:58 2022] 127.0.0.1:58828 Closing
+2022-07-07T14:56:47: [Thu Jul  7 14:56:47 2022] 127.0.0.1:58832 Accepted
+2022-07-07T14:56:47: [Thu Jul  7 14:56:47 2022] 127.0.0.1:58832 Closing
+2022-07-07T14:56:48: [Thu Jul  7 14:56:47 2022] 127.0.0.1:58834 Accepted
+2022-07-07T14:56:48: [Thu Jul  7 14:56:48 2022] 127.0.0.1:58834 Closing
+2022-07-07T14:56:48: [Thu Jul  7 14:56:48 2022] 127.0.0.1:58838 Accepted
+2022-07-07T14:56:48: [Thu Jul  7 14:56:48 2022] 127.0.0.1:58838 Closing
+2022-07-07T14:56:48: [Thu Jul  7 14:56:48 2022] 127.0.0.1:58840 Accepted
+2022-07-07T14:56:48: [Thu Jul  7 14:56:48 2022] 127.0.0.1:58840 Closing
+2022-07-07T14:57:11: [Thu Jul  7 14:57:10 2022] 127.0.0.1:58844 Accepted
+2022-07-07T14:57:11: [Thu Jul  7 14:57:10 2022] 127.0.0.1:58844 Closing
+2022-07-07T14:57:11: [Thu Jul  7 14:57:11 2022] 127.0.0.1:58846 Accepted
+2022-07-07T14:57:11: [Thu Jul  7 14:57:11 2022] 127.0.0.1:58846 Closing
+2022-07-07T14:57:11: [Thu Jul  7 14:57:11 2022] 127.0.0.1:58850 Accepted
+2022-07-07T14:57:11: [Thu Jul  7 14:57:11 2022] 127.0.0.1:58850 Closing
+2022-07-07T14:57:11: [Thu Jul  7 14:57:11 2022] 127.0.0.1:58852 Accepted
+2022-07-07T14:57:12: [Thu Jul  7 14:57:11 2022] 127.0.0.1:58852 Closing
+2022-07-07T14:57:16: [Thu Jul  7 14:57:16 2022] 127.0.0.1:58856 Accepted
+2022-07-07T14:57:16: [Thu Jul  7 14:57:16 2022] 127.0.0.1:58856 Closing
+2022-07-07T14:57:16: [Thu Jul  7 14:57:16 2022] 127.0.0.1:58858 Accepted
+2022-07-07T14:57:16: [Thu Jul  7 14:57:16 2022] 127.0.0.1:58858 Closing
+2022-07-07T15:00:15: [Thu Jul  7 15:00:15 2022] 127.0.0.1:58862 Accepted
+2022-07-07T15:00:15: [Thu Jul  7 15:00:15 2022] 127.0.0.1:58862 Closing
+2022-07-07T15:00:15: [Thu Jul  7 15:00:15 2022] 127.0.0.1:58864 Accepted
+2022-07-07T15:00:15: [Thu Jul  7 15:00:15 2022] 127.0.0.1:58864 Closing
+2022-07-07T15:01:17: [Thu Jul  7 15:01:17 2022] 127.0.0.1:58868 Accepted
+2022-07-07T15:01:17: [Thu Jul  7 15:01:17 2022] 127.0.0.1:58868 Closing
+2022-07-07T15:07:09: Environment modified. Restarting server...
+2022-07-07T15:07:10: [Thu Jul  7 15:07:09 2022] PHP 8.0.20 Development Server (http://127.0.0.1:8000) started
+2022-07-07T15:07:37: Starting Laravel development server: http://127.0.0.1:8000
+2022-07-07T15:07:38: [Thu Jul  7 15:07:37 2022] PHP 8.0.20 Development Server (http://127.0.0.1:8000) started
+2022-07-07T15:07:54: [Thu Jul  7 15:07:54 2022] 127.0.0.1:58872 Accepted
+2022-07-07T15:07:55: [Thu Jul  7 15:07:55 2022] 127.0.0.1:58872 Closing
+2022-07-07T15:09:50: Environment modified. Restarting server...
+2022-07-07T15:09:50: [Thu Jul  7 15:09:50 2022] PHP 8.0.20 Development Server (http://127.0.0.1:8000) started
+2022-07-07T15:10:06: [Thu Jul  7 15:10:06 2022] 127.0.0.1:58876 Accepted
+2022-07-07T15:10:07: [Thu Jul  7 15:10:06 2022] 127.0.0.1:58876 Closing
+2022-07-07T15:11:38: [Thu Jul  7 15:11:37 2022] 127.0.0.1:58880 Accepted
+2022-07-07T15:11:38: [Thu Jul  7 15:11:37 2022] 127.0.0.1:58880 Closing
+2022-07-07T15:11:38: [Thu Jul  7 15:11:37 2022] 127.0.0.1:58882 Accepted
+2022-07-07T15:11:38: [Thu Jul  7 15:11:37 2022] 127.0.0.1:58882 [200]: GET /dist/css/adminlte.min.css.map
+2022-07-07T15:11:38: [Thu Jul  7 15:11:37 2022] 127.0.0.1:58882 Closing
+2022-07-07T15:11:38: [Thu Jul  7 15:11:37 2022] 127.0.0.1:58884 Accepted
+2022-07-07T15:11:38: [Thu Jul  7 15:11:37 2022] 127.0.0.1:58884 Closing
+2022-07-07T15:11:55: [Thu Jul  7 15:11:54 2022] 127.0.0.1:58886 Accepted
+2022-07-07T15:11:55: [Thu Jul  7 15:11:54 2022] 127.0.0.1:58886 Closing
+2022-07-07T15:11:55: [Thu Jul  7 15:11:55 2022] 127.0.0.1:58890 Accepted
+2022-07-07T15:11:55: [Thu Jul  7 15:11:55 2022] 127.0.0.1:58890 [200]: GET /plugins/icheck-bootstrap/icheck-bootstrap.min.css
+2022-07-07T15:11:55: [Thu Jul  7 15:11:55 2022] 127.0.0.1:58890 Closing
+2022-07-07T15:11:55: [Thu Jul  7 15:11:55 2022] 127.0.0.1:58892 Accepted
+2022-07-07T15:11:55: [Thu Jul  7 15:11:55 2022] 127.0.0.1:58892 [200]: GET /plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css
+2022-07-07T15:11:55: [Thu Jul  7 15:11:55 2022] 127.0.0.1:58892 Closing
+2022-07-07T15:11:55: [Thu Jul  7 15:11:55 2022] 127.0.0.1:58894 Accepted
+2022-07-07T15:11:55: [Thu Jul  7 15:11:55 2022] 127.0.0.1:58894 [200]: GET /plugins/fontawesome-free/css/all.min.css
+2022-07-07T15:11:55: [Thu Jul  7 15:11:55 2022] 127.0.0.1:58894 Closing
+2022-07-07T15:11:56: [Thu Jul  7 15:11:55 2022] 127.0.0.1:58896 Accepted
+2022-07-07T15:11:56: [Thu Jul  7 15:11:55 2022] 127.0.0.1:58896 [200]: GET /plugins/jqvmap/jqvmap.min.css
+2022-07-07T15:11:56: [Thu Jul  7 15:11:55 2022] 127.0.0.1:58896 Closing
+2022-07-07T15:11:56: [Thu Jul  7 15:11:56 2022] 127.0.0.1:58898 Accepted
+2022-07-07T15:11:56: [Thu Jul  7 15:11:56 2022] 127.0.0.1:58898 [200]: GET /plugins/daterangepicker/daterangepicker.css
+2022-07-07T15:11:56: [Thu Jul  7 15:11:56 2022] 127.0.0.1:58898 Closing
+2022-07-07T15:11:56: [Thu Jul  7 15:11:56 2022] 127.0.0.1:58900 Accepted
+2022-07-07T15:11:56: [Thu Jul  7 15:11:56 2022] 127.0.0.1:58900 [200]: GET /plugins/overlayScrollbars/css/OverlayScrollbars.min.css
+2022-07-07T15:11:56: [Thu Jul  7 15:11:56 2022] 127.0.0.1:58900 Closing
+2022-07-07T15:11:56: [Thu Jul  7 15:11:56 2022] 127.0.0.1:58902 Accepted
+2022-07-07T15:11:56: [Thu Jul  7 15:11:56 2022] 127.0.0.1:58902 [200]: GET /plugins/jquery/jquery.min.js
+2022-07-07T15:11:56: [Thu Jul  7 15:11:56 2022] 127.0.0.1:58902 Closing
+2022-07-07T15:11:56: [Thu Jul  7 15:11:56 2022] 127.0.0.1:58904 Accepted
+2022-07-07T15:11:56: [Thu Jul  7 15:11:56 2022] 127.0.0.1:58904 [200]: GET /plugins/jquery-ui/jquery-ui.min.js
+2022-07-07T15:11:56: [Thu Jul  7 15:11:56 2022] 127.0.0.1:58904 Closing
+2022-07-07T15:11:56: [Thu Jul  7 15:11:56 2022] 127.0.0.1:58906 Accepted
+2022-07-07T15:11:56: [Thu Jul  7 15:11:56 2022] 127.0.0.1:58906 [200]: GET /plugins/summernote/summernote-bs4.min.css
+2022-07-07T15:11:56: [Thu Jul  7 15:11:56 2022] 127.0.0.1:58906 Closing
+2022-07-07T15:11:56: [Thu Jul  7 15:11:56 2022] 127.0.0.1:58908 Accepted
+2022-07-07T15:11:56: [Thu Jul  7 15:11:56 2022] 127.0.0.1:58908 [200]: GET /plugins/bootstrap/js/bootstrap.bundle.min.js
+2022-07-07T15:11:56: [Thu Jul  7 15:11:56 2022] 127.0.0.1:58908 Closing
+2022-07-07T15:11:57: [Thu Jul  7 15:11:56 2022] 127.0.0.1:58910 Accepted
+2022-07-07T15:11:57: [Thu Jul  7 15:11:56 2022] 127.0.0.1:58910 [200]: GET /plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js
+2022-07-07T15:11:57: [Thu Jul  7 15:11:56 2022] 127.0.0.1:58910 Closing
+2022-07-07T15:11:57: [Thu Jul  7 15:11:57 2022] 127.0.0.1:58912 Accepted
+2022-07-07T15:11:57: [Thu Jul  7 15:11:57 2022] 127.0.0.1:58912 [200]: GET /dist/js/adminlte.js
+2022-07-07T15:11:57: [Thu Jul  7 15:11:57 2022] 127.0.0.1:58912 Closing
+2022-07-07T15:11:57: [Thu Jul  7 15:11:57 2022] 127.0.0.1:58914 Accepted
+2022-07-07T15:11:57: [Thu Jul  7 15:11:57 2022] 127.0.0.1:58914 [200]: GET /dist/css/adminlte.min.css
+2022-07-07T15:11:57: [Thu Jul  7 15:11:57 2022] 127.0.0.1:58914 Closing
+2022-07-07T15:12:02: [Thu Jul  7 15:12:02 2022] 127.0.0.1:58916 Accepted
+2022-07-07T15:12:02: [Thu Jul  7 15:12:02 2022] 127.0.0.1:58916 [200]: GET /assets/images/logo/app-logo.png
+2022-07-07T15:12:02: [Thu Jul  7 15:12:02 2022] 127.0.0.1:58916 Closing
+2022-07-07T15:12:04: [Thu Jul  7 15:12:04 2022] 127.0.0.1:58918 Accepted
+2022-07-07T15:12:04: [Thu Jul  7 15:12:04 2022] 127.0.0.1:58918 [200]: GET /dist/css/adminlte.min.css.map
+2022-07-07T15:12:04: [Thu Jul  7 15:12:04 2022] 127.0.0.1:58918 Closing
+2022-07-07T15:24:15: [Thu Jul  7 15:24:15 2022] 127.0.0.1:58920 Accepted
+2022-07-07T15:24:15: [Thu Jul  7 15:24:15 2022] 127.0.0.1:58920 Closing
+2022-07-07T15:25:56: [Thu Jul  7 15:25:55 2022] 127.0.0.1:58924 Accepted
+2022-07-07T15:25:56: [Thu Jul  7 15:25:55 2022] 127.0.0.1:58924 Closing
+2022-07-07T15:25:56: [Thu Jul  7 15:25:56 2022] 127.0.0.1:58928 Accepted
+2022-07-07T15:25:56: [Thu Jul  7 15:25:56 2022] 127.0.0.1:58928 [200]: GET /plugins/fontawesome-free/css/all.min.css
+2022-07-07T15:25:56: [Thu Jul  7 15:25:56 2022] 127.0.0.1:58928 Closing
+2022-07-07T15:25:56: [Thu Jul  7 15:25:56 2022] 127.0.0.1:58930 Accepted
+2022-07-07T15:25:56: [Thu Jul  7 15:25:56 2022] 127.0.0.1:58930 [200]: GET /plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css
+2022-07-07T15:25:56: [Thu Jul  7 15:25:56 2022] 127.0.0.1:58930 Closing
+2022-07-07T15:25:56: [Thu Jul  7 15:25:56 2022] 127.0.0.1:58932 Accepted
+2022-07-07T15:25:56: [Thu Jul  7 15:25:56 2022] 127.0.0.1:58932 [200]: GET /plugins/jqvmap/jqvmap.min.css
+2022-07-07T15:25:56: [Thu Jul  7 15:25:56 2022] 127.0.0.1:58932 Closing
+2022-07-07T15:25:56: [Thu Jul  7 15:25:56 2022] 127.0.0.1:58934 Accepted
+2022-07-07T15:25:56: [Thu Jul  7 15:25:56 2022] 127.0.0.1:58934 [200]: GET /dist/js/adminlte.js
+2022-07-07T15:25:56: [Thu Jul  7 15:25:56 2022] 127.0.0.1:58934 Closing
+2022-07-07T15:25:56: [Thu Jul  7 15:25:56 2022] 127.0.0.1:58936 Accepted
+2022-07-07T15:25:56: [Thu Jul  7 15:25:56 2022] 127.0.0.1:58936 [200]: GET /plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js
+2022-07-07T15:25:56: [Thu Jul  7 15:25:56 2022] 127.0.0.1:58936 Closing
+2022-07-07T15:25:57: [Thu Jul  7 15:25:56 2022] 127.0.0.1:58938 Accepted
+2022-07-07T15:25:57: [Thu Jul  7 15:25:56 2022] 127.0.0.1:58938 [200]: GET /plugins/icheck-bootstrap/icheck-bootstrap.min.css
+2022-07-07T15:25:57: [Thu Jul  7 15:25:56 2022] 127.0.0.1:58938 Closing
+2022-07-07T15:25:57: [Thu Jul  7 15:25:56 2022] 127.0.0.1:58940 Accepted
+2022-07-07T15:25:57: [Thu Jul  7 15:25:56 2022] 127.0.0.1:58940 [200]: GET /plugins/overlayScrollbars/css/OverlayScrollbars.min.css
+2022-07-07T15:25:57: [Thu Jul  7 15:25:56 2022] 127.0.0.1:58940 Closing
+2022-07-07T15:25:57: [Thu Jul  7 15:25:56 2022] 127.0.0.1:58942 Accepted
+2022-07-07T15:25:57: [Thu Jul  7 15:25:56 2022] 127.0.0.1:58942 [200]: GET /dist/css/adminlte.min.css
+2022-07-07T15:25:57: [Thu Jul  7 15:25:56 2022] 127.0.0.1:58942 Closing
+2022-07-07T15:25:57: [Thu Jul  7 15:25:56 2022] 127.0.0.1:58944 Accepted
+2022-07-07T15:25:57: [Thu Jul  7 15:25:56 2022] 127.0.0.1:58944 [200]: GET /plugins/daterangepicker/daterangepicker.css
+2022-07-07T15:25:57: [Thu Jul  7 15:25:56 2022] 127.0.0.1:58944 Closing
+2022-07-07T15:25:57: [Thu Jul  7 15:25:57 2022] 127.0.0.1:58946 Accepted
+2022-07-07T15:25:57: [Thu Jul  7 15:25:57 2022] 127.0.0.1:58946 [200]: GET /plugins/summernote/summernote-bs4.min.css
+2022-07-07T15:25:57: [Thu Jul  7 15:25:57 2022] 127.0.0.1:58946 Closing
+2022-07-07T15:25:57: [Thu Jul  7 15:25:57 2022] 127.0.0.1:58948 Accepted
+2022-07-07T15:25:57: [Thu Jul  7 15:25:57 2022] 127.0.0.1:58948 [200]: GET /plugins/jquery/jquery.min.js
+2022-07-07T15:25:57: [Thu Jul  7 15:25:57 2022] 127.0.0.1:58948 Closing
+2022-07-07T15:25:57: [Thu Jul  7 15:25:57 2022] 127.0.0.1:58950 Accepted
+2022-07-07T15:25:57: [Thu Jul  7 15:25:57 2022] 127.0.0.1:58950 [200]: GET /plugins/jquery-ui/jquery-ui.min.js
+2022-07-07T15:25:57: [Thu Jul  7 15:25:57 2022] 127.0.0.1:58950 Closing
+2022-07-07T15:25:57: [Thu Jul  7 15:25:57 2022] 127.0.0.1:58952 Accepted
+2022-07-07T15:25:57: [Thu Jul  7 15:25:57 2022] 127.0.0.1:58952 [200]: GET /plugins/bootstrap/js/bootstrap.bundle.min.js
+2022-07-07T15:25:57: [Thu Jul  7 15:25:57 2022] 127.0.0.1:58952 Closing
+2022-07-07T15:26:01: [Thu Jul  7 15:26:01 2022] 127.0.0.1:58954 Accepted
+2022-07-07T15:26:01: [Thu Jul  7 15:26:01 2022] 127.0.0.1:58954 [200]: GET /assets/images/logo/app-logo.png
+2022-07-07T15:26:01: [Thu Jul  7 15:26:01 2022] 127.0.0.1:58954 Closing
+2022-07-07T15:26:08: [Thu Jul  7 15:26:07 2022] 127.0.0.1:58956 Accepted
+2022-07-07T15:26:08: [Thu Jul  7 15:26:08 2022] 127.0.0.1:58956 Closing
+2022-07-07T15:26:10: [Thu Jul  7 15:26:10 2022] 127.0.0.1:58960 Accepted
+2022-07-07T15:26:10: [Thu Jul  7 15:26:10 2022] 127.0.0.1:58960 Closing
+2022-07-07T15:26:16: [Thu Jul  7 15:26:16 2022] 127.0.0.1:58962 Accepted
+2022-07-07T15:26:16: [Thu Jul  7 15:26:16 2022] 127.0.0.1:58962 Closing
+2022-07-07T15:26:17: [Thu Jul  7 15:26:16 2022] 127.0.0.1:58966 Accepted
+2022-07-07T15:26:17: [Thu Jul  7 15:26:16 2022] 127.0.0.1:58966 [200]: GET /plugins/fontawesome-free/css/all.min.css
+2022-07-07T15:26:17: [Thu Jul  7 15:26:16 2022] 127.0.0.1:58966 Closing
+2022-07-07T15:26:17: [Thu Jul  7 15:26:16 2022] 127.0.0.1:58968 Accepted
+2022-07-07T15:26:17: [Thu Jul  7 15:26:16 2022] 127.0.0.1:58968 [200]: GET /plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css
+2022-07-07T15:26:17: [Thu Jul  7 15:26:16 2022] 127.0.0.1:58968 Closing
+2022-07-07T15:26:17: [Thu Jul  7 15:26:16 2022] 127.0.0.1:58970 Accepted
+2022-07-07T15:26:17: [Thu Jul  7 15:26:16 2022] 127.0.0.1:58970 [200]: GET /plugins/summernote/summernote-bs4.min.css
+2022-07-07T15:26:17: [Thu Jul  7 15:26:16 2022] 127.0.0.1:58970 Closing
+2022-07-07T15:26:17: [Thu Jul  7 15:26:16 2022] 127.0.0.1:58972 Accepted
+2022-07-07T15:26:17: [Thu Jul  7 15:26:16 2022] 127.0.0.1:58972 [200]: GET /plugins/daterangepicker/daterangepicker.css
+2022-07-07T15:26:17: [Thu Jul  7 15:26:16 2022] 127.0.0.1:58972 Closing
+2022-07-07T15:26:17: [Thu Jul  7 15:26:16 2022] 127.0.0.1:58974 Accepted
+2022-07-07T15:26:17: [Thu Jul  7 15:26:16 2022] 127.0.0.1:58974 [200]: GET /plugins/overlayScrollbars/css/OverlayScrollbars.min.css
+2022-07-07T15:26:17: [Thu Jul  7 15:26:16 2022] 127.0.0.1:58974 Closing
+2022-07-07T15:26:17: [Thu Jul  7 15:26:16 2022] 127.0.0.1:58976 Accepted
+2022-07-07T15:26:17: [Thu Jul  7 15:26:16 2022] 127.0.0.1:58976 [200]: GET /dist/css/adminlte.min.css
+2022-07-07T15:26:17: [Thu Jul  7 15:26:16 2022] 127.0.0.1:58976 Closing
+2022-07-07T15:26:17: [Thu Jul  7 15:26:17 2022] 127.0.0.1:58978 Accepted
+2022-07-07T15:26:17: [Thu Jul  7 15:26:17 2022] 127.0.0.1:58978 [200]: GET /plugins/jqvmap/jqvmap.min.css
+2022-07-07T15:26:17: [Thu Jul  7 15:26:17 2022] 127.0.0.1:58978 Closing
+2022-07-07T15:26:17: [Thu Jul  7 15:26:17 2022] 127.0.0.1:58980 Accepted
+2022-07-07T15:26:17: [Thu Jul  7 15:26:17 2022] 127.0.0.1:58980 [200]: GET /plugins/icheck-bootstrap/icheck-bootstrap.min.css
+2022-07-07T15:26:17: [Thu Jul  7 15:26:17 2022] 127.0.0.1:58980 Closing
+2022-07-07T15:26:18: [Thu Jul  7 15:26:17 2022] 127.0.0.1:58982 Accepted
+2022-07-07T15:26:18: [Thu Jul  7 15:26:17 2022] 127.0.0.1:58984 Accepted
+2022-07-07T15:26:18: [Thu Jul  7 15:26:17 2022] 127.0.0.1:58982 [200]: GET /plugins/jquery-ui/jquery-ui.min.js
+2022-07-07T15:26:18: [Thu Jul  7 15:26:17 2022] 127.0.0.1:58984 [200]: GET /plugins/jquery/jquery.min.js
+2022-07-07T15:26:18: [Thu Jul  7 15:26:17 2022] 127.0.0.1:58982 Closing
+2022-07-07T15:26:18: [Thu Jul  7 15:26:17 2022] 127.0.0.1:58984 Closing
+2022-07-07T15:26:18: [Thu Jul  7 15:26:17 2022] 127.0.0.1:58986 Accepted
+2022-07-07T15:26:18: [Thu Jul  7 15:26:17 2022] 127.0.0.1:58986 [200]: GET /plugins/bootstrap/js/bootstrap.bundle.min.js
+2022-07-07T15:26:18: [Thu Jul  7 15:26:17 2022] 127.0.0.1:58986 Closing
+2022-07-07T15:26:18: [Thu Jul  7 15:26:17 2022] 127.0.0.1:58988 Accepted
+2022-07-07T15:26:18: [Thu Jul  7 15:26:17 2022] 127.0.0.1:58988 [200]: GET /plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js
+2022-07-07T15:26:18: [Thu Jul  7 15:26:17 2022] 127.0.0.1:58988 Closing
+2022-07-07T15:26:18: [Thu Jul  7 15:26:18 2022] 127.0.0.1:58990 Accepted
+2022-07-07T15:26:18: [Thu Jul  7 15:26:18 2022] 127.0.0.1:58990 [200]: GET /plugins/select2/css/select2.min.css
+2022-07-07T15:26:18: [Thu Jul  7 15:26:18 2022] 127.0.0.1:58990 Closing
+2022-07-07T15:26:18: [Thu Jul  7 15:26:18 2022] 127.0.0.1:58992 Accepted
+2022-07-07T15:26:18: [Thu Jul  7 15:26:18 2022] 127.0.0.1:58992 [200]: GET /plugins/select2/js/select2.min.js
+2022-07-07T15:26:18: [Thu Jul  7 15:26:18 2022] 127.0.0.1:58992 Closing
+2022-07-07T15:26:18: [Thu Jul  7 15:26:18 2022] 127.0.0.1:58994 Accepted
+2022-07-07T15:26:18: [Thu Jul  7 15:26:18 2022] 127.0.0.1:58994 [200]: GET /dist/js/adminlte.js
+2022-07-07T15:26:18: [Thu Jul  7 15:26:18 2022] 127.0.0.1:58994 Closing
+2022-07-07T15:26:20: [Thu Jul  7 15:26:19 2022] 127.0.0.1:58996 Accepted
+2022-07-07T15:26:20: [Thu Jul  7 15:26:19 2022] 127.0.0.1:58996 [200]: GET /assets/images/logo/app-logo.png
+2022-07-07T15:26:20: [Thu Jul  7 15:26:19 2022] 127.0.0.1:58996 Closing
+2022-07-07T15:26:36: [Thu Jul  7 15:26:36 2022] 127.0.0.1:58998 Accepted
+2022-07-07T15:26:36: [Thu Jul  7 15:26:36 2022] 127.0.0.1:58998 Closing
+2022-07-07T15:26:37: [Thu Jul  7 15:26:37 2022] 127.0.0.1:59000 Accepted
+2022-07-07T15:26:37: [Thu Jul  7 15:26:37 2022] 127.0.0.1:59000 Closing
+2022-07-07T15:29:03: [Thu Jul  7 15:29:02 2022] 127.0.0.1:59004 Accepted
+2022-07-07T15:29:03: [Thu Jul  7 15:29:02 2022] 127.0.0.1:59004 Closing
+2022-07-07T15:29:03: [Thu Jul  7 15:29:03 2022] 127.0.0.1:59008 Accepted
+2022-07-07T15:29:03: [Thu Jul  7 15:29:03 2022] 127.0.0.1:59008 [200]: GET /plugins/fontawesome-free/css/all.min.css
+2022-07-07T15:29:03: [Thu Jul  7 15:29:03 2022] 127.0.0.1:59008 Closing
+2022-07-07T15:29:03: [Thu Jul  7 15:29:03 2022] 127.0.0.1:59010 Accepted
+2022-07-07T15:29:03: [Thu Jul  7 15:29:03 2022] 127.0.0.1:59010 [200]: GET /plugins/daterangepicker/daterangepicker.css
+2022-07-07T15:29:03: [Thu Jul  7 15:29:03 2022] 127.0.0.1:59010 Closing
+2022-07-07T15:29:03: [Thu Jul  7 15:29:03 2022] 127.0.0.1:59012 Accepted
+2022-07-07T15:29:03: [Thu Jul  7 15:29:03 2022] 127.0.0.1:59012 [200]: GET /plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css
+2022-07-07T15:29:03: [Thu Jul  7 15:29:03 2022] 127.0.0.1:59012 Closing
+2022-07-07T15:29:03: [Thu Jul  7 15:29:03 2022] 127.0.0.1:59014 Accepted
+2022-07-07T15:29:03: [Thu Jul  7 15:29:03 2022] 127.0.0.1:59014 [200]: GET /plugins/overlayScrollbars/css/OverlayScrollbars.min.css
+2022-07-07T15:29:04: [Thu Jul  7 15:29:03 2022] 127.0.0.1:59014 Closing
+2022-07-07T15:29:04: [Thu Jul  7 15:29:03 2022] 127.0.0.1:59016 Accepted
+2022-07-07T15:29:04: [Thu Jul  7 15:29:03 2022] 127.0.0.1:59016 [200]: GET /plugins/jqvmap/jqvmap.min.css
+2022-07-07T15:29:04: [Thu Jul  7 15:29:03 2022] 127.0.0.1:59016 Closing
+2022-07-07T15:29:04: [Thu Jul  7 15:29:03 2022] 127.0.0.1:59018 Accepted
+2022-07-07T15:29:04: [Thu Jul  7 15:29:03 2022] 127.0.0.1:59018 [200]: GET /plugins/icheck-bootstrap/icheck-bootstrap.min.css
+2022-07-07T15:29:04: [Thu Jul  7 15:29:03 2022] 127.0.0.1:59018 Closing
+2022-07-07T15:29:04: [Thu Jul  7 15:29:04 2022] 127.0.0.1:59020 Accepted
+2022-07-07T15:29:04: [Thu Jul  7 15:29:04 2022] 127.0.0.1:59020 [200]: GET /plugins/select2/css/select2.min.css
+2022-07-07T15:29:04: [Thu Jul  7 15:29:04 2022] 127.0.0.1:59020 Closing
+2022-07-07T15:29:04: [Thu Jul  7 15:29:04 2022] 127.0.0.1:59022 Accepted
+2022-07-07T15:29:04: [Thu Jul  7 15:29:04 2022] 127.0.0.1:59022 [200]: GET /plugins/summernote/summernote-bs4.min.css
+2022-07-07T15:29:04: [Thu Jul  7 15:29:04 2022] 127.0.0.1:59022 Closing
+2022-07-07T15:29:04: [Thu Jul  7 15:29:04 2022] 127.0.0.1:59024 Accepted
+2022-07-07T15:29:04: [Thu Jul  7 15:29:04 2022] 127.0.0.1:59024 [200]: GET /plugins/jquery/jquery.min.js
+2022-07-07T15:29:04: [Thu Jul  7 15:29:04 2022] 127.0.0.1:59024 Closing
+2022-07-07T15:29:04: [Thu Jul  7 15:29:04 2022] 127.0.0.1:59026 Accepted
+2022-07-07T15:29:04: [Thu Jul  7 15:29:04 2022] 127.0.0.1:59026 [200]: GET /plugins/jquery-ui/jquery-ui.min.js
+2022-07-07T15:29:04: [Thu Jul  7 15:29:04 2022] 127.0.0.1:59026 Closing
+2022-07-07T15:29:04: [Thu Jul  7 15:29:04 2022] 127.0.0.1:59028 Accepted
+2022-07-07T15:29:04: [Thu Jul  7 15:29:04 2022] 127.0.0.1:59028 [200]: GET /dist/css/adminlte.min.css
+2022-07-07T15:29:04: [Thu Jul  7 15:29:04 2022] 127.0.0.1:59028 Closing
+2022-07-07T15:29:04: [Thu Jul  7 15:29:04 2022] 127.0.0.1:59030 Accepted
+2022-07-07T15:29:04: [Thu Jul  7 15:29:04 2022] 127.0.0.1:59030 [200]: GET /plugins/bootstrap/js/bootstrap.bundle.min.js
+2022-07-07T15:29:04: [Thu Jul  7 15:29:04 2022] 127.0.0.1:59030 Closing
+2022-07-07T15:29:05: [Thu Jul  7 15:29:04 2022] 127.0.0.1:59032 Accepted
+2022-07-07T15:29:05: [Thu Jul  7 15:29:04 2022] 127.0.0.1:59032 [200]: GET /plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js
+2022-07-07T15:29:05: [Thu Jul  7 15:29:04 2022] 127.0.0.1:59032 Closing
+2022-07-07T15:29:05: [Thu Jul  7 15:29:04 2022] 127.0.0.1:59034 Accepted
+2022-07-07T15:29:05: [Thu Jul  7 15:29:04 2022] 127.0.0.1:59034 [200]: GET /dist/js/adminlte.js
+2022-07-07T15:29:05: [Thu Jul  7 15:29:04 2022] 127.0.0.1:59034 Closing
+2022-07-07T15:29:07: [Thu Jul  7 15:29:06 2022] 127.0.0.1:59036 Accepted
+2022-07-07T15:29:07: [Thu Jul  7 15:29:06 2022] 127.0.0.1:59036 [200]: GET /plugins/select2/js/select2.min.js
+2022-07-07T15:29:07: [Thu Jul  7 15:29:06 2022] 127.0.0.1:59036 Closing
+2022-07-07T15:29:16: [Thu Jul  7 15:29:16 2022] 127.0.0.1:59038 Accepted
+2022-07-07T15:29:16: [Thu Jul  7 15:29:16 2022] 127.0.0.1:59038 [200]: GET /assets/images/logo/app-logo.png
+2022-07-07T15:29:16: [Thu Jul  7 15:29:16 2022] 127.0.0.1:59038 Closing
+2022-07-07T15:47:54: [Thu Jul  7 15:47:53 2022] 127.0.0.1:59042 Accepted
+2022-07-07T15:47:54: [Thu Jul  7 15:47:53 2022] 127.0.0.1:59042 Closing
+2022-07-07T15:48:26: [Thu Jul  7 15:48:26 2022] 127.0.0.1:59046 Accepted
+2022-07-07T15:48:27: [Thu Jul  7 15:48:26 2022] 127.0.0.1:59046 Closing
+2022-07-07T15:53:31: [Thu Jul  7 15:53:31 2022] 127.0.0.1:59050 Accepted
+2022-07-07T15:53:31: [Thu Jul  7 15:53:31 2022] 127.0.0.1:59050 Closing
+2022-07-07T15:53:32: [Thu Jul  7 15:53:31 2022] 127.0.0.1:59052 Accepted
+2022-07-07T15:53:32: [Thu Jul  7 15:53:32 2022] 127.0.0.1:59052 Closing
+2022-07-07T15:54:02: [Thu Jul  7 15:54:02 2022] 127.0.0.1:59056 Accepted
+2022-07-07T15:54:02: [Thu Jul  7 15:54:02 2022] 127.0.0.1:59056 Closing
+2022-07-07T15:54:03: [Thu Jul  7 15:54:02 2022] 127.0.0.1:59058 Accepted
+2022-07-07T15:54:03: [Thu Jul  7 15:54:03 2022] 127.0.0.1:59058 Closing
+2022-07-07T15:55:01: [Thu Jul  7 15:55:01 2022] 127.0.0.1:59062 Accepted
+2022-07-07T15:55:01: [Thu Jul  7 15:55:01 2022] 127.0.0.1:59062 Closing
+2022-07-07T15:55:02: [Thu Jul  7 15:55:01 2022] 127.0.0.1:59064 Accepted
+2022-07-07T15:55:02: [Thu Jul  7 15:55:02 2022] 127.0.0.1:59064 Closing
+2022-07-07T15:55:02: [Thu Jul  7 15:55:02 2022] 127.0.0.1:59068 Accepted
+2022-07-07T15:55:02: [Thu Jul  7 15:55:02 2022] 127.0.0.1:59068 Closing
+2022-07-07T15:55:02: [Thu Jul  7 15:55:02 2022] 127.0.0.1:59070 Accepted
+2022-07-07T15:55:02: [Thu Jul  7 15:55:02 2022] 127.0.0.1:59070 Closing
+2022-07-07T15:55:27: [Thu Jul  7 15:55:27 2022] 127.0.0.1:59074 Accepted
+2022-07-07T15:55:28: [Thu Jul  7 15:55:27 2022] 127.0.0.1:59074 Closing
+2022-07-07T15:55:28: [Thu Jul  7 15:55:28 2022] 127.0.0.1:59076 Accepted
+2022-07-07T15:55:28: [Thu Jul  7 15:55:28 2022] 127.0.0.1:59076 Closing
+2022-07-07T15:55:28: [Thu Jul  7 15:55:28 2022] 127.0.0.1:59080 Accepted
+2022-07-07T15:55:28: [Thu Jul  7 15:55:28 2022] 127.0.0.1:59080 Closing
+2022-07-07T15:55:29: [Thu Jul  7 15:55:29 2022] 127.0.0.1:59082 Accepted
+2022-07-07T15:55:29: [Thu Jul  7 15:55:29 2022] 127.0.0.1:59082 Closing
+2022-07-07T15:57:56: [Thu Jul  7 15:57:56 2022] 127.0.0.1:59086 Accepted
+2022-07-07T15:57:56: [Thu Jul  7 15:57:56 2022] 127.0.0.1:59086 Closing
+2022-07-07T15:57:57: [Thu Jul  7 15:57:57 2022] 127.0.0.1:59088 Accepted
+2022-07-07T15:57:57: [Thu Jul  7 15:57:57 2022] 127.0.0.1:59088 Closing
+2022-07-07T15:57:57: [Thu Jul  7 15:57:57 2022] 127.0.0.1:59092 Accepted
+2022-07-07T15:57:57: [Thu Jul  7 15:57:57 2022] 127.0.0.1:59092 Closing
+2022-07-07T15:57:58: [Thu Jul  7 15:57:57 2022] 127.0.0.1:59094 Accepted
+2022-07-07T15:57:58: [Thu Jul  7 15:57:57 2022] 127.0.0.1:59094 Closing
+2022-07-07T15:58:18: [Thu Jul  7 15:58:17 2022] 127.0.0.1:59098 Accepted
+2022-07-07T15:58:18: [Thu Jul  7 15:58:17 2022] 127.0.0.1:59098 Closing
+2022-07-07T15:58:18: [Thu Jul  7 15:58:17 2022] 127.0.0.1:59100 Accepted
+2022-07-07T15:58:18: [Thu Jul  7 15:58:18 2022] 127.0.0.1:59100 Closing
+2022-07-07T15:58:18: [Thu Jul  7 15:58:18 2022] 127.0.0.1:59104 Accepted
+2022-07-07T15:58:18: [Thu Jul  7 15:58:18 2022] 127.0.0.1:59104 Closing
+2022-07-07T15:58:19: [Thu Jul  7 15:58:18 2022] 127.0.0.1:59106 Accepted
+2022-07-07T15:58:19: [Thu Jul  7 15:58:18 2022] 127.0.0.1:59106 Closing
+2022-07-07T15:59:51: [Thu Jul  7 15:59:51 2022] 127.0.0.1:59110 Accepted
+2022-07-07T15:59:51: [Thu Jul  7 15:59:51 2022] 127.0.0.1:59110 Closing
+2022-07-07T15:59:52: [Thu Jul  7 15:59:51 2022] 127.0.0.1:59112 Accepted
+2022-07-07T15:59:52: [Thu Jul  7 15:59:51 2022] 127.0.0.1:59112 Closing
+2022-07-07T15:59:52: [Thu Jul  7 15:59:51 2022] 127.0.0.1:59116 Accepted
+2022-07-07T15:59:52: [Thu Jul  7 15:59:52 2022] 127.0.0.1:59116 Closing
+2022-07-07T15:59:52: [Thu Jul  7 15:59:52 2022] 127.0.0.1:59118 Accepted
+2022-07-07T15:59:52: [Thu Jul  7 15:59:52 2022] 127.0.0.1:59118 Closing
+2022-07-07T16:00:28: [Thu Jul  7 16:00:28 2022] 127.0.0.1:59122 Accepted
+2022-07-07T16:00:28: [Thu Jul  7 16:00:28 2022] 127.0.0.1:59122 Closing
+2022-07-07T16:00:28: [Thu Jul  7 16:00:28 2022] 127.0.0.1:59124 Accepted
+2022-07-07T16:00:29: [Thu Jul  7 16:00:28 2022] 127.0.0.1:59124 Closing
+2022-07-07T16:00:29: [Thu Jul  7 16:00:28 2022] 127.0.0.1:59128 Accepted
+2022-07-07T16:00:29: [Thu Jul  7 16:00:28 2022] 127.0.0.1:59128 Closing
+2022-07-07T16:00:29: [Thu Jul  7 16:00:29 2022] 127.0.0.1:59130 Accepted
+2022-07-07T16:00:29: [Thu Jul  7 16:00:29 2022] 127.0.0.1:59130 Closing
+2022-07-07T16:01:01: [Thu Jul  7 16:01:01 2022] 127.0.0.1:59134 Accepted
+2022-07-07T16:01:01: [Thu Jul  7 16:01:01 2022] 127.0.0.1:59134 Closing
+2022-07-07T16:01:02: [Thu Jul  7 16:01:01 2022] 127.0.0.1:59136 Accepted
+2022-07-07T16:01:02: [Thu Jul  7 16:01:01 2022] 127.0.0.1:59136 Closing
+2022-07-07T16:01:02: [Thu Jul  7 16:01:02 2022] 127.0.0.1:59140 Accepted
+2022-07-07T16:01:02: [Thu Jul  7 16:01:02 2022] 127.0.0.1:59140 Closing
+2022-07-07T16:01:02: [Thu Jul  7 16:01:02 2022] 127.0.0.1:59142 Accepted
+2022-07-07T16:01:02: [Thu Jul  7 16:01:02 2022] 127.0.0.1:59142 Closing
+2022-07-07T16:02:25: [Thu Jul  7 16:02:25 2022] 127.0.0.1:59146 Accepted
+2022-07-07T16:02:25: [Thu Jul  7 16:02:25 2022] 127.0.0.1:59146 Closing
+2022-07-07T16:02:26: [Thu Jul  7 16:02:25 2022] 127.0.0.1:59148 Accepted
+2022-07-07T16:02:26: [Thu Jul  7 16:02:25 2022] 127.0.0.1:59148 Closing
+2022-07-07T16:02:26: [Thu Jul  7 16:02:26 2022] 127.0.0.1:59152 Accepted
+2022-07-07T16:02:26: [Thu Jul  7 16:02:26 2022] 127.0.0.1:59152 Closing
+2022-07-07T16:02:26: [Thu Jul  7 16:02:26 2022] 127.0.0.1:59154 Accepted
+2022-07-07T16:02:26: [Thu Jul  7 16:02:26 2022] 127.0.0.1:59154 Closing
+2022-07-07T16:02:30: [Thu Jul  7 16:02:30 2022] 127.0.0.1:59158 Accepted
+2022-07-07T16:02:30: [Thu Jul  7 16:02:30 2022] 127.0.0.1:59158 Closing
+2022-07-07T16:02:31: [Thu Jul  7 16:02:30 2022] 127.0.0.1:59160 Accepted
+2022-07-07T16:02:31: [Thu Jul  7 16:02:30 2022] 127.0.0.1:59160 Closing
+2022-07-07T16:04:29: [Thu Jul  7 16:04:28 2022] 127.0.0.1:59164 Accepted
+2022-07-07T16:04:29: [Thu Jul  7 16:04:28 2022] 127.0.0.1:59164 Closing
+2022-07-07T16:04:29: [Thu Jul  7 16:04:29 2022] 127.0.0.1:59166 Accepted
+2022-07-07T16:04:29: [Thu Jul  7 16:04:29 2022] 127.0.0.1:59166 Closing
+2022-07-07T16:04:29: [Thu Jul  7 16:04:29 2022] 127.0.0.1:59170 Accepted
+2022-07-07T16:04:29: [Thu Jul  7 16:04:29 2022] 127.0.0.1:59170 Closing
+2022-07-07T16:04:30: [Thu Jul  7 16:04:30 2022] 127.0.0.1:59172 Accepted
+2022-07-07T16:04:30: [Thu Jul  7 16:04:30 2022] 127.0.0.1:59172 Closing
+2022-07-07T16:04:34: [Thu Jul  7 16:04:33 2022] 127.0.0.1:59176 Accepted
+2022-07-07T16:04:34: [Thu Jul  7 16:04:33 2022] 127.0.0.1:59176 Closing
+2022-07-07T16:04:34: [Thu Jul  7 16:04:34 2022] 127.0.0.1:59178 Accepted
+2022-07-07T16:04:34: [Thu Jul  7 16:04:34 2022] 127.0.0.1:59178 Closing
+2022-07-07T16:16:20: [Thu Jul  7 16:16:20 2022] 127.0.0.1:59182 Accepted
+2022-07-07T16:16:20: [Thu Jul  7 16:16:20 2022] 127.0.0.1:59182 Closing
+2022-07-07T16:16:21: [Thu Jul  7 16:16:21 2022] 127.0.0.1:59184 Accepted
+2022-07-07T16:16:21: [Thu Jul  7 16:16:21 2022] 127.0.0.1:59184 Closing
+2022-07-07T16:16:22: [Thu Jul  7 16:16:22 2022] 127.0.0.1:59188 Accepted
+2022-07-07T16:16:22: [Thu Jul  7 16:16:22 2022] 127.0.0.1:59188 Closing
+2022-07-07T16:16:23: [Thu Jul  7 16:16:23 2022] 127.0.0.1:59190 Accepted
+2022-07-07T16:16:23: [Thu Jul  7 16:16:23 2022] 127.0.0.1:59190 Closing
+2022-07-07T16:16:41: [Thu Jul  7 16:16:40 2022] 127.0.0.1:59194 Accepted
+2022-07-07T16:16:41: [Thu Jul  7 16:16:40 2022] 127.0.0.1:59194 Closing
+2022-07-07T16:16:41: [Thu Jul  7 16:16:41 2022] 127.0.0.1:59196 Accepted
+2022-07-07T16:16:41: [Thu Jul  7 16:16:41 2022] 127.0.0.1:59196 Closing
+2022-07-07T21:01:49: [Thu Jul  7 21:01:49 2022] 127.0.0.1:59208 Accepted
+2022-07-07T21:01:49: [Thu Jul  7 21:01:49 2022] 127.0.0.1:59208 Closing
+2022-07-07T21:01:49: [Thu Jul  7 21:01:49 2022] 127.0.0.1:59210 Accepted
+2022-07-07T21:01:49: [Thu Jul  7 21:01:49 2022] 127.0.0.1:59210 Closing
+2022-07-07T21:01:50: [Thu Jul  7 21:01:49 2022] 127.0.0.1:59214 Accepted
+2022-07-07T21:01:50: [Thu Jul  7 21:01:49 2022] 127.0.0.1:59214 Closing
+2022-07-07T21:01:50: [Thu Jul  7 21:01:50 2022] 127.0.0.1:59216 Accepted
+2022-07-07T21:01:50: [Thu Jul  7 21:01:50 2022] 127.0.0.1:59216 Closing
+2022-07-07T21:01:55: [Thu Jul  7 21:01:55 2022] 127.0.0.1:59220 Accepted
+2022-07-07T21:01:55: [Thu Jul  7 21:01:55 2022] 127.0.0.1:59220 Closing
+2022-07-07T21:01:55: [Thu Jul  7 21:01:55 2022] 127.0.0.1:59222 Accepted
+2022-07-07T21:01:55: [Thu Jul  7 21:01:55 2022] 127.0.0.1:59222 Closing
+2022-07-07T22:11:54: [Thu Jul  7 22:11:54 2022] 127.0.0.1:59294 Accepted
+2022-07-07T22:11:54: [Thu Jul  7 22:11:54 2022] 127.0.0.1:59294 Closing
+2022-07-07T22:11:54: [Thu Jul  7 22:11:54 2022] 127.0.0.1:59296 Accepted
+2022-07-07T22:11:55: [Thu Jul  7 22:11:54 2022] 127.0.0.1:59296 Closing
+2022-07-07T22:12:09: [Thu Jul  7 22:12:09 2022] 127.0.0.1:59316 Accepted
+2022-07-07T22:12:09: [Thu Jul  7 22:12:09 2022] 127.0.0.1:59316 Closing
+2022-07-07T22:13:14: [Thu Jul  7 22:13:14 2022] 127.0.0.1:59320 Accepted
+2022-07-07T22:13:14: [Thu Jul  7 22:13:14 2022] 127.0.0.1:59320 Closing
+2022-07-07T22:13:14: [Thu Jul  7 22:13:14 2022] 127.0.0.1:59322 Accepted
+2022-07-07T22:13:14: [Thu Jul  7 22:13:14 2022] 127.0.0.1:59322 Closing
+2022-07-07T22:13:15: [Thu Jul  7 22:13:14 2022] 127.0.0.1:59326 Accepted
+2022-07-07T22:13:15: [Thu Jul  7 22:13:14 2022] 127.0.0.1:59326 Closing
+2022-07-07T22:13:15: [Thu Jul  7 22:13:15 2022] 127.0.0.1:59328 Accepted
+2022-07-07T22:13:15: [Thu Jul  7 22:13:15 2022] 127.0.0.1:59328 Closing
+2022-07-07T22:13:16: [Thu Jul  7 22:13:16 2022] 127.0.0.1:59340 Accepted
+2022-07-07T22:13:16: [Thu Jul  7 22:13:16 2022] 127.0.0.1:59340 Closing
+2022-07-07T22:13:17: [Thu Jul  7 22:13:17 2022] 127.0.0.1:59346 Accepted
+2022-07-07T22:13:17: [Thu Jul  7 22:13:17 2022] 127.0.0.1:59346 Closing
+2022-07-08T00:16:46: [Fri Jul  8 00:16:46 2022] 127.0.0.1:59366 Accepted
+2022-07-08T00:16:46: [Fri Jul  8 00:16:46 2022] 127.0.0.1:59366 [200]: GET /plugins/fontawesome-free/css/all.min.css
+2022-07-08T00:16:46: [Fri Jul  8 00:16:46 2022] 127.0.0.1:59366 Closing
+2022-07-08T02:04:48: [Fri Jul  8 02:04:48 2022] 127.0.0.1:59420 Accepted
+2022-07-08T02:04:48: [Fri Jul  8 02:04:48 2022] 127.0.0.1:59420 Closing
+2022-07-08T02:04:48: [Fri Jul  8 02:04:48 2022] 127.0.0.1:59422 Accepted
+2022-07-08T02:04:48: [Fri Jul  8 02:04:48 2022] 127.0.0.1:59422 Closing
+2022-07-08T02:04:48: [Fri Jul  8 02:04:48 2022] 127.0.0.1:59424 Accepted
+2022-07-08T02:04:48: [Fri Jul  8 02:04:48 2022] 127.0.0.1:59424 Closing
+2022-07-08T02:04:48: [Fri Jul  8 02:04:48 2022] 127.0.0.1:59426 Accepted
+2022-07-08T02:04:48: [Fri Jul  8 02:04:48 2022] 127.0.0.1:59426 Closing
+2022-07-08T02:04:53: [Fri Jul  8 02:04:53 2022] 127.0.0.1:59428 Accepted
+2022-07-08T02:04:53: [Fri Jul  8 02:04:53 2022] 127.0.0.1:59428 Closing
+2022-07-08T02:04:56: [Fri Jul  8 02:04:55 2022] 127.0.0.1:59458 Accepted
+2022-07-08T02:04:56: [Fri Jul  8 02:04:55 2022] 127.0.0.1:59458 Closing
+2022-07-08T02:04:58: [Fri Jul  8 02:04:58 2022] 127.0.0.1:59460 Accepted
+2022-07-08T02:04:58: [Fri Jul  8 02:04:58 2022] 127.0.0.1:59460 Closing
+2022-07-08T02:04:58: [Fri Jul  8 02:04:58 2022] 127.0.0.1:59462 Accepted
+2022-07-08T02:04:58: [Fri Jul  8 02:04:58 2022] 127.0.0.1:59464 Accepted
+2022-07-08T02:04:58: [Fri Jul  8 02:04:58 2022] 127.0.0.1:59462 Closing
+2022-07-08T02:04:58: [Fri Jul  8 02:04:58 2022] 127.0.0.1:59466 Accepted
+2022-07-08T02:04:58: [Fri Jul  8 02:04:58 2022] 127.0.0.1:59464 Closing
+2022-07-08T02:04:58: [Fri Jul  8 02:04:58 2022] 127.0.0.1:59468 Accepted
+2022-07-08T02:04:58: [Fri Jul  8 02:04:58 2022] 127.0.0.1:59466 Closing
+2022-07-08T02:04:58: [Fri Jul  8 02:04:58 2022] 127.0.0.1:59470 Accepted
+2022-07-08T02:04:58: [Fri Jul  8 02:04:58 2022] 127.0.0.1:59468 Closing
+2022-07-08T02:04:58: [Fri Jul  8 02:04:58 2022] 127.0.0.1:59472 Accepted
+2022-07-08T02:04:58: [Fri Jul  8 02:04:58 2022] 127.0.0.1:59470 Closing
+2022-07-08T02:04:58: [Fri Jul  8 02:04:58 2022] 127.0.0.1:59474 Accepted
+2022-07-08T02:04:58: [Fri Jul  8 02:04:58 2022] 127.0.0.1:59472 Closing
+2022-07-08T02:04:58: [Fri Jul  8 02:04:58 2022] 127.0.0.1:59476 Accepted
+2022-07-08T02:04:58: [Fri Jul  8 02:04:58 2022] 127.0.0.1:59474 Closing
+2022-07-08T02:04:58: [Fri Jul  8 02:04:58 2022] 127.0.0.1:59478 Accepted
+2022-07-08T02:04:58: [Fri Jul  8 02:04:58 2022] 127.0.0.1:59476 Closing
+2022-07-08T02:04:58: [Fri Jul  8 02:04:58 2022] 127.0.0.1:59478 Closing
+2022-07-08T02:04:58: [Fri Jul  8 02:04:58 2022] 127.0.0.1:59480 Accepted
+2022-07-08T02:04:58: [Fri Jul  8 02:04:58 2022] 127.0.0.1:59480 Closing
+2022-07-08T02:04:58: [Fri Jul  8 02:04:58 2022] 127.0.0.1:59482 Accepted
+2022-07-08T02:04:58: [Fri Jul  8 02:04:58 2022] 127.0.0.1:59482 Closing
+2022-07-08T02:05:40: [Fri Jul  8 02:05:40 2022] 127.0.0.1:59514 Accepted
+2022-07-08T02:05:40: [Fri Jul  8 02:05:40 2022] 127.0.0.1:59514 Closing
+2022-07-08T02:05:42: [Fri Jul  8 02:05:42 2022] 127.0.0.1:59516 Accepted
+2022-07-08T02:05:42: [Fri Jul  8 02:05:42 2022] 127.0.0.1:59516 Closing
+2022-07-08T02:05:46: [Fri Jul  8 02:05:46 2022] 127.0.0.1:59518 Accepted
+2022-07-08T02:05:46: [Fri Jul  8 02:05:46 2022] 127.0.0.1:59518 [200]: GET /assets/images/favicon.png
+2022-07-08T02:05:46: [Fri Jul  8 02:05:46 2022] 127.0.0.1:59518 Closing
+2022-07-08T02:05:47: [Fri Jul  8 02:05:47 2022] 127.0.0.1:59520 Accepted
+2022-07-08T02:05:47: [Fri Jul  8 02:05:47 2022] 127.0.0.1:59520 [200]: GET /assets/images/login/bg-login.png
+2022-07-08T02:05:47: [Fri Jul  8 02:05:47 2022] 127.0.0.1:59520 Closing
+2022-07-08T02:05:57: [Fri Jul  8 02:05:57 2022] 127.0.0.1:59554 Accepted
+2022-07-08T02:05:57: [Fri Jul  8 02:05:57 2022] 127.0.0.1:59554 Closing
+2022-07-08T02:05:58: [Fri Jul  8 02:05:58 2022] 127.0.0.1:59556 Accepted
+2022-07-08T02:05:58: [Fri Jul  8 02:05:58 2022] 127.0.0.1:59556 [200]: GET /assets/images/login/bg-login.png
+2022-07-08T02:05:58: [Fri Jul  8 02:05:58 2022] 127.0.0.1:59556 Closing
+2022-07-08T02:08:20: [Fri Jul  8 02:08:20 2022] 127.0.0.1:59646 Accepted
+2022-07-08T02:08:20: [Fri Jul  8 02:08:20 2022] 127.0.0.1:59646 Closing
+2022-07-08T02:08:28: [Fri Jul  8 02:08:28 2022] 127.0.0.1:59652 Accepted
+2022-07-08T02:08:28: [Fri Jul  8 02:08:28 2022] 127.0.0.1:59652 Closing
+2022-07-08T02:08:39: [Fri Jul  8 02:08:39 2022] 127.0.0.1:59654 Accepted
+2022-07-08T02:08:39: [Fri Jul  8 02:08:39 2022] 127.0.0.1:59654 Closing
+2022-07-08T02:09:05: [Fri Jul  8 02:09:05 2022] 127.0.0.1:59686 Accepted
+2022-07-08T02:09:05: [Fri Jul  8 02:09:05 2022] 127.0.0.1:59686 Closing
+2022-07-08T02:09:05: [Fri Jul  8 02:09:05 2022] 127.0.0.1:59688 Accepted
+2022-07-08T02:09:05: [Fri Jul  8 02:09:05 2022] 127.0.0.1:59688 Closing
+2022-07-08T02:19:53: [Fri Jul  8 02:19:53 2022] 127.0.0.1:59874 Accepted
+2022-07-08T02:19:53: [Fri Jul  8 02:19:53 2022] 127.0.0.1:59874 Closing
+2022-07-08T02:19:53: [Fri Jul  8 02:19:53 2022] 127.0.0.1:59876 Accepted
+2022-07-08T02:19:54: [Fri Jul  8 02:19:53 2022] 127.0.0.1:59876 Closing
+2022-07-08T02:19:54: [Fri Jul  8 02:19:54 2022] 127.0.0.1:59880 Accepted
+2022-07-08T02:19:54: [Fri Jul  8 02:19:54 2022] 127.0.0.1:59880 Closing
+2022-07-08T02:19:54: [Fri Jul  8 02:19:54 2022] 127.0.0.1:59882 Accepted
+2022-07-08T02:19:54: [Fri Jul  8 02:19:54 2022] 127.0.0.1:59882 Closing
+2022-07-08T02:19:57: [Fri Jul  8 02:19:56 2022] 127.0.0.1:59900 Accepted
+2022-07-08T02:19:57: [Fri Jul  8 02:19:57 2022] 127.0.0.1:59900 Closing
+2022-07-08T02:19:57: [Fri Jul  8 02:19:57 2022] 127.0.0.1:59906 Accepted
+2022-07-08T02:19:57: [Fri Jul  8 02:19:57 2022] 127.0.0.1:59906 Closing
+2022-07-08T02:24:13: [Fri Jul  8 02:24:12 2022] 127.0.0.1:59930 Accepted
+2022-07-08T02:24:13: [Fri Jul  8 02:24:12 2022] 127.0.0.1:59930 Closing
+2022-07-08T02:24:13: [Fri Jul  8 02:24:12 2022] 127.0.0.1:59932 Accepted
+2022-07-08T02:24:13: [Fri Jul  8 02:24:13 2022] 127.0.0.1:59932 Closing
+2022-07-08T02:24:14: [Fri Jul  8 02:24:13 2022] 127.0.0.1:59934 Accepted
+2022-07-08T02:24:14: [Fri Jul  8 02:24:13 2022] 127.0.0.1:59934 [200]: GET /assets/images/login/bg-login.png
+2022-07-08T02:24:14: [Fri Jul  8 02:24:13 2022] 127.0.0.1:59934 Closing
+2022-07-08T02:24:14: [Fri Jul  8 02:24:13 2022] 127.0.0.1:59936 Accepted
+2022-07-08T02:24:14: [Fri Jul  8 02:24:13 2022] 127.0.0.1:59936 [200]: GET /assets/images/favicon.png
+2022-07-08T02:24:14: [Fri Jul  8 02:24:13 2022] 127.0.0.1:59936 Closing
+2022-07-08T02:24:31: [Fri Jul  8 02:24:30 2022] 127.0.0.1:59938 Accepted
+2022-07-08T02:24:31: [Fri Jul  8 02:24:30 2022] 127.0.0.1:59938 Closing
+2022-07-08T02:24:32: [Fri Jul  8 02:24:31 2022] 127.0.0.1:59940 Accepted
+2022-07-08T02:24:32: [Fri Jul  8 02:24:31 2022] 127.0.0.1:59940 Closing
+2022-07-08T02:24:32: [Fri Jul  8 02:24:32 2022] 127.0.0.1:59942 Accepted
+2022-07-08T02:24:32: [Fri Jul  8 02:24:32 2022] 127.0.0.1:59942 [200]: GET /assets/images/login/bg-login.png
+2022-07-08T02:24:32: [Fri Jul  8 02:24:32 2022] 127.0.0.1:59942 Closing
+2022-07-08T02:43:53: [Fri Jul  8 02:43:52 2022] 127.0.0.1:60132 Accepted
+2022-07-08T02:43:53: [Fri Jul  8 02:43:52 2022] 127.0.0.1:60132 Closing
+2022-07-08T02:43:53: [Fri Jul  8 02:43:53 2022] 127.0.0.1:60134 Accepted
+2022-07-08T02:43:53: [Fri Jul  8 02:43:53 2022] 127.0.0.1:60134 Closing
+2022-07-08T02:43:54: [Fri Jul  8 02:43:54 2022] 127.0.0.1:60138 Accepted
+2022-07-08T02:43:54: [Fri Jul  8 02:43:54 2022] 127.0.0.1:60138 Closing
+2022-07-08T02:43:54: [Fri Jul  8 02:43:54 2022] 127.0.0.1:60140 Accepted
+2022-07-08T02:43:54: [Fri Jul  8 02:43:54 2022] 127.0.0.1:60140 Closing
+2022-07-08T02:43:58: [Fri Jul  8 02:43:58 2022] 127.0.0.1:60144 Accepted
+2022-07-08T02:43:58: [Fri Jul  8 02:43:58 2022] 127.0.0.1:60144 Closing
+2022-07-08T02:43:59: [Fri Jul  8 02:43:58 2022] 127.0.0.1:60146 Accepted
+2022-07-08T02:43:59: [Fri Jul  8 02:43:58 2022] 127.0.0.1:60146 Closing
+2022-07-08T02:44:33: [Fri Jul  8 02:44:32 2022] 127.0.0.1:60150 Accepted
+2022-07-08T02:44:33: [Fri Jul  8 02:44:32 2022] 127.0.0.1:60150 Closing
+2022-07-08T02:44:33: [Fri Jul  8 02:44:33 2022] 127.0.0.1:60152 Accepted
+2022-07-08T02:44:33: [Fri Jul  8 02:44:33 2022] 127.0.0.1:60152 Closing
+2022-07-08T02:44:34: [Fri Jul  8 02:44:33 2022] 127.0.0.1:60156 Accepted
+2022-07-08T02:44:34: [Fri Jul  8 02:44:33 2022] 127.0.0.1:60156 Closing
+2022-07-08T02:44:34: [Fri Jul  8 02:44:34 2022] 127.0.0.1:60158 Accepted
+2022-07-08T02:44:34: [Fri Jul  8 02:44:34 2022] 127.0.0.1:60158 Closing
+2022-07-08T02:44:40: [Fri Jul  8 02:44:40 2022] 127.0.0.1:60162 Accepted
+2022-07-08T02:44:40: [Fri Jul  8 02:44:40 2022] 127.0.0.1:60162 Closing
+2022-07-08T02:44:41: [Fri Jul  8 02:44:41 2022] 127.0.0.1:60164 Accepted
+2022-07-08T02:44:41: [Fri Jul  8 02:44:41 2022] 127.0.0.1:60164 Closing
+2022-07-08T02:57:01: [Fri Jul  8 02:57:01 2022] 127.0.0.1:60348 Accepted
+2022-07-08T02:57:01: [Fri Jul  8 02:57:01 2022] 127.0.0.1:60348 Closing
+2022-07-08T02:57:02: [Fri Jul  8 02:57:01 2022] 127.0.0.1:60350 Accepted
+2022-07-08T02:57:02: [Fri Jul  8 02:57:01 2022] 127.0.0.1:60350 Closing
+2022-07-08T02:57:02: [Fri Jul  8 02:57:02 2022] 127.0.0.1:60354 Accepted
+2022-07-08T02:57:02: [Fri Jul  8 02:57:02 2022] 127.0.0.1:60354 Closing
+2022-07-08T02:57:03: [Fri Jul  8 02:57:03 2022] 127.0.0.1:60356 Accepted
+2022-07-08T02:57:03: [Fri Jul  8 02:57:03 2022] 127.0.0.1:60356 Closing
+2022-07-08T02:57:05: [Fri Jul  8 02:57:05 2022] 127.0.0.1:60366 Accepted
+2022-07-08T02:57:05: [Fri Jul  8 02:57:05 2022] 127.0.0.1:60366 Closing
+2022-07-08T02:57:06: [Fri Jul  8 02:57:05 2022] 127.0.0.1:60372 Accepted
+2022-07-08T02:57:06: [Fri Jul  8 02:57:05 2022] 127.0.0.1:60372 Closing
+2022-07-08T14:32:41: [Fri Jul  8 14:32:40 2022] 127.0.0.1:60672 Accepted
+2022-07-08T14:32:41: [Fri Jul  8 14:32:40 2022] 127.0.0.1:60672 Closing
+2022-07-08T14:32:41: [Fri Jul  8 14:32:40 2022] 127.0.0.1:60674 Accepted
+2022-07-08T14:32:41: [Fri Jul  8 14:32:40 2022] 127.0.0.1:60674 Closing
+2022-07-08T14:32:41: [Fri Jul  8 14:32:41 2022] 127.0.0.1:60678 Accepted
+2022-07-08T14:32:41: [Fri Jul  8 14:32:41 2022] 127.0.0.1:60678 Closing
+2022-07-08T14:32:42: [Fri Jul  8 14:32:41 2022] 127.0.0.1:60680 Accepted
+2022-07-08T14:32:42: [Fri Jul  8 14:32:41 2022] 127.0.0.1:60680 Closing
+2022-07-08T15:23:51: [Fri Jul  8 15:23:51 2022] 127.0.0.1:60692 Accepted
+2022-07-08T15:23:51: [Fri Jul  8 15:23:51 2022] 127.0.0.1:60692 Closing
+2022-07-08T15:26:25: [Fri Jul  8 15:26:25 2022] 127.0.0.1:60694 Accepted
+2022-07-08T15:26:25: [Fri Jul  8 15:26:25 2022] 127.0.0.1:60694 Closing
+2022-07-08T15:26:47: [Fri Jul  8 15:26:46 2022] 127.0.0.1:60696 Accepted
+2022-07-08T15:26:47: [Fri Jul  8 15:26:46 2022] 127.0.0.1:60696 Closing
+2022-07-08T15:29:35: [Fri Jul  8 15:29:35 2022] 127.0.0.1:60700 Accepted
+2022-07-08T15:29:35: [Fri Jul  8 15:29:35 2022] 127.0.0.1:60700 Closing
+2022-07-08T15:30:17: [Fri Jul  8 15:30:17 2022] 127.0.0.1:60702 Accepted
+2022-07-08T15:30:17: [Fri Jul  8 15:30:17 2022] 127.0.0.1:60702 Closing
+2022-07-08T15:30:56: [Fri Jul  8 15:30:55 2022] 127.0.0.1:60706 Accepted
+2022-07-08T15:30:56: [Fri Jul  8 15:30:55 2022] 127.0.0.1:60706 Closing
+2022-07-08T15:33:46: [Fri Jul  8 15:33:45 2022] 127.0.0.1:60708 Accepted
+2022-07-08T15:33:46: [Fri Jul  8 15:33:45 2022] 127.0.0.1:60708 Closing
+2022-07-08T15:36:31: [Fri Jul  8 15:36:30 2022] 127.0.0.1:60710 Accepted
+2022-07-08T15:36:31: [Fri Jul  8 15:36:30 2022] 127.0.0.1:60710 Closing
+2022-07-08T15:37:51: [Fri Jul  8 15:37:51 2022] 127.0.0.1:60712 Accepted
+2022-07-08T15:37:51: [Fri Jul  8 15:37:51 2022] 127.0.0.1:60712 Closing
+2022-07-08T15:37:51: [Fri Jul  8 15:37:51 2022] 127.0.0.1:60714 Accepted
+2022-07-08T15:37:51: [Fri Jul  8 15:37:51 2022] 127.0.0.1:60714 Closing
+2022-07-08T15:39:59: [Fri Jul  8 15:39:58 2022] 127.0.0.1:60718 Accepted
+2022-07-08T15:39:59: [Fri Jul  8 15:39:59 2022] 127.0.0.1:60718 Closing
+2022-07-08T15:41:12: [Fri Jul  8 15:41:11 2022] 127.0.0.1:60720 Accepted
+2022-07-08T15:41:12: [Fri Jul  8 15:41:12 2022] 127.0.0.1:60720 Closing
+2022-07-08T15:43:09: [Fri Jul  8 15:43:09 2022] 127.0.0.1:60722 Accepted
+2022-07-08T15:43:09: [Fri Jul  8 15:43:09 2022] 127.0.0.1:60722 Closing
+2022-07-08T15:43:20: [Fri Jul  8 15:43:20 2022] 127.0.0.1:60724 Accepted
+2022-07-08T15:43:20: [Fri Jul  8 15:43:20 2022] 127.0.0.1:60724 Closing
+2022-07-08T15:43:49: [Fri Jul  8 15:43:49 2022] 127.0.0.1:60726 Accepted
+2022-07-08T15:43:50: [Fri Jul  8 15:43:49 2022] 127.0.0.1:60726 Closing
+2022-07-08T15:43:57: [Fri Jul  8 15:43:57 2022] 127.0.0.1:60730 Accepted
+2022-07-08T15:43:57: [Fri Jul  8 15:43:57 2022] 127.0.0.1:60730 Closing
+2022-07-08T15:45:24: [Fri Jul  8 15:45:24 2022] 127.0.0.1:60734 Accepted
+2022-07-08T15:45:24: [Fri Jul  8 15:45:24 2022] 127.0.0.1:60734 Closing
+2022-07-08T15:45:32: [Fri Jul  8 15:45:31 2022] 127.0.0.1:60736 Accepted
+2022-07-08T15:45:32: [Fri Jul  8 15:45:32 2022] 127.0.0.1:60736 Closing
+2022-07-08T15:45:38: [Fri Jul  8 15:45:38 2022] 127.0.0.1:60740 Accepted
+2022-07-08T15:45:38: [Fri Jul  8 15:45:38 2022] 127.0.0.1:60740 Closing
+2022-07-08T15:47:56: [Fri Jul  8 15:47:56 2022] 127.0.0.1:60742 Accepted
+2022-07-08T15:47:56: [Fri Jul  8 15:47:56 2022] 127.0.0.1:60742 Closing
+2022-07-08T15:48:09: [Fri Jul  8 15:48:09 2022] 127.0.0.1:60744 Accepted
+2022-07-08T15:48:09: [Fri Jul  8 15:48:09 2022] 127.0.0.1:60744 Closing
+2022-07-08T15:48:20: [Fri Jul  8 15:48:20 2022] 127.0.0.1:60746 Accepted
+2022-07-08T15:48:20: [Fri Jul  8 15:48:20 2022] 127.0.0.1:60746 Closing
+2022-07-08T15:58:17: [Fri Jul  8 15:58:17 2022] 127.0.0.1:60748 Accepted
+2022-07-08T15:58:17: [Fri Jul  8 15:58:17 2022] 127.0.0.1:60748 Closing
+2022-07-08T15:58:31: [Fri Jul  8 15:58:30 2022] 127.0.0.1:60752 Accepted
+2022-07-08T15:58:31: [Fri Jul  8 15:58:31 2022] 127.0.0.1:60752 Closing
+2022-07-08T15:58:48: [Fri Jul  8 15:58:48 2022] 127.0.0.1:60756 Accepted
+2022-07-08T15:58:48: [Fri Jul  8 15:58:48 2022] 127.0.0.1:60756 Closing
+2022-07-08T23:22:08: [Fri Jul  8 23:22:07 2022] 127.0.0.1:60782 Accepted
+2022-07-08T23:22:08: [Fri Jul  8 23:22:07 2022] 127.0.0.1:60782 Closing
+2022-07-08T23:22:27: [Fri Jul  8 23:22:27 2022] 127.0.0.1:60786 Accepted
+2022-07-08T23:22:27: [Fri Jul  8 23:22:27 2022] 127.0.0.1:60786 Closing
+2022-07-09T01:08:44: [Sat Jul  9 01:08:43 2022] 127.0.0.1:60792 Accepted
+2022-07-09T01:08:44: [Sat Jul  9 01:08:44 2022] 127.0.0.1:60792 Closing
+2022-07-09T01:09:00: [Sat Jul  9 01:09:00 2022] 127.0.0.1:60796 Accepted
+2022-07-09T01:09:01: [Sat Jul  9 01:09:00 2022] 127.0.0.1:60796 Closing
+2022-07-09T01:10:45: [Sat Jul  9 01:10:45 2022] 127.0.0.1:60800 Accepted
+2022-07-09T01:10:45: [Sat Jul  9 01:10:45 2022] 127.0.0.1:60800 Closing
+2022-07-09T01:15:20: [Sat Jul  9 01:15:19 2022] 127.0.0.1:60804 Accepted
+2022-07-09T01:15:20: [Sat Jul  9 01:15:19 2022] 127.0.0.1:60804 Closing
+2022-07-09T01:30:37: [Sat Jul  9 01:30:36 2022] 127.0.0.1:60812 Accepted
+2022-07-09T01:30:37: sh: 1: cd: can't cd to AuthController.php
+2022-07-09T01:30:37: sh: 1: cd: can't cd to AuthController.php
+2022-07-09T01:30:37: [Sat Jul  9 01:30:36 2022] 127.0.0.1:60812 Closing
