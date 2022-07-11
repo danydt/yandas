@@ -115,7 +115,7 @@
                                             data-feather="instagram"> </i></a></li>
                             </ul>
                         </div>
-                        <p>Vous n'avez pas de compte ?<a class="ms-2" href="{{ route('register') }}">Créer un compte</a>
+                        {{-- <p>Vous n'avez pas de compte ?<a class="ms-2" href="{{ route('register') }}">Créer un compte</a> --}}
                         </p>
                     </form>
                 </div>
