@@ -64,7 +64,7 @@ class AuthController extends BaseController
         $userAuth = User::create($input);
 
         Profile::updateOrInsert(
-            ['user_id' => $userAuth->id,],
+            ['user_id' => $userAuth->id,]
         );
 
         $user = User::join('profiles', 'users.id', '=', 'profiles.user_id')
