@@ -100,7 +100,7 @@
                         <div class="form-group">
                             <button class="btn btn-primary btn-block" type="submit">Se connecter</button>
                         </div>
-                        <div class="login-social-title">
+                        {{-- <div class="login-social-title">
                             <h5>Connectez-vous avec</h5>
                         </div>
                         <div class="form-group">
@@ -114,7 +114,7 @@
                                 <li><a href="https://www.instagram.com/login" target="_blank"><i
                                             data-feather="instagram"> </i></a></li>
                             </ul>
-                        </div>
+                        </div> --}}
                         {{-- <p>Vous n'avez pas de compte ?<a class="ms-2" href="{{ route('register') }}">Créer un compte</a> --}}
                         </p>
                     </form>
