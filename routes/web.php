@@ -45,6 +45,7 @@ Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 Route::redirect('/', '/login');
+Route::redirect('/register', '/login');
 
 Route::middleware('auth')->group(function() {
 
