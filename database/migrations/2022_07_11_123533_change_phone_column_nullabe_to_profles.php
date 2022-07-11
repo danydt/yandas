@@ -13,7 +13,7 @@ class ChangePhoneColumnNullabeToProfles extends Migration
      */
     public function up()
     {
-        Schema::table('profles', function (Blueprint $table) {
+        Schema::table('profiles', function (Blueprint $table) {
             $table->string('phone_number')->nullable()->change();
         });
     }
@@ -25,7 +25,7 @@ class ChangePhoneColumnNullabeToProfles extends Migration
      */
     public function down()
     {
-        Schema::table('profles', function (Blueprint $table) {
+        Schema::table('profiles', function (Blueprint $table) {
             //
         });
     }
