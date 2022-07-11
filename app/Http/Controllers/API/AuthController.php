@@ -61,9 +61,14 @@ class AuthController extends BaseController
         $input['password'] = bcrypt($input['password']);
         $input['user_type'] = 'customer';
 
-        $user = User::create($input);
+        $userAuth = User::create($input);
 
-        $success['token'] = $user->createToken(config('app.name'))->accessToken;
+        $user = User::join('profiles', 'users.id', '=', 'profiles.user_id')
+                        ->select('users.*', 'profiles.photo', 'profiles.genre', 'profiles.phone_number', 'profiles.birthday')
+                        ->where('users.id', $userAuth->id)
+                        ->get();
+
+        $success['token'] = $userAuth->createToken(config('app.name'))->accessToken;
         $success['user'] = $user;
 
         return $this->sendResponse($success, 'Registration successfully!');
