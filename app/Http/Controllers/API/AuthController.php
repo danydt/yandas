@@ -63,6 +63,10 @@ class AuthController extends BaseController
 
         $userAuth = User::create($input);
 
+        Profile::updateOrInsert(
+            ['user_id' => $userAuth->id,],
+        );
+
         $user = User::join('profiles', 'users.id', '=', 'profiles.user_id')
                         ->select('users.*', 'profiles.photo', 'profiles.genre', 'profiles.phone_number', 'profiles.birthday')
                         ->where('users.id', $userAuth->id)
