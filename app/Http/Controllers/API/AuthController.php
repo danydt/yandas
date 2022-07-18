@@ -78,6 +78,23 @@ class AuthController extends BaseController
         return $this->sendResponse($success, 'Registration successfully!');
     }
 
+    public function uploadProfile(Request $request):JsonResponse
+    {
+        $validator = Validator::make($request->all(), [
+            'file' => 'required',
+        ]);
+
+        if ($validator->fails()) {
+            return $this->sendError('Validation Error.', $validator->errors());
+        }
+
+        $path = $request->file('file')->store('profile');
+        $userAuth = auth()->user();
+
+        Profile::where('user_id', $userAuth->id)->update(['photo' => $path]);
+        return $this->sendResponse($path, 'Profil mise à jour avec succès!');
+    }
+
     public function updateAuth(Request $request):JsonResponse
     {
 
