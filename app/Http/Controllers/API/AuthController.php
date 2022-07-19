@@ -93,7 +93,7 @@ class AuthController extends BaseController
         $path = $request->file('file')->store('public/profile');
         $userAuth = auth()->user();
 
-        Profile::where('user_id', $userAuth->id)->update(['photo' => $path]);User::where('id', $userAuth->id)->update(['name' => $data['name'], 'email' => $data['email']]);
+        Profile::where('user_id', $userAuth->id)->update(['photo' => $path]);
 
 
         $user = User::join('profiles', 'users.id', '=', 'profiles.user_id')
