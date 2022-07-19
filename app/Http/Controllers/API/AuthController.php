@@ -88,7 +88,7 @@ class AuthController extends BaseController
         //     return $this->sendError('Validation Error.', $validator->errors());
         // }
 
-        $path = $request->file('file')->store('profile');
+        $path = $request->file('file')->store('public/profile');
         $userAuth = auth()->user();
 
         Profile::where('user_id', $userAuth->id)->update(['photo' => $path]);
