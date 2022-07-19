@@ -80,13 +80,13 @@ class AuthController extends BaseController
 
     public function uploadProfile(Request $request):JsonResponse
     {
-        $validator = Validator::make($request->all(), [
-            'file' => 'required',
-        ]);
+        // $validator = Validator::make($request->all(), [
+        //     'file' => 'required',
+        // ]);
 
-        if ($validator->fails()) {
-            return $this->sendError('Validation Error.', $validator->errors());
-        }
+        // if ($validator->fails()) {
+        //     return $this->sendError('Validation Error.', $validator->errors());
+        // }
 
         $path = $request->file('file')->store('profile');
         $userAuth = auth()->user();
