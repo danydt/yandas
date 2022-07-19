@@ -90,19 +90,22 @@ class AuthController extends BaseController
 
     public function uploadProfile(Request $request):JsonResponse
     {
-        // $validator = Validator::make($request->all(), [
-        //     'file' => 'required',
-        // ]);
-
-        // if ($validator->fails()) {
-        //     return $this->sendError('Validation Error.', $validator->errors());
-        // }
-
         $path = $request->file('file')->store('public/profile');
         $userAuth = auth()->user();
 
-        Profile::where('user_id', $userAuth->id)->update(['photo' => $path]);
-        return $this->sendResponse($path, 'Profil mise à jour avec succès!');
+        Profile::where('user_id', $userAuth->id)->update(['photo' => $path]);User::where('id', $userAuth->id)->update(['name' => $data['name'], 'email' => $data['email']]);
+
+
+        $user = User::join('profiles', 'users.id', '=', 'profiles.user_id')
+                    ->select('users.*', 'profiles.photo', 'profiles.genre', 'profiles.phone_number', 'profiles.birthday')
+                    ->where('users.id', $userAuth->id)
+                    ->get();
+
+        $success['token'] = $userAuth->createToken(config('app.name'))->accessToken;
+        $success['user'] = $user;
+        $success['path'] = $path;
+
+        return $this->sendResponse($success, 'Profil mise à jour avec succès!');
     }
 
     public function updateAuth(Request $request):JsonResponse
