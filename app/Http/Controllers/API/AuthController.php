@@ -61,21 +61,27 @@ class AuthController extends BaseController
         $input['password'] = bcrypt($input['password']);
         $input['user_type'] = 'customer';
 
-        $userAuth = User::create($input);
+        User::create($input);
 
-        Profile::updateOrInsert(
-            ['user_id' => $userAuth->id,]
-        );
+        if (Auth::attempt(['email' => $request->input('email'), 'password' => $request->input('password')])) {
 
-        $user = User::join('profiles', 'users.id', '=', 'profiles.user_id')
+            $userAuth = Auth::user();
+
+            $user = User::join('profiles', 'users.id', '=', 'profiles.user_id')
                         ->select('users.*', 'profiles.photo', 'profiles.genre', 'profiles.phone_number', 'profiles.birthday')
                         ->where('users.id', $userAuth->id)
                         ->get();
 
-        $success['token'] = $userAuth->createToken(config('app.name'))->accessToken;
-        $success['user'] = $user;
+            $success['token'] = $userAuth->createToken(config('app.name'))->accessToken;
+            $success['user'] = $user;
 
-        return $this->sendResponse($success, 'Registration successfully!');
+            return $this->sendResponse($success, 'Registration successfully!');
+
+        } else {
+
+            return $this->sendError('Unauthorized.', ['error' => 'Unauthorized']);
+        }
+
     }
 
     public function uploadProfile(Request $request):JsonResponse
