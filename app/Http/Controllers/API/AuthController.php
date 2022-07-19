@@ -61,7 +61,11 @@ class AuthController extends BaseController
         $input['password'] = bcrypt($input['password']);
         $input['user_type'] = 'customer';
 
-        User::create($input);
+        $userAuth = User::create($input);
+
+        Profile::updateOrInsert(
+            ['user_id' => $userAuth->id,]
+        );
 
         if (Auth::attempt(['email' => $request->input('email'), 'password' => $request->input('password')])) {
 
@@ -75,13 +79,13 @@ class AuthController extends BaseController
             $success['token'] = $userAuth->createToken(config('app.name'))->accessToken;
             $success['user'] = $user;
 
+
             return $this->sendResponse($success, 'Registration successfully!');
 
         } else {
 
             return $this->sendError('Unauthorized.', ['error' => 'Unauthorized']);
         }
-
     }
 
     public function uploadProfile(Request $request):JsonResponse
