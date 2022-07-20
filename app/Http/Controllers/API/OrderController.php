@@ -104,9 +104,9 @@ class OrderController extends BaseController
 
             $items = Order::join('order_details', 'orders.id', '=', 'order_details.order_id')
                             ->select('order_details.product_name', 'order_details.product_url', 'quantity', 'description')
-                            ->where('order_details.order_id', 7)->get();
+                            ->where('order_details.order_id', $subset[0]['id'])->get();
 
-            dd($subset[0]['id']);
+            // dd($subset[0]['id']);
             $data ['order'] = $order;
             $data ['items'] = $items;
 
