@@ -101,7 +101,6 @@ class OrderController extends BaseController
                             ->where('order_details.order_id', 7)->get();
 
             // dd($order->id());
-            $items =[];
             $data ['order'] = $order;
             $data ['items'] = $items;
 
