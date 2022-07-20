@@ -102,7 +102,7 @@ class OrderController extends BaseController
 
             $items =[];
 
-            return $this->sendResponse([$order->id, $items], 'Voici la commande');
+            return $this->sendResponse([$order, $items], 'Voici la commande');
         }
     }
 
