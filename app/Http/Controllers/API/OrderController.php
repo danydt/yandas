@@ -93,9 +93,12 @@ class OrderController extends BaseController
      */
     public function show($id)
     {
-        $order = Order::find($id);
+        if($id){
+            $orders = Order::all();
+            $order = $orders->find($id);
 
-        return $this->sendResponse($order, 'operation effectuée');
+            return $this->sendResponse($order, 'Voici la commande');
+        }
     }
 
     /**
