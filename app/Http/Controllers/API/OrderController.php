@@ -96,10 +96,11 @@ class OrderController extends BaseController
         if($id){
             $order = Order::where('internal_code', $id)->get();
 
-            $items = Order::join('order_details', 'orders.id', '=', 'order_details.order_id')
-                            ->select('order_details.product_name', 'order_details.product_url', 'quantity', 'description')
-                            ->where('order_details.order_id', $this->id)->get();
+            // $items = Order::join('order_details', 'orders.id', '=', 'order_details.order_id')
+            //                 ->select('order_details.product_name', 'order_details.product_url', 'quantity', 'description')
+            //                 ->where('order_details.order_id', $this->id)->get();
 
+            dd($order);
             $items =[];
             $data ['order'] = $order;
             $data ['items'] = $items;
