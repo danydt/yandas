@@ -93,7 +93,9 @@ class OrderController extends BaseController
      */
     public function show($id)
     {
-        //
+        $order = Order::find($id);
+
+        return $this->sendResponse($order, 'operation effectuée');
     }
 
     /**

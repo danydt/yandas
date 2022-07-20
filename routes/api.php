@@ -30,6 +30,7 @@ Route::post('/callback/{reference}', [PaymentController::class, 'callback']);
 Route::middleware('auth:api')->group(function () {
     Route::get('/my-address', [CommonActionController::class, 'myAddress']);
     Route::get('/my-orders', [OrderController::class, 'index']);
+    Route::get('/my-orders/{id}', [OrderController::class, 'show']);
 
     Route::post('/create-order', [OrderController::class, 'store']);
     Route::post('/update-profile', [AuthController::class, 'updateAuth']);
