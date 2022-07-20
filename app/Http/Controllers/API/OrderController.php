@@ -101,8 +101,10 @@ class OrderController extends BaseController
             //                 ->where('order_details.order_id', $order->id)->get();
 
             $items =[];
+            $data ['order'] = $order;
+            $data ['items'] = $items;
 
-            return $this->sendResponse([$order, $items], 'Voici la commande');
+            return $this->sendResponse($data, 'Voici la commande');
         }
     }
 
