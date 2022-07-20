@@ -100,7 +100,7 @@ class OrderController extends BaseController
                             ->select('order_details.product_name', 'order_details.product_url', 'quantity', 'description')
                             ->where('order_details.order_id', 7)->get();
 
-            // dd($order->id());
+            dd($order);
             $data ['order'] = $order;
             $data ['items'] = $items;
 
