@@ -94,8 +94,7 @@ class OrderController extends BaseController
     public function show($id)
     {
         if($id){
-            $orders = Order::all();
-            $order = $orders->find($id);
+            $order = Order::query()->where('internal_code ', $id)->get();
 
             return $this->sendResponse($order, 'Voici la commande');
         }
