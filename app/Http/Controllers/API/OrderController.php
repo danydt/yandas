@@ -96,9 +96,9 @@ class OrderController extends BaseController
         if($id){
             $order = Order::query()->where('internal_code', $id)->get();
 
-            $items = Order::join('order_details', 'orders.id', '=', 'order_details.order_id')
-                            ->select('order_details.*')
-                            ->where('order_details.order_id', $order->id)->get();
+            // $items = Order::join('order_details', 'orders.id', '=', 'order_details.order_id')
+            //                 ->select('order_details.*')
+            //                 ->where('order_details.order_id', $order->id)->get();
 
             return $this->sendResponse([$order, $items], 'Voici la commande');
         }
