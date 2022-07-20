@@ -94,14 +94,14 @@ class OrderController extends BaseController
     public function show($id)
     {
         if($id){
-            $order = Order::where('internal_code', $id)->get();
+            $order = Order::where('internal_code', $id);
 
             $items = Order::join('order_details', 'orders.id', '=', 'order_details.order_id')
                             ->select('order_details.product_name', 'order_details.product_url', 'quantity', 'description')
                             ->where('order_details.order_id', 7)->get();
 
             dd($order);
-            $data ['order'] = $order;
+            $data ['order'] = $order->get();
             $data ['items'] = $items;
 
             return $this->sendResponse($data, 'Voici la commande');
