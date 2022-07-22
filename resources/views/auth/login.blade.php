@@ -60,7 +60,7 @@
                                        alt="looginpage"></div>
             <div class="col-xl-5 p-0">
                 <div class="login-card">
-                    <form class="theme-form login-form" method="POST" action="{{ route('login') }}">
+                    <form role="form" class="theme-form login-form" method="POST" action="{{ route('login') }}">
                         @csrf
                         <h4>Connexion</h4>
                         <h6>Bienvenue ! Connectez-vous à votre compte.</h6>
@@ -77,7 +77,7 @@
                         </div>
                         <div class="form-group">
                             <label for="password">Mot de passe</label>
-                            <div class="input-group"><span class="input-group-text"><i class="icon-lock"></i></span>
+                             <div class="input-group"><span class="input-group-text"><i class="icon-lock"></i></span>
                                 <input id="password" class="form-control @error('password') is-invalid @enderror" type="password" name="password" required
                                        placeholder="Mot de passe" autocomplete="current-password">
                                 <div class="show-hide"><span class="show">                         </span></div>
