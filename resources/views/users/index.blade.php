@@ -46,9 +46,9 @@
 
                             <p>&nbsp;</p>
 
-                            <div class="col float-right">
+                            {{-- <div class="col float-right">
                                 {!! $users->links() !!}
-                            </div>
+                            </div> --}}
 
                             <table class="table table-sm table-hover text-nowrap">
                                 <thead>
