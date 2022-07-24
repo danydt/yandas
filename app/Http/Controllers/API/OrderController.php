@@ -58,6 +58,8 @@ class OrderController extends BaseController
                         $detail->product_url = trim(strval($item['url']));
                         $detail->quantity = trim(intval($item['quantity']));
                         $detail->description = trim(strval($item['description']));
+                        $detail->unit_price = trim(intval($item['price']));
+                        $detail->devise = trim(strval($item['devise']));
 
                         $order->details()->save($detail);
                     }
