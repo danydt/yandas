@@ -161,10 +161,7 @@ class OrderController extends BaseController
 
             $order->delete();
 
-            $data['order'] = $order->get();
-            $data['details'] = $details;
-            $data['subset'] = $subset;
-            $data['subset_'] = $subset_;
+            $data = [];
 
             return $this->sendResponse($data, 'Item is deleted');
         }
