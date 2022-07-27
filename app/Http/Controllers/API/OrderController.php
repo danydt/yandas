@@ -137,12 +137,13 @@ class OrderController extends BaseController
     public function destroy($id)
     {
         if($id){
-            $order = Order::where('internal_code', $id);
+            $order = Order::where('internal_code', $id)->get();
             $subset = $order->map(function ($el) {
                 return collect($el->toArray())
                     ->only(['id'])
                     ->all();
             });
+            $order = Order::find($subset[0]['id']);
 
             $details = OrderDetail::where('order_id', $subset[0]['id'])->get();
             $subset_ = $details->map(function ($el) {
@@ -153,7 +154,7 @@ class OrderController extends BaseController
 
             if($subset_->count() > 0) {
                 foreach($subset_ as $value) {
-                    $el = OrderDetail::where('id', $value->id);
+                    $el = OrderDetail::find($value->id);
                     $el->delete();
                 };
             }
