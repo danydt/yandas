@@ -137,7 +137,7 @@ class OrderController extends BaseController
     public function destroy($id)
     {
         if($id){
-            $order = Order::where('internal_code', $id)->get();
+            $order = Order::where('internal_code', $id);
             $subset = $order->map(function ($el) {
                 return collect($el->toArray())
                     ->only(['id'])
@@ -151,10 +151,16 @@ class OrderController extends BaseController
                     ->all();
             });
 
-            // OrderDetail::whereIn('id', $subset_)->delete();
-            // $order->delete();
+            if($subset_->count() > 0) {
+                foreach($subset_ as $value) {
+                    $el = OrderDetail::where('id', $subset_);
+                    $el->delete();
+                };
+            }
 
-            $data['order'] = $order;
+            $order->delete();
+
+            $data['order'] = $order->get();
             $data['details'] = $details;
             $data['subset'] = $subset;
             $data['subset_'] = $subset_;
