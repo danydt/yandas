@@ -154,9 +154,8 @@ class OrderController extends BaseController
 
             if($subset_->count() > 0) {
                 foreach($subset_ as $value) {
-                    dd($value);
-                    // $el = OrderDetail::find($value->id);
-                    // $el->delete();
+                    $el = OrderDetail::find($value['id']);
+                    $el->delete();
                 };
             }
 
