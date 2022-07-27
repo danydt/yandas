@@ -137,25 +137,27 @@ class OrderController extends BaseController
     public function destroy($id)
     {
         if($id){
-            $order = Order::where('internal_code', $id);
+            $order = Order::where('internal_code', $id)->get();
             $subset = $order->map(function ($el) {
                 return collect($el->toArray())
                     ->only(['id'])
                     ->all();
             });
 
-            $details = OrderDetail::where('order_id', $subset[0]['id']);
+            $details = OrderDetail::where('order_id', $subset[0]['id'])->get();
             $subset_ = $details->map(function ($el) {
                 return collect($el->toArray())
                     ->only(['id'])
                     ->all();
             });
 
-            OrderDetail::whereIn('id', $subset_)->delete();
-            $order->delete();
+            // OrderDetail::whereIn('id', $subset_)->delete();
+            // $order->delete();
 
             $data['order'] = $order;
             $data['details'] = $details;
+            $data['subset'] = $subset;
+            $data['subset_'] = $subset_;
 
             return $this->sendResponse($data, 'Item is deleted');
         }
