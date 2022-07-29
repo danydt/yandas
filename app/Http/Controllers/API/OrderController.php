@@ -77,7 +77,7 @@ class OrderController extends BaseController
 
                     Log::debug($exception->getMessage());
 
-                    return $this->sendError([], 'Cannot persist data. Verify your data and retry.');
+                    return $this->sendError([], $exception->getMessage());
                 }
             }
 
