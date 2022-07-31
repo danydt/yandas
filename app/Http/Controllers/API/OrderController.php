@@ -87,6 +87,34 @@ class OrderController extends BaseController
         return $this->sendError([], 'Invalid content type. Should be application/json');
     }
 
+    public function addDetail (Request $request): JsonResponse
+    {
+        if ($request->has('item')) {
+            try{
+                $item = $request->input('item');
+                $detail = new OrderDetail;
+
+                $detail->product_name = trim(strval($item['article']));
+                $detail->product_url = trim(strval($item['url']));
+                $detail->quantity = trim(intval($item['quantity']));
+                $detail->description = trim(strval($item['description']));
+                $detail->unit_price = trim(intval($item['price']));
+                $detail->devise = trim(strval($item['devise']));
+
+                $order = Order::find($request->input('id'));
+                $order->details()->save($detail);
+
+                return $this->sendResponse([
+                    'code' => $order->internal_code
+                ], 'Detail added!');
+
+            }catch(QueryException $e){
+                return $this->sendError([], $e->getMessage());}
+        }
+
+        return $this->sendError([], 'Cannot find items key');
+    }
+
     /**
      * Display the specified resource.
      *

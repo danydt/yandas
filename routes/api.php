@@ -34,6 +34,7 @@ Route::middleware('auth:api')->group(function () {
     Route::delete('/delete-order/{id}', [OrderController::class, 'destroy']);
 
     Route::post('/create-order', [OrderController::class, 'store']);
+    Route::post('/create-order-detail', [OrderController::class, 'addDetail']);
     Route::post('/update-profile', [AuthController::class, 'updateAuth']);
     Route::post('/upload-profile', [AuthController::class, 'uploadProfile']);
 });
