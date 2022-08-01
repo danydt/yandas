@@ -141,11 +141,11 @@ class OrderController extends BaseController
         return $this->sendError([], 'Cannot find order detail');
     }
 
-    public function deleteDetail($id) {
-        if ($id){
-            dd($id);
-            $detail = OrderDetail::find($id);
-            $detail->delete();
+    public function deleteDetail(Request $request) {
+        if ($request->input('id')){
+            dd($request->input('id'));
+            // $detail = OrderDetail::find($id);
+            // $detail->delete();
         }
 
         return $this->sendError([], 'Cannot find order detail');
