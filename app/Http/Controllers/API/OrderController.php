@@ -146,6 +146,8 @@ class OrderController extends BaseController
             $id = $request->input('id');
             $detail = OrderDetail::find($id);
             $detail->delete();
+
+            return $this->sendResponse($detail, 'detail deleted !');
         }
 
         return $this->sendError([], 'Cannot find order detail');
