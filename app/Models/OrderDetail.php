@@ -17,6 +17,15 @@ class OrderDetail extends Model
     use HasFactory;
     use SoftDeletes;
 
+    protected $fillable = [
+        'product_name',
+        'product_url',
+        'quantity',
+        'description',
+        'unit_price',
+        'devise',
+    ];
+
     public function order(): BelongsTo
     {
         return $this->belongsTo(Order::class);
