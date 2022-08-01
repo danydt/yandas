@@ -13,6 +13,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Facades\Validator;
 
 class OrderController extends BaseController
 {
@@ -115,6 +116,31 @@ class OrderController extends BaseController
         return $this->sendError([], 'Cannot find items key');
     }
 
+    public function updateDetail (Request $request) : JsonResponse {
+        if ($request->input('id')) {
+            try{
+                $detail = OrderDetail::find($request->input('id'));
+                $item = $request->input('item');
+
+                $detail->update([
+                    'product_name' => $item['product_name'],
+                    'product_url' => $item['product_url'],
+                    'quantity' => $item['quantity'],
+                    'description' => $item['description'],
+                    'unit_price' => $item['price'],
+                    'devise' => $item['devise'],
+                ] );
+
+                return $this->sendResponse($detail, 'detail updated !');
+
+            }catch(QueryException $e){
+                return $this->sendError([], $e->getMessage());
+            }
+        }
+
+        return $this->sendError([], 'Cannot find order detail');
+    }
+
     /**
      * Display the specified resource.
      *
@@ -133,7 +159,7 @@ class OrderController extends BaseController
             });
 
             $items = Order::join('order_details', 'orders.id', '=', 'order_details.order_id')
-                            ->select('order_details.product_name', 'order_details.product_url', 'quantity', 'description', 'order_details.unit_price', 'order_details.devise')
+                            ->select('order_details.id', 'order_details.product_name', 'order_details.product_url', 'quantity', 'description', 'order_details.unit_price', 'order_details.devise')
                             ->where('order_details.order_id', $subset[0]['id'])->get();
 
             // dd($subset[0]['id']);

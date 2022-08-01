@@ -35,6 +35,7 @@ Route::middleware('auth:api')->group(function () {
 
     Route::post('/create-order', [OrderController::class, 'store']);
     Route::post('/create-order-detail', [OrderController::class, 'addDetail']);
+    Route::post('/update-order-detail', [OrderController::class, 'updateDetail']);
     Route::post('/update-profile', [AuthController::class, 'updateAuth']);
     Route::post('/upload-profile', [AuthController::class, 'uploadProfile']);
 });
