@@ -166,6 +166,9 @@ class AuthController extends BaseController
             $user->update([
                 'password' => Hash::make($request->password)
             ]);
+
+
+            return $this->sendResponse([], 'Mot de passe mise à jour avec succès!');
         }
         else{
             return $this->sendError('Validation Error.', 'Mot de passe incorrect');
