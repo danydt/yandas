@@ -39,4 +39,5 @@ Route::middleware('auth:api')->group(function () {
     Route::post('/update-order-detail', [OrderController::class, 'updateDetail']);
     Route::post('/update-profile', [AuthController::class, 'updateAuth']);
     Route::post('/upload-profile', [AuthController::class, 'uploadProfile']);
+    Route::post('/update-password', [AuthController::class, 'changePassword']);
 });

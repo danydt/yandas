@@ -9,6 +9,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Http\JsonResponse;
+use Illuminate\Support\Facades\Hash;
 
 class AuthController extends BaseController
 {
@@ -146,5 +147,28 @@ class AuthController extends BaseController
             $success['user'] = $user;
 
             return $this->sendResponse($success, 'Profil mise à jour avec succès!');
+    }
+
+    public function changePassword(Request $request):JsonResponse {
+        $validator = Validator::make($request->all(), [
+            'old_password' => 'required',
+            'password' => 'required',
+            'confirm_password' => 'required|same:password',
+        ]);
+
+        if ($validator->fails()) {
+            return $this->sendError('Validation Error.', $validator->errors());
+        }
+
+        $user = $request->user();
+
+        if(Hash::check($request->old_password, $user->password)){
+            $user->update([
+                'password' => Hash::make($request->password)
+            ]);
+        }
+        else{
+            return $this->sendError('Validation Error.', 'Mot de passe incorrect');
+        }
     }
 }
