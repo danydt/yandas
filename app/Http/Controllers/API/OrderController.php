@@ -123,8 +123,8 @@ class OrderController extends BaseController
                 $item = $request->input('item');
 
                 $detail->update([
-                    'product_name' => $item['product_name'],
-                    'product_url' => $item['product_url'],
+                    'product_name' => $item['article'],
+                    'product_url' => $item['url'],
                     'quantity' => $item['quantity'],
                     'description' => $item['description'],
                     'unit_price' => $item['price'],
