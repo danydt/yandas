@@ -143,6 +143,7 @@ class OrderController extends BaseController
 
     public function deleteDetail($id) {
         if ($id){
+            dd($id);
             $detail = OrderDetail::find($id);
             $detail->delete();
         }
