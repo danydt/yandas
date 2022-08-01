@@ -172,7 +172,9 @@ class OrderController extends BaseController
 
             $items = Order::join('order_details', 'orders.id', '=', 'order_details.order_id')
                             ->select('order_details.id', 'order_details.product_name', 'order_details.product_url', 'quantity', 'description', 'order_details.unit_price', 'order_details.devise')
-                            ->where('order_details.order_id', $subset[0]['id'])->get();
+                            ->where('order_details.order_id', $subset[0]['id'])
+                            ->where('order_details.deleted_at', NULL)
+                            ->get();
 
             // dd($subset[0]['id']);
             $data ['order'] = $order;
