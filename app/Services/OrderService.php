@@ -27,7 +27,7 @@ class OrderService
         $order = new Order;
 
         // get order items count
-        $last_order_code = Order::query()->orderByDesc('id')->limit(1)?->value('code');
+        $last_order_code = Order::query()->withTrashed()->orderByDesc('id')->limit(1)?->value('code');
 
         $code = $this->transactionCodeGenerator($last_order_code, 6);
 
