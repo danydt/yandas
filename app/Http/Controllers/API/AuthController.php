@@ -28,12 +28,13 @@ class AuthController extends BaseController
         if (Auth::attempt(['email' => $request->input('email'), 'password' => $request->input('password')])) {
 
             $userAuth = Auth::user();
+            $profile = Profile::where('user_id', $userAuth->id);
 
             $user = User::join('profiles', 'users.id', '=', 'profiles.user_id')
                         ->select('users.*', 'profiles.photo', 'profiles.genre', 'profiles.phone_number', 'profiles.birthday')
                         ->where('users.id', $userAuth->id);
 
-            dd($user);
+            dd($profile);
 
             $success['token'] = $userAuth->createToken(config('app.name'))->accessToken;
             $success['user'] = $user->get();
