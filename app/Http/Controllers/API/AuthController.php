@@ -34,7 +34,7 @@ class AuthController extends BaseController
                         ->select('users.*', 'profiles.photo', 'profiles.genre', 'profiles.phone_number', 'profiles.birthday')
                         ->where('users.id', $userAuth->id);
 
-            dd($profile);
+            dd($profile->count());
 
             $success['token'] = $userAuth->createToken(config('app.name'))->accessToken;
             $success['user'] = $user->get();
