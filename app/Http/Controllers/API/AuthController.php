@@ -48,9 +48,7 @@ class AuthController extends BaseController
     public function getUser (Request $request) : JsonResponse {
         $user = auth()->user();
 
-        dd($user->user_type);
-
-        if($user) {
+        if($user->user_type == 'admin') {
 
             $users = User::join('profiles', 'users.id', '=', 'profiles.user_id')
                 ->select('users.*', 'profiles.photo', 'profiles.genre', 'profiles.phone_number', 'profiles.birthday')
