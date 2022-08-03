@@ -29,6 +29,7 @@ Route::post('/callback/{reference}', [PaymentController::class, 'callback']);
 
 Route::middleware('auth:api')->group(function () {
     Route::get('/my-address', [CommonActionController::class, 'myAddress']);
+    Route::get('/customers', [AuthController::class, 'getUser']);
     Route::get('/my-orders', [OrderController::class, 'index']);
     Route::get('/my-orders/{id}', [OrderController::class, 'show']);
     Route::delete('/delete-order/{id}', [OrderController::class, 'destroy']);

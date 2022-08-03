@@ -45,6 +45,24 @@ class AuthController extends BaseController
         }
     }
 
+    public function getUser (Request $request) : JsonResponse {
+        $user = auth()->user();
+
+        dd($user);
+
+        if($user) {
+
+            $users = User::join('profiles', 'users.id', '=', 'profiles.user_id')
+                ->select('users.*', 'profiles.photo', 'profiles.genre', 'profiles.phone_number', 'profiles.birthday')
+                ->where('users.user_type', '=', 'customer')
+                ->get();
+
+            return $this->sendResponse($users, "Liste d'utilisateur");
+        }
+
+        return $this->sendError('Unauthorized.', ['error' => 'Unauthorized']);
+    }
+
     public function register(Request $request):JsonResponse
     {
         $validator = Validator::make($request->all(), [
