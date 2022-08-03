@@ -48,7 +48,7 @@ class AuthController extends BaseController
     public function getUser (Request $request) : JsonResponse {
         $user = auth()->user();
 
-        dd($user);
+        dd($user->user_type);
 
         if($user) {
 
