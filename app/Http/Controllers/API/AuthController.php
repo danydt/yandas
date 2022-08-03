@@ -31,11 +31,12 @@ class AuthController extends BaseController
 
             $user = User::join('profiles', 'users.id', '=', 'profiles.user_id')
                         ->select('users.*', 'profiles.photo', 'profiles.genre', 'profiles.phone_number', 'profiles.birthday')
-                        ->where('users.id', $userAuth->id)
-                        ->get();
+                        ->where('users.id', $userAuth->id);
+
+            dd($user);
 
             $success['token'] = $userAuth->createToken(config('app.name'))->accessToken;
-            $success['user'] = $user;
+            $success['user'] = $user->get();
 
             return $this->sendResponse($success, 'Login successfully!');
 
